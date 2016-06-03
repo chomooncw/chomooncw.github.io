@@ -13,7 +13,7 @@ body {
   text-align:center; 
   color:#000; 
   font-family:georgia, serif; 
-  font-size:120%; 
+  font-size:100%; 
   line-height:1.6;
   margin:0; 
   padding:2em 2em 5em; 
@@ -24,36 +24,36 @@ body {
   } 
 
 a {outline:none !important; font-weight:bold; text-decoration:none;}
-a:link {color:#c00;}
-a:visited {color:#606;}
-a:hover {color:#606;}
+a:link {color:pink;}
+a:visited {color:pink;}
+a:hover {color:black;}
 a:active {color:#900; outline:none;}
 
 h1 {
   font-size:400%;
   line-height:1.2;
   font-style:normal;
-  margin:2.5em 0 1em;
+  margin:1.5em 0 1em;
 }
 
 h2 {
   font-weight:bold;
   font-size:200%;
-  line-height: 140%;
+  line-height: 120%;
   margin:1.5em 0 0.75em;
 }
 
 h3 {
   font-weight:normal;
   text-transform:uppercase;
-  font-size:150%;
+  font-size:180%;
   letter-spacing:0.15em;
   margin:1.75em 0 0.75em;
 }
 
 h4 {
   font-weight:normal;
-  font-size:150%;
+  font-size:160%;
   letter-spacing:0.1em;
   margin:1.5em 0 0.75em;
 }
@@ -61,7 +61,7 @@ h4 {
 h5 {
   font-weight:normal;
   font-style:italic;
-  font-size:150%;
+  font-size:120%;
   margin:1.5em 0 0.75em;
 }
 
@@ -99,7 +99,7 @@ p + ul, p + ol, p + dl {margin-bottom:1.5em;}
 img { max-width: 100%; }
 
 figure {margin: 2em 0 1.5em 0; width: 100%; text-align: center;}
-figure img {border: 1px solid #ccc;}
+figure img {border: 0px solid #ccc;}
 figcaption {font-size: 66%;padding: 1em; padding-top: 0.5em;color: #aaa;}
 
 blockquote {border-left:5px solid #eee; padding-left:1.5em; margin:1em 0;}
