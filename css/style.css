@@ -24,10 +24,10 @@ body {
   } 
 
 a {outline:none !important; font-weight:bold; text-decoration:none;}
-a:link {color:pink;}
+a:link {color:white;background-color: black;}
 a:visited {color:pink;}
-a:hover {color:black;}
-a:active {color:#900; outline:none;}
+a:hover {color:black;background-color: white;}
+a:active {color:black;}
 
 h1 {
   font-size:400%;
