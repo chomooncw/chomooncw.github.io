@@ -16,6 +16,14 @@ h1 {
   line-height:1.2;
   font-style:normal;
   margin:2.5em 0 1em;
+  font-weight:normal;
+}
+
+h2{
+	font-size: 20;
+	color: white;
+	font-family: OCRAStd;
+	font-weight:normal;
 }
 
 #logo{
