@@ -11,11 +11,10 @@ a:hover {color:black;}
 a:active {color:white; outline:none;}
 
 h1 {
-  font-size:48;
+  font-size:36;
   color: white;
-  line-height:1.2;
+  line-height:0.1;
   font-style:normal;
-  margin:2.5em 0 1em;
   font-weight:normal;
   font-family: LucidaGrande;
 }
@@ -23,6 +22,8 @@ h1 {
 h2{
 	font-size: 20;
 	color: white;
+	line-height:0.5;
+
 	font-family: OCRAStd;
 	font-weight:normal;
 }
@@ -47,4 +48,8 @@ h2{
 	width: 30%;
 	float: left;
 	height: 100%;
+}
+.title{
+	margin-left: 40;
+	margin-top: 500;
 }
