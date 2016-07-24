@@ -1,0 +1,14 @@
+body {
+  margin:0; 
+  margin:auto;
+  background-color: FFD1D1;
+  background:rgb(255, 209, 209);
+
+} 
+
+#logo{
+	text-align: center;
+	padding-top: 25%;
+	display: block;
+	height: 50%;
+}
