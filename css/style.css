@@ -3,12 +3,39 @@ body {
   margin:auto;
   background-color: FFD1D1;
   background:rgb(255, 209, 209);
+  font-family:helvetica, serif; 
 
 } 
+a {outline:none !important; font-weight:bold; text-decoration:none;}
+a:hover {color:black;}
+a:active {color:white; outline:none;}
+
+h1 {
+  font-size:48;
+  color: white;
+  line-height:1.2;
+  font-style:normal;
+  margin:2.5em 0 1em;
+}
 
 #logo{
 	text-align: center;
 	padding-top: 25%;
 	display: block;
 	height: 50%;
+}
+#logo2{
+	padding: 40;
+}
+#work{
+/*	display: inline;*/
+	width: 70%;
+	float: left;
+}
+#about{
+	background-color: D8D9F7;
+/*	display: inline;*/
+	width: 30%;
+	float: left;
+	height: 100%;
 }
