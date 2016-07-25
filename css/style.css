@@ -3,28 +3,30 @@ body {
   margin:auto;
   background-color: FFD1D1;
   background:rgb(255, 209, 209);
+  color: white;
   font-family:helvetica, serif; 
 
 } 
 
-#work a {outline:none !important; font-weight:bold; text-decoration:none;}
-#work a:hover {color:FCC2C2;}
-#work a:active {color:FCC2C2; outline:none;}
 
 a {outline:none !important; font-weight:bold; text-decoration:none;}
-/*a:hover {color:black;}
-a:active {color:white; outline:none;}*/
 
+a:link {color:white;}    /* 未被访问的链接 */
+a:visited {color:white;} /* 已被访问的链接 */
+a:hover {color: FCC2C2;}   /* 鼠标指针移动到链接上 */
+a:active {color: FCC2C2;}  /* 正在被点击的链接 */
 
-
+#about a:link {color:white;}    /* 未被访问的链接 */
+#about a:visited {color:white;} /* 已被访问的链接 */
+#about a:hover {color: ACB0F1;}   /* 鼠标指针移动到链接上 */
+#about a:active {color: ACB0F1;}  /* 正在被点击的链接 */
 
 h1 {
   font-size:36;
-  color: white;
-  line-height:0.6;
+  line-height:0.8;
   font-style:normal;
   font-weight:normal;
-  margin-bottom: 8;
+  margin-top: 0;
   font-family: LucidaGrande;
 }
 
@@ -66,6 +68,8 @@ h4{
 	width: 70%;
 	float: left;
 }
+
+
 #about{
 	background-color: D8D9F7;
 /*	display: inline;*/
@@ -76,6 +80,7 @@ h4{
 .title{
 	margin-left: 40;
 	margin-top: 150;
+	margin-right: 20;
 }
 .title2{
 	margin-left: 40;
