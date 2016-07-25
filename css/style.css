@@ -66,25 +66,34 @@ h4{
 #work{
 /*	display: inline;*/
 	width: 70%;
+	background-image: url(../img/bg1.png) ;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 600px;
 	float: left;
 }
 
 
 #about{
+	background-image: url(../img/bg2.png) ;
 	background-color: D8D9F7;
+	background-repeat: no-repeat;
+	background-size:400px 400px;
+	background-position:center;
 /*	display: inline;*/
 	width: 30%;
 	float: left;
 	height: 100%;
+
 }
 .title{
 	margin-left: 40;
-	margin-top: 150;
+	margin-top: 90;
 	margin-right: 20;
 }
 .title2{
 	margin-left: 40;
-	margin-top: 40;
+	margin-top: 160;
 }
 .work2{
 	margin-left: 40;
