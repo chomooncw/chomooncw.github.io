@@ -95,9 +95,38 @@ h4{
 	margin-left: 40;
 	margin-top: 160;
 }
+.title3{
+	margin-left: 40;
+	margin-top: 240;
+
+	}
 .work2{
 	margin-left: 40;
 	margin-top: 400;
 }
 
+.about{
+	width: 25%;
+	height: 100%;
+	background-color: none;
+	float: left;
+}
 
+.about2{
+	width: 25%;
+	height: 100%;
+	background-color: AEB3FF;
+	float: left;
+}
+.about3{
+	width: 25%;
+	height: 100%;
+	background-color: ACB0F1;
+	float: left;
+}
+
+.about .title{
+	margin-left: 40;
+	margin-top: 600;
+	margin-right: 20;
+}
