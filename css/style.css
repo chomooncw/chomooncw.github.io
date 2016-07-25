@@ -6,16 +6,25 @@ body {
   font-family:helvetica, serif; 
 
 } 
+
+#work a {outline:none !important; font-weight:bold; text-decoration:none;}
+#work a:hover {color:FCC2C2;}
+#work a:active {color:FCC2C2; outline:none;}
+
 a {outline:none !important; font-weight:bold; text-decoration:none;}
-a:hover {color:black;}
-a:active {color:white; outline:none;}
+/*a:hover {color:black;}
+a:active {color:white; outline:none;}*/
+
+
+
 
 h1 {
   font-size:36;
   color: white;
-  line-height:0.1;
+  line-height:0.6;
   font-style:normal;
   font-weight:normal;
+  margin-bottom: 8;
   font-family: LucidaGrande;
 }
 
@@ -23,8 +32,23 @@ h2{
 	font-size: 20;
 	color: white;
 	line-height:0.5;
-
 	font-family: OCRAStd;
+	font-weight:normal;
+}
+
+h3{
+	font-size: 16;
+	color: white;
+	line-height:0.8;
+	font-family: OCRAStd;
+	font-weight:normal;
+}
+
+h4{
+	font-size: 30;
+	color: white;
+	line-height:1.5;
+	font-family: LucidaGrande;
 	font-weight:normal;
 }
 
@@ -51,5 +75,15 @@ h2{
 }
 .title{
 	margin-left: 40;
-	margin-top: 500;
+	margin-top: 150;
 }
+.title2{
+	margin-left: 40;
+	margin-top: 40;
+}
+.work2{
+	margin-left: 40;
+	margin-top: 400;
+}
+
+
