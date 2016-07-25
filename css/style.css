@@ -16,9 +16,9 @@ a:visited {color:white;} /* 已被访问的链接 */
 a:hover {color: FCC2C2;}   /* 鼠标指针移动到链接上 */
 a:active {color: FCC2C2;}  /* 正在被点击的链接 */
 
-#about a:link {color:white;}    /* 未被访问的链接 */
-#about a:visited {color:white;} /* 已被访问的链接 */
-#about a:hover {color: ACB0F1;}   /* 鼠标指针移动到链接上 */
+#about a:link {color:ACB0F1;}    /* 未被访问的链接 */
+#about a:visited {color:ACB0F1;} /* 已被访问的链接 */
+#about a:hover {color: white;}   /* 鼠标指针移动到链接上 */
 #about a:active {color: ACB0F1;}  /* 正在被点击的链接 */
 
 h1 {
