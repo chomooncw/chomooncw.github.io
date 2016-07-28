@@ -5,6 +5,7 @@ body {
   width: 100%;
   color: white;
   font-family:helvetica, serif; 
+  overflow-x: hidden;
 
 } 
 
@@ -142,17 +143,39 @@ h4{
 }
 
 
-.main{
+.work-topic {
 	width: 100%;
-	height: 100%;
+	line-height: 50px;
+	overflow: hidden;
+}
+.work-topic > span {
+    position: fixed;
+	font-size: 18px;
+	color: #fff;
+    font-family: LucidaGrande;
 }
 
-.pic{
-	margin-top: 40;
-	height: 500;
-	width: 980;
-	background-image: url(../img/pic1.png);
-	background-repeat: no-repeat;
-	background-position: center;
-	background-size: 500;
+.back {
+    float: right;
+    right: 160px;
+    top:20px;
 }
+
+.work-img {
+    margin: 0 auto;
+
+}
+.work-content-detail{
+	width: 100%;
+	position: absolute;
+	left: 60px;
+	bottom: 80px;
+	color: #fff;
+	font-size: 28px;
+	margin: 0 auto;
+
+}
+.work-img > img {
+    width: 100%;
+}
+
