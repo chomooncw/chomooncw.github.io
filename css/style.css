@@ -181,18 +181,27 @@ h4{
 .work-img > img {
     width: 100%;
 }
-
-.content{
-	margin: 0 100;
-/*	background-color: #000;*/
-	/*height: 80px;*/
+.work-content {
+    width: 100%;
 }
-.parts{
-	width: 200;
-/*	background-color: pink;*/
-/*	padding-left: 40px;
-	m-top: 20px;*/
-	margin:20px;
-	display: inline-block;
-
+.content {
+	width: 100%;
+    background: #fff;
+    overflow: hidden;
+}
+.content > div {
+    margin: 0 25px;
+    width: 20%;
+    float: left;
+    text-align: center;
+    padding: 50px 10px 0;
+}
+.part-2 {
+    text-align: left !important;
+}
+.part-2 > h1 {
+    text-align: center;
+}
+.part-3 {
+    text-align: left !important;
 }
