@@ -6,6 +6,7 @@ body {
   color: white;
   font-family:helvetica, serif; 
   overflow-x: hidden;
+/*font-size: 12px;*/
 
 } 
 
@@ -23,7 +24,7 @@ a:active {color: #FFD1D1;}  /* 正在被点击的链接 */
 #about a:active {color: #ACB0F1;}  /* 正在被点击的链接 */
 
 h1 {
-  font-size:36;
+  font-size:3rem;
   line-height:0.8;
   font-style:normal;
   font-weight:normal;
@@ -32,7 +33,7 @@ h1 {
 }
 
 h2{
-	font-size: 20;
+	font-size:1.7rem;
 	color: white;
 	line-height:0.5;
 	font-family: OCRAStd;
@@ -166,17 +167,28 @@ h4{
 
 .work-img {
     margin: 0 auto;
+    background-image: url(../img/pic1.png);
+    background-size: cover;
+    height: 780px;
+    width: 100%;
 
 }
+
 .work-content-detail{
 	width: 100%;
-	position: absolute;
+	position: static;
+/*
 	left: 80px;
 	bottom: 80px;
+*/
 	color: #fff;
 	font-size: 36px;
 	margin: 0 auto;
+/*    float: left;*/
 
+}
+.main-title{
+    padding: 200 80;
 }
 .work-img > img {
     width: 100%;
@@ -204,4 +216,14 @@ h4{
 }
 .part-3 {
     text-align: left !important;
+}
+.content-pic1{
+    width: 100%;
+    background-color: #6D8583;
+    text-align: center;
+    margin-top: 1.7rem;
+}
+.content2{
+    width: 100%;
+    margin-top: 1.7rem;
 }
