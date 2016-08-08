@@ -1,7 +1,7 @@
 body {
   margin:0; 
   margin:auto;
-  background-color: FCC2C2;
+  background-color: #FCC2C2;
   width: 100%;
   color: white;
   font-family:helvetica, serif; 
@@ -13,13 +13,13 @@ a {outline:none !important; font-weight:bold; text-decoration:none;}
 
 a:link {color:white;}    /* 未被访问的链接 */
 a:visited {color:white;} /* 已被访问的链接 */
-a:hover {color: FFD1D1;}   /* 鼠标指针移动到链接上 */
-a:active {color: FFD1D1;}  /* 正在被点击的链接 */
+a:hover {color: #FFD1D1;}   /* 鼠标指针移动到链接上 */
+a:active {color: #FFD1D1;}  /* 正在被点击的链接 */
 
-#about a:link {color:ACB0F1;}    /* 未被访问的链接 */
-#about a:visited {color:ACB0F1;} /* 已被访问的链接 */
+#about a:link {color:#ACB0F1;}    /* 未被访问的链接 */
+#about a:visited {color:#ACB0F1;} /* 已被访问的链接 */
 #about a:hover {color: white;}   /* 鼠标指针移动到链接上 */
-#about a:active {color: ACB0F1;}  /* 正在被点击的链接 */
+#about a:active {color: #ACB0F1;}  /* 正在被点击的链接 */
 
 h1 {
   font-size:36;
@@ -76,7 +76,7 @@ h4{
 
 #about{
 	background-image: url(../img/bg2.png) ;
-	background-color: D8D9F7;
+	background-color: #D8D9F7;
 	background-repeat: no-repeat;
 	background-size:300px 300px;
 	background-position:center;
@@ -108,20 +108,20 @@ h4{
 .about{
 	width: 25%;
 	height: 100%;
-	background-color: FFD1D1;
+	background-color: #FFD1D1;
 	float: left;
 }
 
 .about2{
 	width: 25%;
 	height: 100%;
-	background-color: AEB3FF;
+	background-color: #AEB3FF;
 	float: left;
 }
 .about3{
 	width: 25%;
 	height: 100%;
-	background-color: ACB0F1;
+	background-color: #ACB0F1;
 	float: left;
 	background-image: url(../img/bg3.png) ;
 	background-repeat: no-repeat;
