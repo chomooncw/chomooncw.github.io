@@ -1,32 +1,38 @@
-<manifest alg="2" build="2015.0.0.309" opt="false" iceEnabled="true" iceMarkupVersion="2" exportTarget="other" domain="chomooncw.github.io" resolutions="1x" timestamp="1472651440438">
+<manifest alg="2" build="2015.0.0.309" opt="false" iceEnabled="true" iceMarkupVersion="2" exportTarget="other" domain="chomooncw.github.io" resolutions="1x" timestamp="1472658380442">
   <folder name="images">
     <file name="img_5383-crop-u189.jpg" crc="411861047" ref="phone>index"/>
-    <file name="group 5 copy.png" crc="3884993106" seo="true" ref="phone>index"/>
-    <file name="登录.jpg" crc="3762700700" seo="true" ref="phone>index:index"/>
-    <file name="咨询170x302.jpg" crc="4015911015" seo="true" ref="phone>index"/>
-    <file name="输入密码.jpg" crc="252561026" seo="true" ref="phone>index:index"/>
+    <file name="group 5 copy.png" crc="4085225568" seo="true" ref="phone>index"/>
+    <file name="登录.jpg" crc="4293376428" seo="true" ref="phone>index:guxiaofan"/>
+    <file name="输入密码.jpg" crc="4267607934" seo="true" ref="phone>index:guxiaofan"/>
     <file name="搜索 copy.jpg" crc="203549280" seo="true" ref="phone>index"/>
     <file name="img_5383.jpg" crc="17397242" seo="true" ref="index"/>
-    <file name="group 4.png" crc="3985633499" seo="true" ref="index"/>
-    <file name="咨询.jpg" crc="191117640" seo="true" ref="index"/>
-    <file name="group 5 copy.jpg" crc="4027125234" seo="true" ref="index"/>
+    <file name="咨询.jpg" crc="4020773210" seo="true" ref="phone>index:guxiaofan"/>
+    <file name="group 5 copy.jpg" crc="67383363" seo="true" ref="index"/>
+    <file name="artboard 6.png" crc="196881594" seo="true" ref="index"/>
+    <file name="group 5 copy2.jpg" crc="4098141316" seo="true" ref="guxiaofan"/>
+    <file name="pic1.jpg" crc="4150082573" seo="true" ref="ifoto"/>
   </folder>
   <folder name="css">
-    <file name="site_global.css" crc="3827945436"/>
-    <file name="index.css" crc="66157355" ref="index"/>
+    <file name="site_global.css" crc="340767871"/>
+    <file name="index.css" crc="4104029770" ref="index"/>
+    <file name="guxiaofan.css" crc="4111769221" ref="guxiaofan"/>
+    <file name="ifoto.css" crc="3834118207" ref="ifoto"/>
   </folder>
   <folder name="scripts">
-    <file name="jquery-1.8.3.min.js" crc="4255413929" ref="phone>index:index"/>
-    <file name="museutils.js" crc="183364071" ref="phone>index:index"/>
-    <file name="jquery.watch.js" crc="71412426" ref="phone>index:index"/>
+    <file name="jquery-1.8.3.min.js" crc="4255413929" ref="phone>index:index:guxiaofan:ifoto"/>
+    <file name="museutils.js" crc="183364071" ref="phone>index:index:guxiaofan:ifoto"/>
+    <file name="jquery.watch.js" crc="71412426" ref="phone>index:index:guxiaofan:ifoto"/>
     <file name="museredirect.js" crc="40941066" ref="index"/>
-    <file name="jquery.scrolleffects.js" crc="3860644955" ref="index"/>
+    <file name="jquery.scrolleffects.js" crc="3860644955" ref="index:guxiaofan"/>
+    <file name="pie.js" crc="3827607177" ref="index"/>
   </folder>
   <folder name="phone">
     <folder name="css">
-      <file name="index.css" crc="91858584" ref="phone>index"/>
+      <file name="index.css" crc="3889031416" ref="phone>index"/>
     </folder>
-    <file name="index.html" crc="471186305" seo="true" mt="1472651179163" redirect="true"/>
+    <file name="index.html" crc="3793515089" seo="true" mt="1472657657167" redirect="true"/>
   </folder>
-  <file name="index.html" crc="3997645105" seo="true" mt="1472651420122" redirect="true"/>
+  <file name="index.html" crc="133723890" seo="true" mt="1472657966560" redirect="true"/>
+  <file name="guxiaofan.html" crc="4038498764" seo="true" mt="1472658053648" redirect="true"/>
+  <file name="ifoto.html" crc="4054773736" seo="true" mt="1472658319890" redirect="true"/>
 </manifest>

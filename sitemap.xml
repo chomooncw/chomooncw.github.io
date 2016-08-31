@@ -13,12 +13,6 @@
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://chomooncw.github.io/images/%E5%92%A8%E8%AF%A2170x302.jpg</loc>
-    <lastmod>2016-08-31</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
     <loc>http://chomooncw.github.io/images/%E8%BE%93%E5%85%A5%E5%AF%86%E7%A0%81.jpg</loc>
     <lastmod>2016-08-31</lastmod>
     <changefreq>weekly</changefreq>
@@ -37,12 +31,6 @@
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://chomooncw.github.io/images/group%204.png</loc>
-    <lastmod>2016-08-31</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
     <loc>http://chomooncw.github.io/images/%E5%92%A8%E8%AF%A2.jpg</loc>
     <lastmod>2016-08-31</lastmod>
     <changefreq>weekly</changefreq>
@@ -55,10 +43,40 @@
     <priority>0.5</priority>
   </url>
   <url>
+    <loc>http://chomooncw.github.io/images/artboard%206.png</loc>
+    <lastmod>2016-08-31</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://chomooncw.github.io/images/group%205%20copy2.jpg</loc>
+    <lastmod>2016-08-31</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://chomooncw.github.io/images/pic1.jpg</loc>
+    <lastmod>2016-08-31</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>http://chomooncw.github.io/index.html</loc>
     <lastmod>2016-08-31</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
     <xhtml:link rel="alternate" media="only screen and (max-device-width: 370px)" href="http://chomooncw.github.io/phone/index.html"/>
+  </url>
+  <url>
+    <loc>http://chomooncw.github.io/guxiaofan.html</loc>
+    <lastmod>2016-08-31</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://chomooncw.github.io/ifoto.html</loc>
+    <lastmod>2016-08-31</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
   </url>
 </urlset>

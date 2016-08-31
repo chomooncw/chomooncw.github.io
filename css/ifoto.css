@@ -1,0 +1,105 @@
+.version.ifoto /* version checker */
+{
+	color: #0000E4;
+	background-color: #88003F;
+}
+
+.html
+{
+	background-color: #FFFFFF;
+}
+
+#page
+{
+	z-index: 1;
+	width: 960px;
+	min-height: 912px;
+	background-image: none;
+	border-style: none;
+	border-color: #000000;
+	background-color: transparent;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#page_position_content
+{
+	margin-top: -36px;
+	padding-bottom: 62px;
+	width: 0.01px;
+}
+
+#u288
+{
+	z-index: 4;
+	min-height: 544px;
+	background-color: #6D8583;
+	padding-bottom: 130px;
+}
+
+#u288_align_to_page
+{
+	margin-left: auto;
+	margin-right: auto;
+	width: 960px;
+	position: relative;
+	left: -100px;
+}
+
+#u289-8
+{
+	z-index: 5;
+	width: 719px;
+	min-height: 295px;
+	background-color: transparent;
+	color: #FFFFFF;
+	line-height: 43px;
+	font-size: 36px;
+	font-family: Helvetica, Helvetica Neue, Arial, sans-serif;
+	position: relative;
+	margin-right: -10000px;
+	margin-top: 249px;
+	left: 158px;
+}
+
+#u288-bw
+{
+	z-index: 4;
+	min-height: 544px;
+}
+
+#pu254
+{
+	width: 0.01px;
+}
+
+#u254
+{
+	z-index: 2;
+	width: 960px;
+	background-color: transparent;
+	position: relative;
+	margin-right: -10000px;
+}
+
+#ifoto01
+{
+	position: relative;
+	width: 22px;
+	margin-right: -10000px;
+	left: 134px;
+}
+
+body
+{
+	position: relative;
+	min-width: 960px;
+	padding-top: 36px;
+	padding-bottom: 36px;
+}
+
+#page .verticalspacer
+{
+	clear: both;
+}
+
