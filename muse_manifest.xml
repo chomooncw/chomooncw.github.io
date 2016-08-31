@@ -1,0 +1,19 @@
+<manifest alg="2" build="2015.0.0.309" opt="false" iceEnabled="true" iceMarkupVersion="2" exportTarget="other" domain="chomooncw.github.io" resolutions="1x" timestamp="1472648141937">
+  <folder name="css">
+    <file name="site_global.css" crc="3827945436"/>
+    <file name="index.css" crc="3860488537" ref="index"/>
+  </folder>
+  <folder name="scripts">
+    <file name="jquery-1.8.3.min.js" crc="4255413929" ref="phone>index:index"/>
+    <file name="museutils.js" crc="183364071" ref="phone>index:index"/>
+    <file name="jquery.watch.js" crc="71412426" ref="phone>index:index"/>
+    <file name="museredirect.js" crc="40941066" ref="index"/>
+  </folder>
+  <folder name="phone">
+    <folder name="css">
+      <file name="index.css" crc="4049443635" ref="phone>index"/>
+    </folder>
+    <file name="index.html" crc="100429601" seo="true" mt="1472647895553" redirect="true"/>
+  </folder>
+  <file name="index.html" crc="3928579382" seo="true" mt="1472648001818" redirect="true"/>
+</manifest>

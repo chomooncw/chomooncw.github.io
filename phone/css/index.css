@@ -1,0 +1,86 @@
+.version.index /* version checker */
+{
+	color: #0000F1;
+	background-color: #5D9B33;
+}
+
+@-ms-viewport
+{
+	width: 380px;
+}
+
+@-webkit-viewport
+{
+	width: 380px;
+}
+
+@-o-viewport
+{
+	width: 380px;
+}
+
+@-moz-viewport
+{
+	width: 380px;
+}
+
+@viewport
+{
+	width: 380px;
+}
+
+.html
+{
+	background-color: #FFFFFF;
+}
+
+#page
+{
+	z-index: 1;
+	width: 352px;
+	min-height: 297.75px;
+	background-image: none;
+	border-style: none;
+	border-color: #000000;
+	background-color: transparent;
+	padding: 14px 14px 258.25px;
+}
+
+#u99-6
+{
+	z-index: 2;
+	width: 129px;
+	min-height: 42px;
+	background-color: transparent;
+	line-height: 36px;
+	text-align: center;
+	font-size: 24px;
+	font-family: Helvetica, Helvetica Neue, Arial, sans-serif;
+	margin-left: 112px;
+	position: relative;
+}
+
+#u106-8
+{
+	z-index: 8;
+	width: 352px;
+	min-height: 104px;
+	background-color: transparent;
+	line-height: 25px;
+	font-size: 18px;
+	font-family: Lucida Sans, Lucida Grande, Lucida Sans Unicode, sans-serif;
+	margin-top: 40px;
+	position: relative;
+}
+
+body
+{
+	position: relative;
+	min-width: 380px;
+}
+
+#page .verticalspacer
+{
+	clear: both;
+}
+
