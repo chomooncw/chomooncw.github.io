@@ -1,38 +1,43 @@
-<manifest alg="2" build="2015.0.0.309" opt="false" iceEnabled="true" iceMarkupVersion="2" exportTarget="other" domain="chomooncw.github.io" resolutions="1x" timestamp="1472658380442">
+<manifest alg="2" build="2015.0.0.309" opt="false" iceEnabled="true" iceMarkupVersion="2" exportTarget="other" domain="chomooncw.github.io" resolutions="1x" timestamp="1472912012725">
   <folder name="images">
-    <file name="img_5383-crop-u189.jpg" crc="411861047" ref="phone>index"/>
+    <file name="img_5383-crop-u189.jpg" crc="278398785" ref="phone>index"/>
     <file name="group 5 copy.png" crc="4085225568" seo="true" ref="phone>index"/>
-    <file name="登录.jpg" crc="4293376428" seo="true" ref="phone>index:guxiaofan"/>
-    <file name="输入密码.jpg" crc="4267607934" seo="true" ref="phone>index:guxiaofan"/>
+    <file name="登录.jpg" crc="4293376428" seo="true" ref="phone>index"/>
+    <file name="输入密码.jpg" crc="4267607934" seo="true" ref="phone>index"/>
     <file name="搜索 copy.jpg" crc="203549280" seo="true" ref="phone>index"/>
-    <file name="img_5383.jpg" crc="17397242" seo="true" ref="index"/>
-    <file name="咨询.jpg" crc="4020773210" seo="true" ref="phone>index:guxiaofan"/>
-    <file name="group 5 copy.jpg" crc="67383363" seo="true" ref="index"/>
-    <file name="artboard 6.png" crc="196881594" seo="true" ref="index"/>
-    <file name="group 5 copy2.jpg" crc="4098141316" seo="true" ref="guxiaofan"/>
-    <file name="pic1.jpg" crc="4150082573" seo="true" ref="ifoto"/>
+    <file name="img_5383.jpg" crc="4216479948" seo="true" ref="chomoon-uxuiweb-designer"/>
+    <file name="咨询.jpg" crc="4020773210" seo="true" ref="phone>index"/>
+    <file name="artboard 6.png" crc="196881594" seo="true" ref="chomoon-uxuiweb-designer"/>
+    <file name="pic1.jpg" crc="3835807113" seo="true" ref="ifoto"/>
+    <file name="logo.jpg" crc="170440876" seo="true" ref="chomoon-uxuiweb-designer"/>
+    <file name="artboard.jpg" crc="3771890913" seo="true" ref="guxiaofan"/>
+    <file name="artboard copy.jpg" crc="3810120290" seo="true" ref="guxiaofan"/>
   </folder>
   <folder name="css">
-    <file name="site_global.css" crc="340767871"/>
-    <file name="index.css" crc="4104029770" ref="index"/>
-    <file name="guxiaofan.css" crc="4111769221" ref="guxiaofan"/>
-    <file name="ifoto.css" crc="3834118207" ref="ifoto"/>
+    <file name="site_global.css" crc="3759034337"/>
+    <file name="index.css" crc="3925760946" ref="index"/>
+    <file name="guxiaofan.css" crc="3915378608" ref="guxiaofan"/>
+    <file name="ifoto.css" crc="253229429" ref="ifoto"/>
+    <file name="cherry-moon.css" crc="250435147" ref="cherry-moon"/>
+    <file name="chomoon-uxuiweb-designer.css" crc="3826807197" ref="chomoon-uxuiweb-designer"/>
   </folder>
   <folder name="scripts">
-    <file name="jquery-1.8.3.min.js" crc="4255413929" ref="phone>index:index:guxiaofan:ifoto"/>
-    <file name="museutils.js" crc="183364071" ref="phone>index:index:guxiaofan:ifoto"/>
-    <file name="jquery.watch.js" crc="71412426" ref="phone>index:index:guxiaofan:ifoto"/>
+    <file name="jquery-1.8.3.min.js" crc="4255413929" ref="phone>index:index:guxiaofan:ifoto:chomoon-uxuiweb-designer:cherry-moon"/>
+    <file name="museutils.js" crc="183364071" ref="phone>index:index:guxiaofan:ifoto:chomoon-uxuiweb-designer:cherry-moon"/>
+    <file name="jquery.watch.js" crc="71412426" ref="phone>index:index:guxiaofan:ifoto:chomoon-uxuiweb-designer:cherry-moon"/>
     <file name="museredirect.js" crc="40941066" ref="index"/>
-    <file name="jquery.scrolleffects.js" crc="3860644955" ref="index:guxiaofan"/>
-    <file name="pie.js" crc="3827607177" ref="index"/>
+    <file name="jquery.scrolleffects.js" crc="3860644955" ref="index:guxiaofan:chomoon-uxuiweb-designer:ifoto:cherry-moon"/>
+    <file name="pie.js" crc="3827607177" ref="chomoon-uxuiweb-designer"/>
   </folder>
   <folder name="phone">
     <folder name="css">
-      <file name="index.css" crc="3889031416" ref="phone>index"/>
+      <file name="index.css" crc="533902561" ref="phone>index"/>
     </folder>
-    <file name="index.html" crc="3793515089" seo="true" mt="1472657657167" redirect="true"/>
+    <file name="index.html" crc="3793515089" seo="true" mt="1472910411414" redirect="true"/>
   </folder>
-  <file name="index.html" crc="133723890" seo="true" mt="1472657966560" redirect="true"/>
-  <file name="guxiaofan.html" crc="4038498764" seo="true" mt="1472658053648" redirect="true"/>
-  <file name="ifoto.html" crc="4054773736" seo="true" mt="1472658319890" redirect="true"/>
+  <file name="index.html" crc="4115152662" seo="true" mt="1472911977115" redirect="true"/>
+  <file name="guxiaofan.html" crc="108458578" seo="true" mt="1472911993828" redirect="true"/>
+  <file name="ifoto.html" crc="3907851633" seo="true" mt="1472912002787" redirect="true"/>
+  <file name="chomoon-uxuiweb-designer.html" crc="3890044849" seo="true" mt="1472910321300" redirect="true"/>
+  <file name="cherry-moon.html" crc="4190247017" seo="true" mt="1472911985904" redirect="true"/>
 </manifest>

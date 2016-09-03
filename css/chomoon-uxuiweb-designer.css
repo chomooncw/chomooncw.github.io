@@ -1,0 +1,411 @@
+.version.chomoon_uxuiweb_designer /* version checker */
+{
+	color: #0000E4;
+	background-color: #18719D;
+}
+
+.html
+{
+	background-color: #FFFFFF;
+}
+
+#page
+{
+	z-index: 1;
+	width: 960px;
+	min-height: 2832px;
+	background-image: none;
+	border-style: none;
+	border-color: #000000;
+	background-color: transparent;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#page_position_content
+{
+	margin-top: -33px;
+	padding-bottom: 575px;
+	width: 0.01px;
+}
+
+#pu75-6
+{
+	width: 0.01px;
+	margin-left: -100px;
+}
+
+#u75-6
+{
+	z-index: 3;
+	width: 124px;
+	min-height: 37px;
+	border-width: 5px;
+	border-style: solid;
+	border-color: #000000;
+	background-color: #FFFFFF;
+	line-height: 36px;
+	text-align: center;
+	font-size: 24px;
+	font-family: Courier New, Courier, monospace;
+	margin-bottom: -3px;
+	position: relative;
+	margin-right: -10000px;
+	margin-top: 51px;
+	left: 513px;
+}
+
+#u75-6:hover
+{
+	padding-top: 0px;
+	padding-bottom: 0px;
+	min-height: 37px;
+	width: 124px;
+	margin: 51px -10000px -3px 0px;
+}
+
+#u75-6:hover p
+{
+	color: #FF9CBC;
+	visibility: inherit;
+	font-weight: normal;
+}
+
+#u107
+{
+	z-index: 21;
+	min-height: 51px;
+	background-color: transparent;
+	padding-bottom: 44px;
+}
+
+#u107_align_to_page
+{
+	margin-left: auto;
+	margin-right: auto;
+	width: 960px;
+	position: relative;
+	left: -100px;
+}
+
+#top
+{
+	position: relative;
+	width: 22px;
+	margin-right: -10000px;
+	margin-top: 33px;
+	left: 46px;
+}
+
+#u107-bw
+{
+	z-index: 21;
+	min-height: 51px;
+}
+
+#about
+{
+	left: -71px;
+	margin-top: 82px;
+	position: relative;
+}
+
+#pu126
+{
+	width: 0.01px;
+	margin-left: 43px;
+	margin-top: 15px;
+}
+
+#u126
+{
+	z-index: 23;
+	width: 156px;
+	background-color: transparent;
+	position: relative;
+	margin-right: -10000px;
+	margin-top: 16px;
+}
+
+#pu102-8
+{
+	width: 0.01px;
+	margin-right: -10000px;
+	margin-left: 259px;
+}
+
+#u102-8
+{
+	z-index: 9;
+	width: 460px;
+	min-height: 104px;
+	background-color: transparent;
+	font-size: 24px;
+	line-height: 34px;
+	font-family: Lucida Sans, Lucida Grande, Lucida Sans Unicode, sans-serif;
+	position: relative;
+}
+
+#u103-4
+{
+	z-index: 17;
+	width: 460px;
+	min-height: 39px;
+	background-color: transparent;
+	font-size: 18px;
+	line-height: 22px;
+	font-family: Courier New, Courier, monospace;
+	margin-top: 26px;
+	position: relative;
+}
+
+#pu125
+{
+	width: 0.01px;
+	margin-left: 302px;
+	margin-top: -1px;
+}
+
+#u125
+{
+	z-index: 22;
+	width: 130px;
+	background-color: #0B0F00;
+	padding-bottom: 13px;
+	position: relative;
+	margin-right: -10000px;
+	margin-top: 1px;
+}
+
+#u125:hover
+{
+	background-color: #FF9CBC;
+	width: 130px;
+	min-height: 0px;
+	margin: 1px -10000px 0px 0px;
+}
+
+#u159-4
+{
+	z-index: 27;
+	width: 93px;
+	min-height: 21px;
+	background-color: transparent;
+	color: #FFFFFF;
+	line-height: 22px;
+	text-align: center;
+	font-size: 18px;
+	font-family: Helvetica, Helvetica Neue, Arial, sans-serif;
+	position: relative;
+	margin-right: -10000px;
+	margin-top: 13px;
+	left: 19px;
+}
+
+#u160
+{
+	z-index: 31;
+	width: 130px;
+	background-color: #0B0F00;
+	padding-bottom: 13px;
+	position: relative;
+	margin-right: -10000px;
+	left: 165px;
+}
+
+#u160:hover
+{
+	background-color: #FF9CBC;
+	width: 130px;
+	min-height: 0px;
+	margin: 0px -10000px 0px 0px;
+}
+
+#u161-4
+{
+	z-index: 32;
+	width: 93px;
+	min-height: 21px;
+	background-color: transparent;
+	color: #FFFFFF;
+	line-height: 22px;
+	text-align: center;
+	font-size: 18px;
+	font-family: Helvetica, Helvetica Neue, Arial, sans-serif;
+	position: relative;
+	margin-right: -10000px;
+	margin-top: 13px;
+	left: 19px;
+}
+
+#work
+{
+	left: -56px;
+	margin-top: 265px;
+	position: relative;
+}
+
+#pu260
+{
+	width: 0.01px;
+	margin-left: 44px;
+	margin-top: 78px;
+}
+
+#u260
+{
+	z-index: 2;
+	width: 412px;
+	background-color: transparent;
+	padding-bottom: 72px;
+	position: relative;
+	margin-right: -10000px;
+}
+
+#u260:hover
+{
+	-pie-box-shadow: 0px 4px 12px #FFEAF0;
+	box-shadow: 0px 4px 12px rgba(255,156,188,0.21);
+	background-color: #FFFFFF;
+	width: 412px;
+	min-height: 0px;
+	margin: 0px -10000px 0px 0px;
+}
+
+#u297
+{
+	z-index: 57;
+	width: 178px;
+	background-color: transparent;
+	position: relative;
+	margin-right: -10000px;
+	margin-top: 67px;
+	left: 124px;
+}
+
+#u262
+{
+	z-index: 49;
+	width: 412px;
+	background-color: #6D8583;
+	padding-bottom: 60px;
+	position: relative;
+	margin-right: -10000px;
+	left: 458px;
+}
+
+#u262:hover
+{
+	-pie-box-shadow: 0px 4px 12px #FFEAF0;
+	box-shadow: 0px 4px 12px rgba(255,156,188,0.21);
+	width: 412px;
+	min-height: 0px;
+	margin: 0px -10000px 0px 0px;
+}
+
+#u274
+{
+	z-index: 55;
+	width: 269px;
+	background-color: transparent;
+	position: relative;
+	margin-right: -10000px;
+	margin-top: 54px;
+	left: 83px;
+}
+
+#contact
+{
+	margin-left: 78px;
+	margin-top: 986px;
+	position: relative;
+}
+
+#u244-4
+{
+	z-index: 37;
+	width: 187px;
+	min-height: 42px;
+	background-color: transparent;
+	font-size: 36px;
+	line-height: 43px;
+	font-family: Helvetica, Helvetica Neue, Arial, sans-serif;
+	position: fixed;
+	top: 2394px;
+	left: 356px;
+}
+
+#u245-4
+{
+	z-index: 41;
+	width: 187px;
+	min-height: 42px;
+	background-color: transparent;
+	font-size: 36px;
+	line-height: 43px;
+	font-family: Helvetica, Helvetica Neue, Arial, sans-serif;
+	position: fixed;
+	top: 2488px;
+	left: 356px;
+}
+
+#u271-4
+{
+	z-index: 51;
+	width: 187px;
+	min-height: 42px;
+	background-color: transparent;
+	font-size: 36px;
+	line-height: 43px;
+	font-family: Helvetica, Helvetica Neue, Arial, sans-serif;
+	position: fixed;
+	top: 2582px;
+	left: 356px;
+}
+
+#u246-4
+{
+	z-index: 45;
+	width: 187px;
+	min-height: 42px;
+	background-color: transparent;
+	font-size: 36px;
+	line-height: 43px;
+	font-family: Helvetica, Helvetica Neue, Arial, sans-serif;
+	position: fixed;
+	top: 2676px;
+	left: 356px;
+}
+
+#u244-4:hover,#u245-4:hover,#u271-4:hover,#u246-4:hover
+{
+	padding-top: 0px;
+	padding-bottom: 0px;
+	min-height: 42px;
+	width: 187px;
+	margin: 0px;
+}
+
+#u244-4:hover p,#u244-4:hover span,#u245-4:hover p,#u245-4:hover span,#u271-4:hover p,#u271-4:hover span,#u246-4:hover p,#u246-4:hover span
+{
+	text-decoration: none;
+}
+
+#u244,#u245,#u271,#u246
+{
+	text-decoration: underline;
+}
+
+body
+{
+	position: relative;
+	min-width: 960px;
+	padding-top: 33px;
+	padding-bottom: 36px;
+}
+
+#page .verticalspacer
+{
+	clear: both;
+}
+

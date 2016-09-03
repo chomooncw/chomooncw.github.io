@@ -85,6 +85,12 @@ body
 	body { text-rendering:auto; }
 }
 
+a
+{
+	color: inherit;
+	text-decoration: inherit;
+}
+
 a:link
 {
 	color: #000000;
@@ -115,6 +121,30 @@ a.nontext /* used to override default properties of 'a' tag */
 	text-decoration: none;
 	font-style: normal;
 	font-weight: normal;
+}
+
+.black a:link
+{
+	color: #55FBC2;
+	text-decoration: inherit;
+}
+
+.black a:visited
+{
+	color: #55FBC2;
+	text-decoration: underline;
+}
+
+.black a:hover
+{
+	color: #42D09F;
+	text-decoration: none;
+}
+
+.black a:active
+{
+	color: #55FBC2;
+	text-decoration: underline;
 }
 
 .normal_text

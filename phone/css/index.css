@@ -1,7 +1,7 @@
 .version.index /* version checker */
 {
-	color: #0000E7;
-	background-color: #CDE8F8;
+	color: #00001F;
+	background-color: #D2B4E1;
 }
 
 @-ms-viewport
@@ -77,8 +77,8 @@
 	z-index: 4;
 	min-height: 42px;
 	background-color: transparent;
-	line-height: 36px;
 	color: #FFFFFF;
+	line-height: 36px;
 	text-align: center;
 	font-size: 24px;
 	font-family: Helvetica, Helvetica Neue, Arial, sans-serif;
@@ -97,8 +97,8 @@
 	width: 352px;
 	min-height: 104px;
 	background-color: transparent;
-	line-height: 25px;
 	font-size: 18px;
+	line-height: 25px;
 	font-family: Lucida Sans, Lucida Grande, Lucida Sans Unicode, sans-serif;
 	margin-left: 14px;
 	margin-top: 32px;
@@ -111,8 +111,8 @@
 	width: 352px;
 	min-height: 39px;
 	background-color: transparent;
-	line-height: 22px;
 	font-size: 18px;
+	line-height: 22px;
 	font-family: Courier New, Courier, monospace;
 	margin-left: 14px;
 	margin-top: 17px;
@@ -149,8 +149,8 @@
 	width: 187px;
 	min-height: 29px;
 	background-color: transparent;
-	line-height: 22px;
 	font-size: 18px;
+	line-height: 22px;
 	font-family: Helvetica, Helvetica Neue, Arial, sans-serif;
 	position: relative;
 }
@@ -170,8 +170,8 @@
 	width: 187px;
 	min-height: 29px;
 	background-color: transparent;
-	line-height: 22px;
 	font-size: 18px;
+	line-height: 22px;
 	font-family: Helvetica, Helvetica Neue, Arial, sans-serif;
 	margin-top: 12px;
 	position: relative;
@@ -183,8 +183,8 @@
 	width: 187px;
 	min-height: 29px;
 	background-color: transparent;
-	line-height: 22px;
 	font-size: 18px;
+	line-height: 22px;
 	font-family: Helvetica, Helvetica Neue, Arial, sans-serif;
 	margin-top: 12px;
 	position: relative;
@@ -205,8 +205,8 @@
 	width: 187px;
 	min-height: 29px;
 	background-color: transparent;
-	line-height: 22px;
 	font-size: 18px;
+	line-height: 22px;
 	font-family: Helvetica, Helvetica Neue, Arial, sans-serif;
 	margin-top: 13px;
 	position: relative;
@@ -276,8 +276,8 @@
 	width: 93px;
 	min-height: 21px;
 	background-color: transparent;
-	line-height: 22px;
 	color: #FFFFFF;
+	line-height: 22px;
 	text-align: center;
 	font-size: 18px;
 	font-family: Helvetica, Helvetica Neue, Arial, sans-serif;
