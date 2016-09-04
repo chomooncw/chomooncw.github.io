@@ -1,7 +1,7 @@
 .version.index /* version checker */
 {
-	color: #000003;
-	background-color: #1F15FA;
+	color: #0000E7;
+	background-color: #103822;
 }
 
 .html
@@ -13,26 +13,20 @@
 {
 	z-index: 1;
 	width: 920px;
-	min-height: 167px;
+	min-height: 166px;
 	background-image: none;
 	border-style: none;
 	border-color: #000000;
 	background-color: transparent;
 	margin-left: auto;
 	margin-right: auto;
-	padding: 637px 20px 201px;
+	padding: 638px 20px 201px;
 }
 
-#u480-4
+#u554
 {
-	z-index: 14;
-	width: 165px;
-	min-height: 32px;
-	background-color: transparent;
-	color: #1D1D1D;
-	line-height: 22px;
-	text-align: left;
-	font-size: 18px;
+	z-index: 17;
+	overflow: hidden;
 	position: fixed;
 	top: 56px;
 	left: 120px;
@@ -40,16 +34,51 @@
 
 #u477
 {
-	z-index: 18;
+	z-index: 16;
 	overflow: hidden;
 	position: fixed;
 	top: 56px;
 	right: 120px;
 }
 
-#u349-4
+#u533
 {
 	z-index: 2;
+	width: 548px;
+	background-color: transparent;
+	opacity: 0.6;
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=60)";
+	filter: alpha(opacity=60);
+	position: fixed;
+	-webkit-transform: matrix(0.9205,-0.3907,0.3907,0.9205,-121,136);
+	-ms-transform: matrix(0.9205,-0.3907,0.3907,0.9205,-121,136);
+	transform: matrix(0.9205,-0.3907,0.3907,0.9205,-121,136);
+	top: 150px;
+	left: 292px;
+}
+
+#u533_clip
+{
+	overflow: hidden;
+	width: 548px;
+	height: 731px;
+}
+
+#u533_img
+{
+	margin: -32px -24px -34px -26px;
+}
+
+.js #u533.ose_pre_init
+{
+	opacity: 0.5;
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
+	filter: alpha(opacity=50);
+}
+
+#u349-4
+{
+	z-index: 4;
 	width: 920px;
 	min-height: 183px;
 	background-color: transparent;
@@ -67,7 +96,7 @@
 
 #u352-4
 {
-	z-index: 6;
+	z-index: 8;
 	width: 920px;
 	min-height: 32px;
 	background-color: transparent;
@@ -79,7 +108,7 @@
 
 #u366-4
 {
-	z-index: 10;
+	z-index: 12;
 	width: 920px;
 	min-height: 32px;
 	background-color: transparent;

@@ -1,4 +1,4 @@
-<manifest alg="2" build="2015.0.0.309" opt="false" iceEnabled="true" iceMarkupVersion="2" exportTarget="other" domain="chomooncw.github.io" resolutions="1x" timestamp="1472981037303">
+<manifest alg="2" build="2015.0.0.309" opt="false" iceEnabled="true" iceMarkupVersion="2" exportTarget="other" domain="chomooncw.github.io" resolutions="1x" timestamp="1472997181682">
   <folder name="images">
     <file name="img_5383.jpg" crc="4216479948" seo="true" ref="chomoon-uxuiweb-designer"/>
     <file name="artboard 6.png" crc="196881594" seo="true" ref="chomoon-uxuiweb-designer"/>
@@ -16,15 +16,23 @@
     <file name="artboard 6.jpg" crc="373837829" seo="true" ref="ifoto"/>
     <file name="pasted svg 77596x1182.svg" crc="4214563427" ref="cherry-moon-uxuiweb-designer"/>
     <file name="pasted svg 77596x118_poster_2.png" crc="3910057461" ref="cherry-moon-uxuiweb-designer"/>
+    <file name="image-crop-u521.jpg" crc="492363751" ref="cherry-moon-uxuiweb-designer"/>
+    <file name="pasted svg 16315x31.svg" crc="4158405317" ref="cherry-moon-uxuiweb-designer"/>
+    <file name="pasted svg 16315x31_poster_.png" crc="103206822" ref="cherry-moon-uxuiweb-designer"/>
+    <file name="pasted svg 95183x31.svg" crc="506289036" ref="cherry-moon-uxuiweb-designer"/>
+    <file name="pasted svg 95183x31_poster_.png" crc="9462710" ref="cherry-moon-uxuiweb-designer"/>
+    <file name="pasted svg 233708x31.svg" crc="32571478" ref="index"/>
+    <file name="pasted svg 233708x31_poster_.png" crc="41617401" ref="index"/>
+    <file name="img_2653.jpg" crc="3980392874" seo="true" ref="index"/>
   </folder>
   <folder name="css">
-    <file name="site_global.css" crc="3852555656"/>
-    <file name="index.css" crc="52368890" ref="index"/>
+    <file name="site_global.css" crc="385999056"/>
+    <file name="index.css" crc="3876599842" ref="index"/>
     <file name="guxiaofan.css" crc="4116459542" ref="guxiaofan"/>
     <file name="ifoto.css" crc="133364683" ref="ifoto"/>
     <file name="chomoon-uxuiweb-designer.css" crc="366605833" ref="chomoon-uxuiweb-designer"/>
     <file name="master_a-master.css" crc="285481725" ref="chomoon-uxuiweb-designer:cherry-moon-uxuiweb-designer"/>
-    <file name="cherry-moon-uxuiweb-designer.css" crc="315816543" ref="cherry-moon-uxuiweb-designer"/>
+    <file name="cherry-moon-uxuiweb-designer.css" crc="209562914" ref="cherry-moon-uxuiweb-designer"/>
   </folder>
   <folder name="scripts">
     <file name="jquery-1.8.3.min.js" crc="4255413929" ref="phone>index:index:guxiaofan:ifoto:chomoon-uxuiweb-designer:cherry-moon-uxuiweb-designer"/>
@@ -40,9 +48,9 @@
     </folder>
     <file name="index.html" crc="4240612179" seo="true" mt="1472974197004" redirect="true"/>
   </folder>
-  <file name="index.html" crc="4027766618" seo="true" mt="1472981029650" redirect="true"/>
+  <file name="index.html" crc="3936217389" seo="true" mt="1472997111164" redirect="true"/>
   <file name="guxiaofan.html" crc="4227680018" seo="true" mt="1472981016807" redirect="true"/>
   <file name="ifoto.html" crc="20642793" seo="true" mt="1472981009139" redirect="true"/>
-  <file name="chomoon-uxuiweb-designer.html" crc="362744875" seo="true" mt="1472981029649" redirect="true"/>
-  <file name="cherry-moon-uxuiweb-designer.html" crc="315867172" seo="true" mt="1472978413029" redirect="true"/>
+  <file name="chomoon-uxuiweb-designer.html" crc="362744875" seo="true" mt="1472997089054" redirect="true"/>
+  <file name="cherry-moon-uxuiweb-designer.html" crc="118483526" seo="true" mt="1472997031695" redirect="true"/>
 </manifest>

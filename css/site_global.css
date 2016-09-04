@@ -141,6 +141,40 @@ a.nontext /* used to override default properties of 'a' tag */
 	text-decoration: underline;
 }
 
+.dark2 a
+{
+	color: inherit;
+	text-decoration: inherit;
+}
+
+.dark2 a:link
+{
+	color: #FFFFFF;
+	font-weight: bold;
+	text-decoration: underline;
+}
+
+.dark2 a:visited
+{
+	color: #FFFFFF;
+	font-weight: bold;
+	text-decoration: underline;
+}
+
+.dark2 a:hover
+{
+	color: #FFFFFF;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+.dark2 a:active
+{
+	color: #FFFFFF;
+	font-weight: bold;
+	text-decoration: underline;
+}
+
 .normal_text
 {
 	color: #000000;
