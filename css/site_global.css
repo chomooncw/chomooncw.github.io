@@ -85,16 +85,10 @@ body
 	body { text-rendering:auto; }
 }
 
-a
-{
-	color: inherit;
-	text-decoration: inherit;
-}
-
 a:link
 {
 	color: #000000;
-	text-decoration: inherit;
+	text-decoration: underline;
 }
 
 a:visited

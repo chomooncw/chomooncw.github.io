@@ -1,7 +1,7 @@
 .version.index /* version checker */
 {
-	color: #0000E9;
-	background-color: #FE5BB2;
+	color: #00000E;
+	background-color: #F16C01;
 }
 
 .html
@@ -12,28 +12,46 @@
 #page
 {
 	z-index: 1;
-	width: 960px;
-	min-height: 694px;
+	width: 920px;
+	min-height: 167px;
 	background-image: none;
 	border-style: none;
 	border-color: #000000;
 	background-color: transparent;
-	padding-bottom: 311px;
 	margin-left: auto;
 	margin-right: auto;
+	padding: 636px 20px 202px;
 }
 
-#u350-4
+#u364-4
 {
-	z-index: 6;
-	width: 122px;
+	z-index: 14;
+	width: 79px;
 	min-height: 32px;
 	background-color: transparent;
 	font-size: 24px;
 	line-height: 29px;
 	position: fixed;
-	top: 36px;
-	left: 100px;
+	top: 56px;
+	left: 120px;
+}
+
+#u351-4
+{
+	z-index: 6;
+	width: 226px;
+	min-height: 32px;
+	background-color: transparent;
+	font-size: 24px;
+	line-height: 29px;
+	position: fixed;
+	top: 56px;
+	right: 120px;
+}
+
+#u364,#u351
+{
+	font-size: 24px;
 }
 
 #u349-4
@@ -56,34 +74,25 @@
 
 #u352-4
 {
-	z-index: 14;
+	z-index: 10;
 	width: 920px;
 	min-height: 32px;
 	background-color: transparent;
 	font-size: 48px;
 	line-height: 58px;
 	position: relative;
-	margin-right: -10000px;
-	margin-top: 636px;
-	left: 20px;
 }
 
-#u351-4
+#u366-4
 {
-	z-index: 10;
-	width: 226px;
+	z-index: 18;
+	width: 920px;
 	min-height: 32px;
 	background-color: transparent;
-	font-size: 24px;
-	line-height: 29px;
-	position: fixed;
-	top: 36px;
-	right: 100px;
-}
-
-#u350,#u351
-{
-	font-size: 24px;
+	font-size: 48px;
+	line-height: 58px;
+	margin-top: 51px;
+	position: relative;
 }
 
 body

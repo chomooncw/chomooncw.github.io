@@ -1,7 +1,7 @@
 .version.ifoto /* version checker */
 {
-	color: #00000F;
-	background-color: #17F975;
+	color: #00000B;
+	background-color: #988DA1;
 }
 
 .html
@@ -24,15 +24,15 @@
 
 #page_position_content
 {
-	padding-top: 638px;
-	padding-bottom: 279px;
+	padding-top: 688px;
+	padding-bottom: 341px;
 	width: 0.01px;
 }
 
-#u355-4
+#u362-4
 {
-	z-index: 6;
-	width: 122px;
+	z-index: 23;
+	width: 79px;
 	min-height: 32px;
 	background-color: transparent;
 	font-size: 24px;
@@ -42,14 +42,14 @@
 	left: 120px;
 }
 
-#u355
+#u362
 {
 	font-size: 24px;
 }
 
 #u356-6
 {
-	z-index: 10;
+	z-index: 5;
 	width: 921px;
 	min-height: 80px;
 	background-color: transparent;
@@ -57,7 +57,7 @@
 	text-align: left;
 	font-family: Helvetica, Helvetica Neue, Arial, sans-serif;
 	position: fixed;
-	top: 335px;
+	top: 273px;
 	left: 20px;
 }
 
@@ -80,15 +80,9 @@
 	filter: alpha(opacity=100);
 }
 
-#ifoto01
-{
-	margin-left: 134px;
-	position: relative;
-}
-
 #u357-12
 {
-	z-index: 16;
+	z-index: 11;
 	width: 540px;
 	min-height: 104px;
 	background-color: transparent;
@@ -96,7 +90,6 @@
 	font-size: 36px;
 	font-family: Helvetica, Helvetica Neue, Arial, sans-serif;
 	margin-left: 210px;
-	margin-top: 94px;
 	position: relative;
 }
 
