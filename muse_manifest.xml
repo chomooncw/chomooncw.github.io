@@ -1,56 +1,72 @@
-<manifest alg="2" build="2015.0.0.309" opt="false" iceEnabled="true" iceMarkupVersion="2" exportTarget="other" domain="chomooncw.github.io" resolutions="1x" timestamp="1472997181682">
+<manifest alg="2" build="2015.0.0.309" opt="false" iceEnabled="true" iceMarkupVersion="2" exportTarget="other" domain="chomooncw.github.io" resolutions="1x,2x" timestamp="1473079777538">
   <folder name="images">
-    <file name="img_5383.jpg" crc="4216479948" seo="true" ref="chomoon-uxuiweb-designer"/>
-    <file name="artboard 6.png" crc="196881594" seo="true" ref="chomoon-uxuiweb-designer"/>
-    <file name="pic1.jpg" crc="3835807113" seo="true" ref="ifoto"/>
-    <file name="logo.jpg" crc="170440876" seo="true" ref="chomoon-uxuiweb-designer"/>
-    <file name="artboard.jpg" crc="4166596314" seo="true" ref="guxiaofan"/>
-    <file name="artboard copy.jpg" crc="3874210149" seo="true" ref="guxiaofan"/>
+    <file name="img_5383.jpg" crc="112715185" seo="true" ref="chomoon-uxuiweb-designer"/>
+    <file name="artboard 6.png" crc="4258716199" seo="true" ref="chomoon-uxuiweb-designer"/>
+    <file name="pic1.jpg" crc="36869895" seo="true" ref="ifoto"/>
+    <file name="logo.jpg" crc="4118593807" seo="true" ref="chomoon-uxuiweb-designer"/>
+    <file name="artboard.jpg" crc="505282839" seo="true" ref="guxiaofan"/>
+    <file name="artboard copy.jpg" crc="322462087" seo="true" ref="guxiaofan"/>
     <file name="pasted svg 67136x56.svg" crc="142367395" ref="phone>index"/>
     <file name="pasted svg 67136x56_poster_.png" crc="45034172" ref="phone>index"/>
-    <file name="pasted svg 77596x118.svg" crc="478071959" ref="chomoon-uxuiweb-designer:guxiaofan:ifoto:cherry-moon-uxuiweb-designer:index"/>
+    <file name="pasted svg 77596x118.svg" crc="478071959" ref="chomoon-uxuiweb-designer:guxiaofan:ifoto:cherry-moon-uxuiweb-designer:index:owner"/>
     <file name="pasted svg 77596x118_poster_.png" crc="51854556" ref="chomoon-uxuiweb-designer"/>
-    <file name="artboard copy 2.jpg" crc="3793175968" seo="true" ref="guxiaofan"/>
+    <file name="artboard copy 2.jpg" crc="66104645" seo="true" ref="guxiaofan"/>
     <file name="pasted svg 107302x31.svg" crc="4031103182" ref="guxiaofan"/>
     <file name="pasted svg 107302x31_poster_.png" crc="445297055" ref="guxiaofan"/>
-    <file name="artboard 6.jpg" crc="373837829" seo="true" ref="ifoto"/>
+    <file name="artboard 6.jpg" crc="3916342554" seo="true" ref="ifoto"/>
     <file name="pasted svg 77596x1182.svg" crc="4214563427" ref="cherry-moon-uxuiweb-designer"/>
     <file name="pasted svg 77596x118_poster_2.png" crc="3910057461" ref="cherry-moon-uxuiweb-designer"/>
-    <file name="image-crop-u521.jpg" crc="492363751" ref="cherry-moon-uxuiweb-designer"/>
+    <file name="image-crop-u521.jpg" crc="4280547666" ref="cherry-moon-uxuiweb-designer"/>
     <file name="pasted svg 16315x31.svg" crc="4158405317" ref="cherry-moon-uxuiweb-designer"/>
     <file name="pasted svg 16315x31_poster_.png" crc="103206822" ref="cherry-moon-uxuiweb-designer"/>
     <file name="pasted svg 95183x31.svg" crc="506289036" ref="cherry-moon-uxuiweb-designer"/>
     <file name="pasted svg 95183x31_poster_.png" crc="9462710" ref="cherry-moon-uxuiweb-designer"/>
     <file name="pasted svg 233708x31.svg" crc="32571478" ref="index"/>
     <file name="pasted svg 233708x31_poster_.png" crc="41617401" ref="index"/>
-    <file name="img_2653.jpg" crc="3980392874" seo="true" ref="index"/>
+    <file name="img_2653.jpg" crc="349086340" seo="true" ref="index"/>
+    <file name="img_5383_2x.jpg" crc="3768448555" seo="true" ref="chomoon-uxuiweb-designer"/>
+    <file name="logo_2x.jpg" crc="302676989" seo="true" ref="chomoon-uxuiweb-designer"/>
+    <file name="artboard 6_2x.png" crc="3856330432" seo="true" ref="chomoon-uxuiweb-designer"/>
+    <file name="artboard_2x.jpg" crc="4207323304" seo="true" ref="guxiaofan"/>
+    <file name="artboard copy_2x.jpg" crc="354807734" seo="true" ref="guxiaofan"/>
+    <file name="artboard copy 2_2x.jpg" crc="533984212" seo="true" ref="guxiaofan"/>
+    <file name="pic1_2x.jpg" crc="445313894" seo="true" ref="ifoto"/>
+    <file name="artboard 6_2x.jpg" crc="373837829" seo="true" ref="ifoto"/>
+    <file name="image-crop-u521_2x.jpg" crc="363721734" ref="cherry-moon-uxuiweb-designer"/>
+    <file name="img_2653_2x.jpg" crc="360034173" seo="true" ref="index"/>
+    <file name="owner2.jpg" crc="3983524814" seo="true" ref="owner"/>
+    <file name="owner2_2x.jpg" crc="143123524" seo="true" ref="owner"/>
+    <file name="owner-sd-201506-04.png" crc="3995555117" seo="true" ref="owner"/>
+    <file name="owner-sd-201506-04_2x.png" crc="3857559571" seo="true" ref="owner"/>
   </folder>
   <folder name="css">
     <file name="site_global.css" crc="385999056"/>
-    <file name="index.css" crc="3876599842" ref="index"/>
-    <file name="guxiaofan.css" crc="4116459542" ref="guxiaofan"/>
-    <file name="ifoto.css" crc="133364683" ref="ifoto"/>
+    <file name="index.css" crc="4294928187" ref="index"/>
+    <file name="guxiaofan.css" crc="15684620" ref="guxiaofan"/>
+    <file name="ifoto.css" crc="3986312890" ref="ifoto"/>
     <file name="chomoon-uxuiweb-designer.css" crc="366605833" ref="chomoon-uxuiweb-designer"/>
     <file name="master_a-master.css" crc="285481725" ref="chomoon-uxuiweb-designer:cherry-moon-uxuiweb-designer"/>
     <file name="cherry-moon-uxuiweb-designer.css" crc="209562914" ref="cherry-moon-uxuiweb-designer"/>
+    <file name="owner.css" crc="160734896" ref="owner"/>
   </folder>
   <folder name="scripts">
-    <file name="jquery-1.8.3.min.js" crc="4255413929" ref="phone>index:index:guxiaofan:ifoto:chomoon-uxuiweb-designer:cherry-moon-uxuiweb-designer"/>
-    <file name="museutils.js" crc="183364071" ref="phone>index:index:guxiaofan:ifoto:chomoon-uxuiweb-designer:cherry-moon-uxuiweb-designer"/>
-    <file name="jquery.watch.js" crc="71412426" ref="phone>index:index:guxiaofan:ifoto:chomoon-uxuiweb-designer:cherry-moon-uxuiweb-designer"/>
+    <file name="jquery-1.8.3.min.js" crc="4255413929" ref="phone>index:index:guxiaofan:ifoto:chomoon-uxuiweb-designer:cherry-moon-uxuiweb-designer:owner"/>
+    <file name="museutils.js" crc="183364071" ref="phone>index:index:guxiaofan:ifoto:chomoon-uxuiweb-designer:cherry-moon-uxuiweb-designer:owner"/>
+    <file name="jquery.watch.js" crc="71412426" ref="phone>index:index:guxiaofan:ifoto:chomoon-uxuiweb-designer:cherry-moon-uxuiweb-designer:owner"/>
     <file name="museredirect.js" crc="40941066" ref="index"/>
-    <file name="jquery.scrolleffects.js" crc="3860644955" ref="index:guxiaofan:chomoon-uxuiweb-designer:ifoto:cherry-moon-uxuiweb-designer"/>
+    <file name="jquery.scrolleffects.js" crc="3860644955" ref="index:guxiaofan:chomoon-uxuiweb-designer:ifoto:cherry-moon-uxuiweb-designer:owner"/>
     <file name="pie.js" crc="3827607177" ref="chomoon-uxuiweb-designer"/>
   </folder>
   <folder name="phone">
     <folder name="css">
       <file name="index.css" crc="4168037618" ref="phone>index"/>
     </folder>
-    <file name="index.html" crc="4240612179" seo="true" mt="1472974197004" redirect="true"/>
+    <file name="index.html" crc="3857965022" seo="true" mt="1472646315271" redirect="true"/>
   </folder>
-  <file name="index.html" crc="3936217389" seo="true" mt="1472997111164" redirect="true"/>
-  <file name="guxiaofan.html" crc="4227680018" seo="true" mt="1472981016807" redirect="true"/>
-  <file name="ifoto.html" crc="20642793" seo="true" mt="1472981009139" redirect="true"/>
-  <file name="chomoon-uxuiweb-designer.html" crc="362744875" seo="true" mt="1472997089054" redirect="true"/>
-  <file name="cherry-moon-uxuiweb-designer.html" crc="118483526" seo="true" mt="1472997031695" redirect="true"/>
+  <file name="index.html" crc="329825114" seo="true" mt="1472646177589" redirect="true"/>
+  <file name="guxiaofan.html" crc="3812735340" seo="true" mt="1473079371865" redirect="true"/>
+  <file name="ifoto.html" crc="9909390" seo="true" mt="1473079572673" redirect="true"/>
+  <file name="chomoon-uxuiweb-designer.html" crc="4219057279" seo="true" mt="1472978076005" redirect="true"/>
+  <file name="cherry-moon-uxuiweb-designer.html" crc="51492355" seo="true" mt="1472978076005" redirect="true"/>
+  <file name="owner.html" crc="4079484653" seo="true" mt="1473079738732" redirect="true"/>
 </manifest>

@@ -45,7 +45,7 @@ Designe"/>
     <a class="anchor_item colelem" id="about"></a>
     <div class="clearfix colelem" id="pu126"><!-- group -->
      <div class="clip_frame grpelem" id="u126"><!-- image -->
-      <img class="block" id="u126_img" src="images/img_5383.jpg" alt="" width="156" height="278"/>
+      <img class="block" id="u126_img" src="images/img_5383.jpg" data-hidpi-src="images/img_5383_2x.jpg" alt="" width="156" height="278"/>
      </div>
      <div class="clearfix grpelem" id="pu102-8"><!-- column -->
       <div class="clearfix colelem" id="u102-8"><!-- content -->
@@ -64,8 +64,8 @@ Designe"/>
     </div>
     <a class="anchor_item colelem" id="work"></a>
     <div class="clearfix colelem" id="pu260"><!-- group -->
-     <a class="nonblock nontext shadow clearfix grpelem" id="u260" href="guxiaofan.html"><!-- group --><div class="clip_frame grpelem" id="u297"><!-- image --><img class="block" id="u297_img" src="images/logo.jpg" alt="" width="178" height="163"/></div></a>
-     <a class="nonblock nontext shadow clearfix grpelem" id="u262" href="ifoto.html"><!-- group --><div class="clip_frame grpelem" id="u274"><!-- image --><img class="block" id="u274_img" src="images/artboard%206.png" alt="" width="269" height="188"/></div></a>
+     <a class="nonblock nontext shadow clearfix grpelem" id="u260" href="guxiaofan.html"><!-- group --><div class="clip_frame grpelem" id="u297"><!-- image --><img class="block" id="u297_img" src="images/logo.jpg" data-hidpi-src="images/logo_2x.jpg" alt="" width="178" height="163"/></div></a>
+     <a class="nonblock nontext shadow clearfix grpelem" id="u262" href="ifoto.html"><!-- group --><div class="clip_frame grpelem" id="u274"><!-- image --><img class="block" id="u274_img" src="images/artboard%206.png" data-hidpi-src="images/artboard%206_2x.png" alt="" width="269" height="188"/></div></a>
     </div>
     <a class="anchor_item colelem" id="contact"></a>
     <a class="nonblock nontext clearfix mse_pre_init" id="u244-4" href="mailto:cherrycaowen@gmail.com" target="_blank"><!-- content --><p><span id="u244">Email me</span></p></a>
@@ -92,6 +92,7 @@ Designe"/>
 for(var c=$(".version"),d=0;d<Muse.assets.required.length;){var f=Muse.assets.required[d],g=f.match(/([\w\-\.]+)\.(\w+)$/),k=g&&g[1]?g[1]:null,g=g&&g[2]?g[2]:null;switch(g.toLowerCase()){case "css":k=k.replace(/\W/gi,"_").replace(/^([^a-z])/gi,"_$1");c.addClass(k);var g=b(c.css("color")),h=b(c.css("background-color"));g!=0||h!=0?(Muse.assets.required.splice(d,1),"undefined"!=typeof a[f]&&(g!=a[f]>>>24||h!=(a[f]&16777215))&&Muse.assets.outOfDate.push(f)):d++;c.removeClass(k);break;case "js":k.match(/^jquery-[\d\.]+/gi)&&
 typeof $!="undefined"?Muse.assets.required.splice(d,1):d++;break;default:throw Error("Unsupported file type: "+g);}}c.remove();if(Muse.assets.outOfDate.length||Muse.assets.required.length)c="Some files on the server may be missing or incorrect. Clear browser cache and try again. If the problem persists please contact website author.",(d=location&&location.search&&location.search.match&&location.search.match(/muse_debug/gi))&&Muse.assets.outOfDate.length&&(c+="\nOut of date: "+Muse.assets.outOfDate.join(",")),d&&Muse.assets.required.length&&(c+="\nMissing: "+Muse.assets.required.join(",")),alert(c)})()})();/* body */
 Muse.Utils.transformMarkupToFixBrowserProblemsPreInit();/* body */
+Muse.Utils.detectScreenResolution();/* HiDPI screens */
 Muse.Utils.prepHyperlinks(true);/* body */
 Muse.Utils.resizeHeight()/* resize height */
 $('#u244-4').registerPositionScrollEffect([{"in":[-Infinity,2216],"speed":[-1,1.5]},{"in":[2216,Infinity],"speed":[0,1]}]);/* scroll effect */

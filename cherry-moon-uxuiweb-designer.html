@@ -22,7 +22,7 @@
 
   <div class="clearfix" id="page"><!-- column -->
    <div class="clip_frame mse_pre_init" id="u521"><!-- image -->
-    <img class="block" id="u521_img" src="images/image-crop-u521.jpg" alt="" width="475" height="475"/>
+    <img class="block" id="u521_img" src="images/image-crop-u521.jpg" data-hidpi-src="images/image-crop-u521_2x.jpg" alt="" width="475" height="475"/>
    </div>
    <img class="svg pinned-colelem" id="u458" src="images/pasted%20svg%2077596x118.svg" width="59" height="90" alt="" data-mu-svgfallback="images/pasted%20svg%2077596x118_poster_.png"/><!-- svg -->
    <img class="svg pinned-colelem" id="u548" src="images/pasted%20svg%2016315x31.svg" width="163" height="32" alt="" data-mu-svgfallback="images/pasted%20svg%2016315x31_poster_.png"/><!-- svg -->
@@ -101,6 +101,7 @@
 for(var c=$(".version"),d=0;d<Muse.assets.required.length;){var f=Muse.assets.required[d],g=f.match(/([\w\-\.]+)\.(\w+)$/),k=g&&g[1]?g[1]:null,g=g&&g[2]?g[2]:null;switch(g.toLowerCase()){case "css":k=k.replace(/\W/gi,"_").replace(/^([^a-z])/gi,"_$1");c.addClass(k);var g=b(c.css("color")),h=b(c.css("background-color"));g!=0||h!=0?(Muse.assets.required.splice(d,1),"undefined"!=typeof a[f]&&(g!=a[f]>>>24||h!=(a[f]&16777215))&&Muse.assets.outOfDate.push(f)):d++;c.removeClass(k);break;case "js":k.match(/^jquery-[\d\.]+/gi)&&
 typeof $!="undefined"?Muse.assets.required.splice(d,1):d++;break;default:throw Error("Unsupported file type: "+g);}}c.remove();if(Muse.assets.outOfDate.length||Muse.assets.required.length)c="Some files on the server may be missing or incorrect. Clear browser cache and try again. If the problem persists please contact website author.",(d=location&&location.search&&location.search.match&&location.search.match(/muse_debug/gi))&&Muse.assets.outOfDate.length&&(c+="\nOut of date: "+Muse.assets.outOfDate.join(",")),d&&Muse.assets.required.length&&(c+="\nMissing: "+Muse.assets.required.join(",")),alert(c)})()})();/* body */
 Muse.Utils.transformMarkupToFixBrowserProblemsPreInit();/* body */
+Muse.Utils.detectScreenResolution();/* HiDPI screens */
 Muse.Utils.prepHyperlinks(true);/* body */
 $('#u521').registerPositionScrollEffect([{"in":[-Infinity,-64.05],"speed":[-1,0]},{"in":[-64.05,Infinity],"speed":[-1,0]}]);/* scroll effect */
 $('#u310-4').registerPositionScrollEffect([{"in":[-Infinity,67],"speed":[-2,0]},{"in":[67,Infinity],"speed":[-8,0]}]);/* scroll effect */

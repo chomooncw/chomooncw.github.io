@@ -1,7 +1,7 @@
 .version.guxiaofan /* version checker */
 {
-	color: #0000F5;
-	background-color: #5C3016;
+	color: #000000;
+	background-color: #EF540C;
 }
 
 .html
@@ -136,6 +136,11 @@
 	position: relative;
 	margin-right: -10000px;
 	left: 120px;
+}
+
+#u326_img
+{
+	padding-right: 1px;
 }
 
 #u334-bw
