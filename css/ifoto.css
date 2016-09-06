@@ -1,7 +1,7 @@
 .version.ifoto /* version checker */
 {
-	color: #0000ED;
-	background-color: #9A4EBA;
+	color: #000005;
+	background-color: #E1AB97;
 }
 
 .html
@@ -13,12 +13,11 @@
 {
 	z-index: 1;
 	width: 960px;
-	min-height: 2820.5px;
+	min-height: 2906px;
 	background-image: none;
 	border-style: none;
 	border-color: #000000;
 	background-color: transparent;
-	padding-bottom: 1px;
 	margin-left: auto;
 	margin-right: auto;
 }
@@ -26,7 +25,7 @@
 #page_position_content
 {
 	padding-top: 688px;
-	padding-bottom: 154px;
+	padding-bottom: 32px;
 	width: 0.01px;
 }
 
@@ -166,6 +165,28 @@
 {
 	z-index: 23;
 	min-height: 666px;
+}
+
+#u635
+{
+	z-index: 27;
+	margin-left: 20px;
+	margin-top: 93px;
+	position: relative;
+}
+
+#u639-4
+{
+	z-index: 28;
+	width: 920px;
+	min-height: 32px;
+	background-color: transparent;
+	color: #1D1D1D;
+	line-height: 58px;
+	font-size: 48px;
+	margin-left: 20px;
+	margin-top: 25px;
+	position: relative;
 }
 
 body

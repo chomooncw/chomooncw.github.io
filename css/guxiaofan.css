@@ -1,7 +1,7 @@
 .version.guxiaofan /* version checker */
 {
-	color: #000000;
-	background-color: #EF540C;
+	color: #000010;
+	background-color: #3FC54C;
 }
 
 .html
@@ -106,13 +106,6 @@
 	color: #1D1D1D;
 }
 
-.js #u333-13.ose_pre_init
-{
-	opacity: 0.4;
-	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=40)";
-	filter: alpha(opacity=40);
-}
-
 #pu334
 {
 	width: 0.01px;
@@ -175,6 +168,28 @@
 	position: relative;
 }
 
+#u672-7
+{
+	z-index: 41;
+	width: 473px;
+	min-height: 104px;
+	background-color: transparent;
+	color: #1D1D1D;
+	line-height: 43px;
+	font-size: 36px;
+	font-family: Helvetica, Helvetica Neue, Arial, sans-serif;
+	margin-left: 243px;
+	margin-top: 140px;
+	position: relative;
+}
+
+.js #u333-13.ose_pre_init,.js #u672-7.ose_pre_init
+{
+	opacity: 0.4;
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=40)";
+	filter: alpha(opacity=40);
+}
+
 #u507
 {
 	z-index: 2;
@@ -212,14 +227,14 @@
 {
 	z-index: 2;
 	min-height: 830px;
-	margin-top: 164px;
+	margin-top: 140px;
 }
 
 #u509
 {
 	z-index: 39;
 	margin-left: 20px;
-	margin-top: 391px;
+	margin-top: 171px;
 	position: relative;
 }
 

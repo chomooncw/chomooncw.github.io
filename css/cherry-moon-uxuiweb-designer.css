@@ -1,7 +1,7 @@
 .version.cherry_moon_uxuiweb_designer /* version checker */
 {
-	color: #00000C;
-	background-color: #7DAD22;
+	color: #0000E1;
+	background-color: #7B16D0;
 }
 
 .html
@@ -13,14 +13,14 @@
 {
 	z-index: 1;
 	width: 628px;
-	min-height: 2908px;
+	min-height: 2948px;
 	background-image: none;
 	border-style: none;
 	border-color: #000000;
 	background-color: #000000;
 	margin-left: auto;
 	margin-right: auto;
-	padding: 832px 166px 102px;
+	padding: 832px 166px 62px;
 }
 
 #u521
@@ -42,7 +42,7 @@
 
 #u548
 {
-	z-index: 117;
+	z-index: 114;
 	position: fixed;
 	top: 56px;
 	left: 120px;
@@ -50,7 +50,7 @@
 
 #u472
 {
-	z-index: 93;
+	z-index: 90;
 	overflow: hidden;
 	position: fixed;
 	top: 56px;
@@ -110,7 +110,7 @@
 
 #u441-4
 {
-	z-index: 89;
+	z-index: 86;
 	width: 78px;
 	min-height: 270px;
 	background-color: transparent;
@@ -126,7 +126,7 @@
 	margin-right: -10000px;
 }
 
-#u426-21
+#u426-18
 {
 	z-index: 68;
 	width: 536px;
@@ -141,7 +141,7 @@
 	left: 92px;
 }
 
-.js #u426-21.ose_pre_init
+.js #u426-18.ose_pre_init
 {
 	opacity: 0;
 	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
@@ -168,19 +168,19 @@
 	background-color: transparent;
 	color: #FFFFFF;
 	position: fixed;
-	top: 2912px;
+	top: 2965px;
 	left: 217px;
 }
 
 #u539-18
 {
-	z-index: 94;
+	z-index: 91;
 	width: 540px;
 	min-height: 236px;
 	background-color: transparent;
 	color: #FFFFFF;
 	position: fixed;
-	top: 3269px;
+	top: 3322px;
 	left: 217px;
 }
 
@@ -199,7 +199,7 @@
 
 #u543
 {
-	z-index: 116;
+	z-index: 113;
 	margin-left: 51px;
 	margin-top: 773px;
 	position: relative;
@@ -207,7 +207,7 @@
 
 #u541-4
 {
-	z-index: 112;
+	z-index: 109;
 	width: 540px;
 	min-height: 50px;
 	background-color: transparent;
