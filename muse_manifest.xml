@@ -1,4 +1,4 @@
-<manifest alg="2" build="2015.0.0.309" opt="false" iceEnabled="true" iceMarkupVersion="2" exportTarget="other" domain="chomooncw.github.io" resolutions="1x,2x" timestamp="1473176413394">
+<manifest alg="2" build="2015.0.0.309" opt="false" iceEnabled="true" iceMarkupVersion="2" exportTarget="other" domain="chomooncw.github.io" resolutions="1x,2x" timestamp="1473784829436">
   <folder name="assets">
     <file name="独占者副本.mp4" crc="3789962186" seo="true" mt="1427436922000"/>
     <file name="owner-framework-20150324副本.pdf" crc="4087491236" seo="true" mt="1428398038000"/>
@@ -12,11 +12,11 @@
     <file name="artboard copy.jpg" crc="322462087" seo="true" ref="guxiaofan"/>
     <file name="pasted svg 67136x56.svg" crc="142367395" ref="phone>index"/>
     <file name="pasted svg 67136x56_poster_.png" crc="45034172" ref="phone>index"/>
-    <file name="pasted svg 77596x118.svg" crc="478071959" ref="chomoon-uxuiweb-designer:guxiaofan:ifoto:cherry-moon-uxuiweb-designer:index:owner"/>
-    <file name="pasted svg 77596x118_poster_.png" crc="456287028" ref="chomoon-uxuiweb-designer:guxiaofan"/>
+    <file name="pasted svg 77596x118.svg" crc="478071959" ref="chomoon-uxuiweb-designer:guxiaofan:ifoto:cherry-moon-uxuiweb-designer:index:owner:bleunuit:vr"/>
+    <file name="pasted svg 77596x118_poster_.png" crc="456287028" ref="chomoon-uxuiweb-designer:guxiaofan:index"/>
     <file name="artboard copy 2.jpg" crc="66104645" seo="true" ref="guxiaofan"/>
-    <file name="pasted svg 107302x31.svg" crc="4031103182" ref="guxiaofan:ifoto"/>
-    <file name="pasted svg 107302x31_poster_.png" crc="445297055" ref="guxiaofan:ifoto"/>
+    <file name="pasted svg 107302x31.svg" crc="4031103182" ref="guxiaofan:ifoto:bleunuit:vr"/>
+    <file name="pasted svg 107302x31_poster_.png" crc="445297055" ref="guxiaofan:ifoto:bleunuit:vr"/>
     <file name="artboard 6.jpg" crc="3916342554" seo="true" ref="ifoto"/>
     <file name="pasted svg 77596x1182.svg" crc="4214563427" ref="cherry-moon-uxuiweb-designer"/>
     <file name="pasted svg 77596x118_poster_2.png" crc="3910057461" ref="cherry-moon-uxuiweb-designer"/>
@@ -41,28 +41,43 @@
     <file name="owner-sd-201506-04.png" crc="3995555117" seo="true" ref="owner"/>
     <file name="owner-sd-201506-04_2x.png" crc="3857559571" seo="true" ref="owner"/>
     <file name="owner元件副本-03.jpg" crc="288724845" seo="true" ref="owner"/>
-    <file name="owner元件副本-03_2x.jpg" crc="3866910222" seo="true" ref="owner"/>
     <file name="owner元件副本-05.jpg" crc="153864584" seo="true" ref="owner"/>
-    <file name="owner元件副本-05_2x.jpg" crc="348265847" seo="true" ref="owner"/>
     <file name="owner01-04.jpg" crc="134084371" seo="true" ref="owner"/>
-    <file name="owner01-04_2x.jpg" crc="6504917" seo="true" ref="owner"/>
+    <file name="makeup1.jpg" crc="3939017488" seo="true" ref="bleunuit"/>
+    <file name="makeup1_2x.jpg" crc="4171240864" seo="true" ref="bleunuit"/>
+    <file name="makeup2.jpg" crc="4132794657" seo="true" ref="bleunuit"/>
+    <file name="makeup2_2x.jpg" crc="368386922" seo="true" ref="bleunuit"/>
+    <file name="topbar-2 copy 2.png" crc="283294118" seo="true" ref="bleunuit"/>
+    <file name="topbar-2 copy 2_2x.png" crc="331705147" seo="true" ref="bleunuit"/>
+    <file name="makeup3.jpg" crc="120960913" seo="true" ref="bleunuit"/>
+    <file name="makeup3_2x.jpg" crc="3926115769" seo="true" ref="bleunuit"/>
+    <file name="vrwebapp.jpg" crc="82203771" seo="true" ref="vr"/>
+    <file name="vrwebapp_2x.jpg" crc="4154708314" seo="true" ref="vr"/>
+    <file name="vrt.jpg" crc="4031460398" seo="true" ref="vr"/>
+    <file name="vrt_2x.jpg" crc="4164256059" seo="true" ref="vr"/>
+    <file name="vr导图-01.jpg" crc="287688469" seo="true" ref="vr"/>
+    <file name="vr导图-01_2x.jpg" crc="3882671262" seo="true" ref="vr"/>
+    <file name="v copy.jpg" crc="71886485" seo="true" ref="vr"/>
+    <file name="v copy_2x.jpg" crc="3943893738" seo="true" ref="vr"/>
   </folder>
   <folder name="css">
     <file name="site_global.css" crc="385999056"/>
-    <file name="index.css" crc="4294928187" ref="index"/>
+    <file name="index.css" crc="4132168966" ref="index"/>
     <file name="guxiaofan.css" crc="272614732" ref="guxiaofan"/>
     <file name="ifoto.css" crc="98675607" ref="ifoto"/>
     <file name="chomoon-uxuiweb-designer.css" crc="366605833" ref="chomoon-uxuiweb-designer"/>
     <file name="master_a-master.css" crc="285481725" ref="chomoon-uxuiweb-designer:cherry-moon-uxuiweb-designer"/>
     <file name="cherry-moon-uxuiweb-designer.css" crc="3782940368" ref="cherry-moon-uxuiweb-designer"/>
-    <file name="owner.css" crc="8591066" ref="owner"/>
+    <file name="owner.css" crc="9858336" ref="owner"/>
+    <file name="vr.css" crc="375293770" ref="vr"/>
+    <file name="bleunuit.css" crc="501354295" ref="bleunuit"/>
   </folder>
   <folder name="scripts">
-    <file name="jquery-1.8.3.min.js" crc="4255413929" ref="phone>index:index:guxiaofan:ifoto:chomoon-uxuiweb-designer:cherry-moon-uxuiweb-designer:owner"/>
-    <file name="museutils.js" crc="183364071" ref="phone>index:index:guxiaofan:ifoto:chomoon-uxuiweb-designer:cherry-moon-uxuiweb-designer:owner"/>
-    <file name="jquery.watch.js" crc="71412426" ref="phone>index:index:guxiaofan:ifoto:chomoon-uxuiweb-designer:cherry-moon-uxuiweb-designer:owner"/>
+    <file name="jquery-1.8.3.min.js" crc="4255413929" ref="phone>index:index:guxiaofan:ifoto:chomoon-uxuiweb-designer:cherry-moon-uxuiweb-designer:owner:bleunuit:vr"/>
+    <file name="museutils.js" crc="183364071" ref="phone>index:index:guxiaofan:ifoto:chomoon-uxuiweb-designer:cherry-moon-uxuiweb-designer:owner:bleunuit:vr"/>
+    <file name="jquery.watch.js" crc="71412426" ref="phone>index:index:guxiaofan:ifoto:chomoon-uxuiweb-designer:cherry-moon-uxuiweb-designer:owner:bleunuit:vr"/>
     <file name="museredirect.js" crc="40941066" ref="index"/>
-    <file name="jquery.scrolleffects.js" crc="3860644955" ref="index:guxiaofan:chomoon-uxuiweb-designer:ifoto:cherry-moon-uxuiweb-designer:owner"/>
+    <file name="jquery.scrolleffects.js" crc="3860644955" ref="index:guxiaofan:chomoon-uxuiweb-designer:ifoto:cherry-moon-uxuiweb-designer:owner:bleunuit:vr"/>
     <file name="pie.js" crc="3827607177" ref="chomoon-uxuiweb-designer"/>
   </folder>
   <folder name="phone">
@@ -71,10 +86,12 @@
     </folder>
     <file name="index.html" crc="3857965022" seo="true" mt="1472646315271" redirect="true"/>
   </folder>
-  <file name="index.html" crc="329825114" seo="true" mt="1472646177589" redirect="true"/>
+  <file name="index.html" crc="4198683902" seo="true" mt="1473784816075" redirect="true"/>
   <file name="guxiaofan.html" crc="3790418995" seo="true" mt="1473176386462" redirect="true"/>
   <file name="ifoto.html" crc="396193766" seo="true" mt="1473168557461" redirect="true"/>
   <file name="chomoon-uxuiweb-designer.html" crc="4219057279" seo="true" mt="1473168483579" redirect="true"/>
   <file name="cherry-moon-uxuiweb-designer.html" crc="249234512" seo="true" mt="1473176369058" redirect="true"/>
-  <file name="owner.html" crc="4230421725" seo="true" mt="1473169970823" redirect="true"/>
+  <file name="owner.html" crc="3984389619" seo="true" mt="1473784440205" redirect="true"/>
+  <file name="bleunuit.html" crc="74679862" seo="true" mt="1473767476486" redirect="true"/>
+  <file name="vr.html" crc="3801849690" seo="true" mt="1473784678435" redirect="true"/>
 </manifest>
