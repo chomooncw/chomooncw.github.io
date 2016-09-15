@@ -1,0 +1,156 @@
+.version.do_sth_cool_copy /* version checker */
+{
+	color: #0000F2;
+	background-color: #F1DC85;
+}
+
+.html
+{
+	background-color: #FFFFFF;
+}
+
+#page
+{
+	z-index: 1;
+	width: 684px;
+	min-height: 384.5550000000003px;
+	background-image: none;
+	border-style: none;
+	border-color: #000000;
+	background-color: transparent;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 869px 256px 36.44499999999971px 20px;
+}
+
+#u926-4
+{
+	z-index: 27;
+	display: block;
+	vertical-align: top;
+	position: fixed;
+	top: 56px;
+	left: 120px;
+}
+
+#u911
+{
+	z-index: 22;
+	overflow: hidden;
+	position: fixed;
+	top: 56px;
+	right: 120px;
+}
+
+#u914
+{
+	z-index: 2;
+	width: 548px;
+	background-color: transparent;
+	opacity: 0.6;
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=60)";
+	filter: alpha(opacity=60);
+	position: fixed;
+	-webkit-transform: matrix(0.9205,-0.3907,0.3907,0.9205,-121,136);
+	-ms-transform: matrix(0.9205,-0.3907,0.3907,0.9205,-121,136);
+	transform: matrix(0.9205,-0.3907,0.3907,0.9205,-121,136);
+	top: 150px;
+	left: 292px;
+}
+
+#u914_clip
+{
+	overflow: hidden;
+	width: 548px;
+	height: 731px;
+}
+
+#u914_img
+{
+	margin: -32px -24px -34px -26px;
+}
+
+.js #u914.ose_pre_init
+{
+	opacity: 0.5;
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
+	filter: alpha(opacity=50);
+}
+
+#u908-6
+{
+	z-index: 8;
+	display: block;
+	vertical-align: top;
+	position: fixed;
+	top: 253px;
+	left: 20px;
+}
+
+#u910-4
+{
+	z-index: 18;
+	position: relative;
+}
+
+#u910-4_img
+{
+	display: block;
+	vertical-align: top;
+}
+
+#u909-4
+{
+	z-index: 14;
+	width: 684px;
+	min-height: 32px;
+	background-color: transparent;
+	color: #1D1D1D;
+	line-height: 58px;
+	font-size: 48px;
+	font-family: Helvetica, Helvetica Neue, Arial, sans-serif;
+	margin-top: 51px;
+	position: relative;
+}
+
+#u913-4
+{
+	z-index: 4;
+	width: 673px;
+	min-height: 32px;
+	background-color: transparent;
+	color: #1D1D1D;
+	line-height: 58px;
+	font-size: 48px;
+	font-family: Helvetica, Helvetica Neue, Arial, sans-serif;
+	margin-top: 51px;
+	position: relative;
+}
+
+#u917-4
+{
+	z-index: 23;
+	width: 655px;
+	min-height: 32px;
+	background-color: transparent;
+	color: #1D1D1D;
+	line-height: 58px;
+	font-size: 48px;
+	font-family: Helvetica, Helvetica Neue, Arial, sans-serif;
+	margin-top: 50px;
+	position: relative;
+}
+
+body
+{
+	position: relative;
+	min-width: 960px;
+	padding-top: 36px;
+	padding-bottom: 36px;
+}
+
+#page .verticalspacer
+{
+	clear: both;
+}
+

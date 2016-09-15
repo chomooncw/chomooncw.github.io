@@ -1,0 +1,124 @@
+.version.blog /* version checker */
+{
+	color: #000017;
+	background-color: #4D4F05;
+}
+
+.html
+{
+	background-color: #FFFFFF;
+}
+
+#page
+{
+	z-index: 1;
+	width: 960px;
+	min-height: 500px;
+	background-image: none;
+	border-style: none;
+	border-color: #000000;
+	background-color: transparent;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#u890
+{
+	z-index: 2;
+	width: 212px;
+	border-style: none;
+	border-color: transparent;
+	background-color: transparent;
+	position: relative;
+	margin-right: -10000px;
+	margin-top: 110px;
+	left: 20px;
+}
+
+#u891-24
+{
+	z-index: 3;
+	width: 172px;
+	min-height: 287px;
+	position: relative;
+	margin-right: -10000px;
+	padding: 10px 10px 17px 30px;
+}
+
+.rss-text-styles
+{
+	border-style: none;
+	border-color: transparent;
+	background-color: #EDEDED;
+}
+
+#u891-2
+{
+	line-height: 29px;
+}
+
+#u893
+{
+	z-index: 14;
+	width: 23px;
+	height: 23px;
+	background-repeat: repeat-x;
+	background-position: left bottom;
+	background-color: #FFFFFF;
+}
+
+#u892,#u894
+{
+	float: left;
+}
+
+#u895
+{
+	z-index: 22;
+	width: 23px;
+	height: 23px;
+	background-repeat: repeat-x;
+	background-position: left bottom;
+	background-color: #FFFFFF;
+}
+
+.rss-odd-container,.rss-even-container
+{
+	border-style: none;
+	border-color: #F1F1F1;
+	background: #FFFFFF url("../images/untitled-1.png") repeat-x left bottom;
+}
+
+#u891-9,#u891-15,#u891-18,#u891-21
+{
+	font-family: source-sans-pro, sans-serif;
+	font-weight: 400;
+}
+
+#u896
+{
+	z-index: 31;
+	width: 682px;
+	min-height: 1714px;
+	border-style: none;
+	border-color: transparent;
+	background-color: transparent;
+	position: relative;
+	margin-right: -10000px;
+	margin-top: 110px;
+	left: 258px;
+}
+
+body
+{
+	position: relative;
+	min-width: 960px;
+	padding-top: 36px;
+	padding-bottom: 36px;
+}
+
+#page .verticalspacer
+{
+	clear: both;
+}
+
