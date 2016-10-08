@@ -100,7 +100,7 @@ a:visited
 a:hover
 {
 	color: #7F7F7F;
-	text-decoration: none;
+	text-decoration: inherit;
 }
 
 a:active
@@ -119,7 +119,7 @@ a.nontext /* used to override default properties of 'a' tag */
 
 .black a:link
 {
-	color: #55FBC2;
+	color: #42D09F;
 	text-decoration: inherit;
 }
 
@@ -131,7 +131,7 @@ a.nontext /* used to override default properties of 'a' tag */
 
 .black a:hover
 {
-	color: #42D09F;
+	color: #55FBC2;
 	text-decoration: none;
 }
 
@@ -139,12 +139,6 @@ a.nontext /* used to override default properties of 'a' tag */
 {
 	color: #55FBC2;
 	text-decoration: underline;
-}
-
-.dark2 a
-{
-	color: inherit;
-	text-decoration: inherit;
 }
 
 .dark2 a:link

@@ -1,7 +1,7 @@
 .version.ifoto /* version checker */
 {
-	color: #000005;
-	background-color: #E1AB97;
+	color: #00000A;
+	background-color: #2260D7;
 }
 
 .html
@@ -44,8 +44,8 @@
 	width: 921px;
 	min-height: 80px;
 	background-color: transparent;
-	color: #1D1D1D;
 	text-align: left;
+	color: #1D1D1D;
 	font-family: Helvetica, Helvetica Neue, Arial, sans-serif;
 	position: fixed;
 	top: 273px;
@@ -77,8 +77,8 @@
 	width: 540px;
 	min-height: 104px;
 	background-color: transparent;
-	line-height: 43px;
-	font-size: 36px;
+	line-height: 36px;
+	font-size: 30px;
 	font-family: Helvetica, Helvetica Neue, Arial, sans-serif;
 	margin-left: 210px;
 	position: relative;
@@ -123,7 +123,7 @@
 {
 	z-index: 2;
 	min-height: 539px;
-	margin-top: 217px;
+	margin-top: 359px;
 }
 
 #u514
@@ -181,9 +181,9 @@
 	width: 920px;
 	min-height: 32px;
 	background-color: transparent;
-	color: #1D1D1D;
 	line-height: 58px;
 	font-size: 48px;
+	color: #1D1D1D;
 	margin-left: 20px;
 	margin-top: 25px;
 	position: relative;

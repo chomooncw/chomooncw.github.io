@@ -1,7 +1,7 @@
 .version.chomoon_uxuiweb_designer /* version checker */
 {
-	color: #000015;
-	background-color: #D9F609;
+	color: #000004;
+	background-color: #E68722;
 }
 
 .html
@@ -147,8 +147,8 @@
 	width: 460px;
 	min-height: 104px;
 	background-color: transparent;
-	font-size: 24px;
 	line-height: 34px;
+	font-size: 24px;
 	font-family: Lucida Sans, Lucida Grande, Lucida Sans Unicode, sans-serif;
 	position: relative;
 }
@@ -159,8 +159,8 @@
 	width: 460px;
 	min-height: 39px;
 	background-color: transparent;
-	font-size: 18px;
 	line-height: 22px;
+	font-size: 18px;
 	font-family: Courier New, Courier, monospace;
 	margin-top: 26px;
 	position: relative;
@@ -198,10 +198,10 @@
 	width: 93px;
 	min-height: 21px;
 	background-color: transparent;
-	color: #FFFFFF;
 	line-height: 22px;
 	text-align: center;
 	font-size: 18px;
+	color: #FFFFFF;
 	font-family: Helvetica, Helvetica Neue, Arial, sans-serif;
 	position: relative;
 	margin-right: -10000px;
@@ -234,10 +234,10 @@
 	width: 93px;
 	min-height: 21px;
 	background-color: transparent;
-	color: #FFFFFF;
 	line-height: 22px;
 	text-align: center;
 	font-size: 18px;
+	color: #FFFFFF;
 	font-family: Helvetica, Helvetica Neue, Arial, sans-serif;
 	position: relative;
 	margin-right: -10000px;
@@ -334,8 +334,8 @@
 	width: 187px;
 	min-height: 42px;
 	background-color: transparent;
-	font-size: 36px;
 	line-height: 43px;
+	font-size: 36px;
 	font-family: Helvetica, Helvetica Neue, Arial, sans-serif;
 	position: fixed;
 	top: 2394px;
@@ -348,8 +348,8 @@
 	width: 187px;
 	min-height: 42px;
 	background-color: transparent;
-	font-size: 36px;
 	line-height: 43px;
+	font-size: 36px;
 	font-family: Helvetica, Helvetica Neue, Arial, sans-serif;
 	position: fixed;
 	top: 2488px;
@@ -362,8 +362,8 @@
 	width: 187px;
 	min-height: 42px;
 	background-color: transparent;
-	font-size: 36px;
 	line-height: 43px;
+	font-size: 36px;
 	font-family: Helvetica, Helvetica Neue, Arial, sans-serif;
 	position: fixed;
 	top: 2582px;
@@ -376,8 +376,8 @@
 	width: 187px;
 	min-height: 42px;
 	background-color: transparent;
-	font-size: 36px;
 	line-height: 43px;
+	font-size: 36px;
 	font-family: Helvetica, Helvetica Neue, Arial, sans-serif;
 	position: fixed;
 	top: 2676px;

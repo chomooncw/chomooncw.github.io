@@ -1,7 +1,7 @@
 .version.owner /* version checker */
 {
-	color: #000000;
-	background-color: #966D20;
+	color: #000017;
+	background-color: #3EDD7F;
 }
 
 .html
@@ -31,7 +31,7 @@
 
 #u568
 {
-	z-index: 17;
+	z-index: 18;
 	overflow: hidden;
 	position: fixed;
 	top: 56px;
@@ -40,12 +40,12 @@
 
 #u562-6
 {
-	z-index: 7;
+	z-index: 8;
 	width: 921px;
 	min-height: 80px;
 	background-color: transparent;
-	color: #1D1D1D;
 	text-align: left;
+	color: #1D1D1D;
 	font-family: Helvetica, Helvetica Neue, Arial, sans-serif;
 	position: fixed;
 	top: 273px;
@@ -73,28 +73,35 @@
 
 #u567-4
 {
-	z-index: 13;
+	z-index: 14;
 	width: 540px;
 	min-height: 104px;
 	background-color: transparent;
+	line-height: 36px;
+	font-size: 30px;
 	color: #1D1D1D;
-	line-height: 43px;
-	font-size: 36px;
 	font-family: Helvetica, Helvetica Neue, Arial, sans-serif;
 	margin-left: 210px;
 	position: relative;
+}
+
+.js #u567-4.ose_pre_init
+{
+	opacity: 0.4;
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=40)";
+	filter: alpha(opacity=40);
 }
 
 #pu570
 {
 	width: 0.01px;
 	margin-left: -100px;
-	margin-top: 143px;
+	margin-top: 164px;
 }
 
 #u570
 {
-	z-index: 4;
+	z-index: 5;
 	min-height: 564px;
 	background-color: #7ED8F0;
 	padding-bottom: 50px;
@@ -111,7 +118,7 @@
 
 #u563
 {
-	z-index: 5;
+	z-index: 6;
 	width: 1060px;
 	background-color: transparent;
 	position: relative;
@@ -133,13 +140,13 @@
 
 #u570-bw
 {
-	z-index: 4;
+	z-index: 5;
 	min-height: 564px;
 }
 
 #u666
 {
-	z-index: 24;
+	z-index: 21;
 	width: 269px;
 	background-color: transparent;
 	position: relative;
@@ -169,7 +176,7 @@
 
 #u582
 {
-	z-index: 2;
+	z-index: 3;
 	width: 920px;
 	background-color: transparent;
 	margin-left: 20px;
@@ -186,34 +193,33 @@
 
 #u660
 {
-	z-index: 22;
+	z-index: 19;
 	width: 624px;
 	background-color: transparent;
 	position: relative;
 	margin-right: -10000px;
 }
 
-#u633-4
+#u999
 {
-	z-index: 18;
-	width: 276px;
-	min-height: 104px;
-	background-color: transparent;
-	color: #1D1D1D;
-	line-height: 43px;
-	font-size: 36px;
-	font-family: Helvetica, Helvetica Neue, Arial, sans-serif;
+	z-index: 2;
+	width: 296px;
+	background-color: #7ED8F0;
+	padding-bottom: 20px;
 	position: relative;
 	margin-right: -10000px;
-	margin-top: 94px;
-	left: 644px;
+	left: 624px;
 }
 
-.js #u567-4.ose_pre_init,.js #u633-4.ose_pre_init
+#u993
 {
-	opacity: 0.4;
-	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=40)";
-	filter: alpha(opacity=40);
+	z-index: 23;
+	width: 214px;
+	background-color: transparent;
+	position: relative;
+	margin-right: -10000px;
+	margin-top: 20px;
+	left: 35px;
 }
 
 body

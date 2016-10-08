@@ -1,7 +1,7 @@
 .version.guxiaofan_cn /* version checker */
 {
-	color: #0000E1;
-	background-color: #27439E;
+	color: #0000FF;
+	background-color: #A68A43;
 }
 
 .html
@@ -34,8 +34,8 @@
 	width: 182px;
 	min-height: 33px;
 	background-color: transparent;
-	font-size: 24px;
 	line-height: 29px;
+	font-size: 24px;
 	margin-left: 20px;
 	position: relative;
 }
@@ -80,15 +80,15 @@
 {
 	width: 0.01px;
 	margin-left: -100px;
-	margin-top: 272px;
+	margin-top: 505px;
 }
 
 #u941
 {
 	z-index: 3;
-	min-height: 495px;
+	min-height: 539px;
 	background-color: #95ECDC;
-	padding-bottom: 254px;
+	padding-bottom: 210px;
 }
 
 #u929
@@ -98,6 +98,7 @@
 	background-color: transparent;
 	position: relative;
 	margin-right: -10000px;
+	margin-top: 44px;
 	left: 120px;
 }
 
@@ -109,7 +110,7 @@
 #u941-bw
 {
 	z-index: 3;
-	min-height: 495px;
+	min-height: 539px;
 }
 
 #u945-6
@@ -119,7 +120,7 @@
 	vertical-align: top;
 	position: relative;
 	margin-right: -10000px;
-	margin-top: 482px;
+	margin-top: 526px;
 	left: 195px;
 }
 
@@ -137,7 +138,7 @@
 {
 	width: 0.01px;
 	margin-left: 165px;
-	margin-top: 437px;
+	margin-top: 204px;
 }
 
 #u944-4
@@ -155,9 +156,9 @@
 	width: 236px;
 	min-height: 50px;
 	background-color: transparent;
-	color: #1D1D1D;
 	line-height: 43px;
 	font-size: 36px;
+	color: #1D1D1D;
 	font-family: Helvetica, Helvetica Neue, Arial, sans-serif;
 	position: relative;
 	margin-right: -10000px;
@@ -226,9 +227,9 @@
 	width: 920px;
 	min-height: 32px;
 	background-color: transparent;
-	color: #1D1D1D;
 	line-height: 58px;
 	font-size: 48px;
+	color: #1D1D1D;
 	margin-left: 20px;
 	margin-top: 25px;
 	position: relative;

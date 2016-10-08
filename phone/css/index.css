@@ -1,7 +1,7 @@
 .version.index /* version checker */
 {
-	color: #0000F8;
-	background-color: #6F34F2;
+	color: #000018;
+	background-color: #CD69F8;
 }
 
 @-ms-viewport
@@ -38,7 +38,7 @@
 {
 	z-index: 1;
 	width: 366px;
-	min-height: 1441px;
+	min-height: 1581px;
 	background-image: none;
 	border-style: none;
 	border-color: #000000;
@@ -52,15 +52,11 @@
 	position: relative;
 }
 
-#u395-4
+#u1008
 {
-	z-index: 34;
-	width: 79px;
-	min-height: 32px;
-	background-color: transparent;
-	font-size: 24px;
-	line-height: 29px;
-	margin-left: 14px;
+	z-index: 49;
+	overflow: hidden;
+	margin-left: 328px;
 	top: -4px;
 	margin-bottom: -4px;
 	position: relative;
@@ -72,48 +68,91 @@
 	width: 226px;
 	min-height: 32px;
 	background-color: transparent;
-	font-size: 24px;
 	line-height: 29px;
+	font-size: 24px;
+	margin-left: 14px;
+	margin-top: 42px;
+	position: relative;
+}
+
+#u394
+{
+	font-size: 24px;
+}
+
+#u1011
+{
+	z-index: 50;
+	width: 352px;
+	background-color: transparent;
+	margin-left: 14px;
+	margin-top: 34px;
+	position: relative;
+}
+
+#u397-4
+{
+	z-index: 34;
+	width: 352px;
+	min-height: 32px;
+	background-color: transparent;
+	line-height: 29px;
+	font-size: 24px;
+	margin-left: 14px;
+	margin-top: 8px;
+	position: relative;
+}
+
+#u1018
+{
+	z-index: 54;
+	width: 352px;
+	background-color: transparent;
 	margin-left: 14px;
 	margin-top: 25px;
 	position: relative;
 }
 
-#u395,#u394
-{
-	font-size: 24px;
-}
-
-#u397-4
+#u398-4
 {
 	z-index: 38;
 	width: 352px;
 	min-height: 32px;
 	background-color: transparent;
-	font-size: 24px;
 	line-height: 29px;
+	font-size: 24px;
 	margin-left: 14px;
-	margin-top: 169px;
+	margin-top: 25px;
 	position: relative;
 }
 
-#u398-4
+#u1015
+{
+	z-index: 52;
+	width: 259px;
+	background-color: transparent;
+	margin-left: 60px;
+	margin-top: 24px;
+	position: relative;
+}
+
+#u1021-4
 {
 	z-index: 42;
 	width: 352px;
 	min-height: 32px;
 	background-color: transparent;
-	font-size: 24px;
 	line-height: 29px;
+	font-size: 24px;
 	margin-left: 14px;
-	margin-top: 20px;
+	margin-top: 2px;
 	position: relative;
 }
 
 #about
 {
 	margin-left: 14px;
-	margin-top: 489px;
+	margin-top: 71px;
 	position: relative;
 }
 
@@ -154,8 +193,8 @@
 	width: 68px;
 	min-height: 29px;
 	background-color: transparent;
-	font-size: 18px;
 	line-height: 22px;
+	font-size: 18px;
 	font-family: Helvetica, Helvetica Neue, Arial, sans-serif;
 	position: relative;
 	margin-right: -10000px;
@@ -176,8 +215,8 @@
 	width: 81px;
 	min-height: 29px;
 	background-color: transparent;
-	font-size: 18px;
 	line-height: 22px;
+	font-size: 18px;
 	font-family: Helvetica, Helvetica Neue, Arial, sans-serif;
 	position: relative;
 	margin-right: -10000px;
@@ -199,8 +238,8 @@
 	width: 89px;
 	min-height: 29px;
 	background-color: transparent;
-	font-size: 18px;
 	line-height: 22px;
+	font-size: 18px;
 	font-family: Helvetica, Helvetica Neue, Arial, sans-serif;
 	position: relative;
 	margin-right: -10000px;
