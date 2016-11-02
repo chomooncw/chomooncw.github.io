@@ -1,7 +1,7 @@
 .version.bleunuit /* version checker */
 {
-	color: #0000FA;
-	background-color: #920843;
+	color: #000014;
+	background-color: #A46665;
 }
 
 .html
@@ -38,8 +38,8 @@
 	width: 921px;
 	min-height: 80px;
 	background-color: transparent;
-	text-align: left;
 	color: #1D1D1D;
+	text-align: left;
 	font-family: Helvetica, Helvetica Neue, Arial, sans-serif;
 	position: fixed;
 	top: 252px;
@@ -158,9 +158,9 @@
 	width: 920px;
 	min-height: 32px;
 	background-color: transparent;
+	color: #1D1D1D;
 	line-height: 58px;
 	font-size: 48px;
-	color: #1D1D1D;
 	left: -1px;
 	margin-top: 25px;
 	position: relative;

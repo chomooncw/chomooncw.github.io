@@ -1,7 +1,7 @@
 .version.chomoon_uxuiweb_designer /* version checker */
 {
-	color: #000004;
-	background-color: #E68722;
+	color: #0000F8;
+	background-color: #7CC5AA;
 }
 
 .html
@@ -198,10 +198,10 @@
 	width: 93px;
 	min-height: 21px;
 	background-color: transparent;
+	color: #FFFFFF;
 	line-height: 22px;
 	text-align: center;
 	font-size: 18px;
-	color: #FFFFFF;
 	font-family: Helvetica, Helvetica Neue, Arial, sans-serif;
 	position: relative;
 	margin-right: -10000px;
@@ -234,10 +234,10 @@
 	width: 93px;
 	min-height: 21px;
 	background-color: transparent;
+	color: #FFFFFF;
 	line-height: 22px;
 	text-align: center;
 	font-size: 18px;
-	color: #FFFFFF;
 	font-family: Helvetica, Helvetica Neue, Arial, sans-serif;
 	position: relative;
 	margin-right: -10000px;
