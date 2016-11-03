@@ -1,7 +1,7 @@
 .version.index /* version checker */
 {
-	color: #0000E4;
-	background-color: #C9744F;
+	color: #000012;
+	background-color: #0D2038;
 }
 
 .html
@@ -35,7 +35,6 @@
 #u1028
 {
 	z-index: 24;
-	overflow: hidden;
 	position: fixed;
 	top: 56px;
 	right: 120px;
