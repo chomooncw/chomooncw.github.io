@@ -1,7 +1,7 @@
 .version.vr /* version checker */
 {
-	color: #0000F4;
-	background-color: #3F4692;
+	color: #0000EA;
+	background-color: #974BF5;
 }
 
 .html
@@ -41,7 +41,7 @@
 #u756-6
 {
 	z-index: 4;
-	width: 921px;
+	width: 920px;
 	min-height: 80px;
 	background-color: transparent;
 	text-align: left;
@@ -77,8 +77,8 @@
 	width: 784px;
 	min-height: 104px;
 	background-color: transparent;
-	line-height: 36px;
 	font-size: 30px;
+	line-height: 36px;
 	font-family: Helvetica, Helvetica Neue, Arial, sans-serif;
 	margin-left: 156px;
 	position: relative;
@@ -117,8 +117,8 @@
 	min-height: 80px;
 	background-color: transparent;
 	line-height: 36px;
-	font-size: 30px;
 	color: #1D1D1D;
+	font-size: 30px;
 	font-family: Helvetica, Helvetica Neue, Arial, sans-serif;
 	margin-left: 232px;
 	margin-top: 187px;
@@ -153,8 +153,8 @@
 	min-height: 80px;
 	background-color: transparent;
 	line-height: 36px;
-	font-size: 30px;
 	color: #1D1D1D;
+	font-size: 30px;
 	font-family: Helvetica, Helvetica Neue, Arial, sans-serif;
 	margin-left: 12px;
 	margin-top: 133px;
@@ -230,8 +230,8 @@
 	min-height: 104px;
 	background-color: transparent;
 	line-height: 44px;
-	font-size: 30px;
 	color: #FFFFFF;
+	font-size: 30px;
 	font-family: Palatino, Palatino Linotype, Georgia, Times, Times New Roman, serif;
 	position: relative;
 	margin-right: -10000px;
@@ -266,8 +266,8 @@
 	min-height: 32px;
 	background-color: transparent;
 	line-height: 58px;
-	font-size: 48px;
 	color: #1D1D1D;
+	font-size: 48px;
 	margin-left: 20px;
 	margin-top: 25px;
 	position: relative;

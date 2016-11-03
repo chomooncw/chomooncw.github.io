@@ -1,7 +1,7 @@
 .version.index /* version checker */
 {
-	color: #000006;
-	background-color: #6BDAA8;
+	color: #0000E4;
+	background-color: #C9744F;
 }
 
 .html
@@ -86,9 +86,9 @@
 	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=80)";
 	filter: alpha(opacity=80);
 	color: #1D1D1D;
-	line-height: 168px;
 	text-align: left;
 	font-size: 140px;
+	line-height: 168px;
 	position: fixed;
 	top: 205px;
 	left: 20px;
@@ -100,8 +100,8 @@
 	width: 684px;
 	min-height: 32px;
 	background-color: transparent;
-	color: #1D1D1D;
 	line-height: 43px;
+	color: #1D1D1D;
 	font-size: 36px;
 	position: relative;
 }
@@ -112,8 +112,8 @@
 	width: 684px;
 	min-height: 32px;
 	background-color: transparent;
-	color: #1D1D1D;
 	line-height: 43px;
+	color: #1D1D1D;
 	font-size: 36px;
 	margin-top: 55px;
 	position: relative;
@@ -125,8 +125,8 @@
 	width: 594px;
 	min-height: 32px;
 	background-color: transparent;
-	color: #1D1D1D;
 	line-height: 43px;
+	color: #1D1D1D;
 	font-size: 36px;
 	margin-top: 55px;
 	position: relative;
@@ -138,8 +138,8 @@
 	width: 673px;
 	min-height: 32px;
 	background-color: transparent;
-	color: #1D1D1D;
 	line-height: 43px;
+	color: #1D1D1D;
 	font-size: 36px;
 	margin-top: 66px;
 	position: relative;
@@ -151,8 +151,8 @@
 	width: 655px;
 	min-height: 32px;
 	background-color: transparent;
-	color: #1D1D1D;
 	line-height: 43px;
+	color: #1D1D1D;
 	font-size: 36px;
 	margin-top: 66px;
 	position: relative;

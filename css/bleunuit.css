@@ -1,7 +1,7 @@
 .version.bleunuit /* version checker */
 {
-	color: #000014;
-	background-color: #A46665;
+	color: #000010;
+	background-color: #B8B99A;
 }
 
 .html
@@ -35,11 +35,11 @@
 #u685-6
 {
 	z-index: 4;
-	width: 921px;
+	width: 920px;
 	min-height: 80px;
 	background-color: transparent;
-	color: #1D1D1D;
 	text-align: left;
+	color: #1D1D1D;
 	font-family: Helvetica, Helvetica Neue, Arial, sans-serif;
 	position: fixed;
 	top: 252px;
@@ -71,8 +71,8 @@
 	width: 540px;
 	min-height: 104px;
 	background-color: transparent;
-	line-height: 43px;
 	font-size: 36px;
+	line-height: 43px;
 	font-family: Helvetica, Helvetica Neue, Arial, sans-serif;
 	margin-left: 167px;
 	position: relative;
@@ -158,8 +158,8 @@
 	width: 920px;
 	min-height: 32px;
 	background-color: transparent;
-	color: #1D1D1D;
 	line-height: 58px;
+	color: #1D1D1D;
 	font-size: 48px;
 	left: -1px;
 	margin-top: 25px;

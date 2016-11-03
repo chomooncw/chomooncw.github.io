@@ -1,7 +1,7 @@
 .version.guxiaofan_cn /* version checker */
 {
-	color: #0000FF;
-	background-color: #A68A43;
+	color: #000019;
+	background-color: #408B73;
 }
 
 .html
@@ -34,8 +34,8 @@
 	width: 182px;
 	min-height: 33px;
 	background-color: transparent;
-	line-height: 29px;
 	font-size: 24px;
+	line-height: 29px;
 	margin-left: 20px;
 	position: relative;
 }
@@ -157,8 +157,8 @@
 	min-height: 50px;
 	background-color: transparent;
 	line-height: 43px;
-	font-size: 36px;
 	color: #1D1D1D;
+	font-size: 36px;
 	font-family: Helvetica, Helvetica Neue, Arial, sans-serif;
 	position: relative;
 	margin-right: -10000px;
@@ -228,8 +228,8 @@
 	min-height: 32px;
 	background-color: transparent;
 	line-height: 58px;
-	font-size: 48px;
 	color: #1D1D1D;
+	font-size: 48px;
 	margin-left: 20px;
 	margin-top: 25px;
 	position: relative;

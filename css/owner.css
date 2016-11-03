@@ -1,7 +1,7 @@
 .version.owner /* version checker */
 {
-	color: #000017;
-	background-color: #3EDD7F;
+	color: #0000E8;
+	background-color: #93893E;
 }
 
 .html
@@ -41,7 +41,7 @@
 #u562-6
 {
 	z-index: 8;
-	width: 921px;
+	width: 920px;
 	min-height: 80px;
 	background-color: transparent;
 	text-align: left;
@@ -78,8 +78,8 @@
 	min-height: 104px;
 	background-color: transparent;
 	line-height: 36px;
-	font-size: 30px;
 	color: #1D1D1D;
+	font-size: 30px;
 	font-family: Helvetica, Helvetica Neue, Arial, sans-serif;
 	margin-left: 210px;
 	position: relative;

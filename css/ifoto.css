@@ -1,7 +1,7 @@
 .version.ifoto /* version checker */
 {
-	color: #00000A;
-	background-color: #2260D7;
+	color: #000007;
+	background-color: #93F196;
 }
 
 .html
@@ -41,7 +41,7 @@
 #u356-6
 {
 	z-index: 5;
-	width: 921px;
+	width: 920px;
 	min-height: 80px;
 	background-color: transparent;
 	text-align: left;
@@ -182,8 +182,8 @@
 	min-height: 32px;
 	background-color: transparent;
 	line-height: 58px;
-	font-size: 48px;
 	color: #1D1D1D;
+	font-size: 48px;
 	margin-left: 20px;
 	margin-top: 25px;
 	position: relative;
