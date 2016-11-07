@@ -1,4 +1,4 @@
-<manifest alg="2" build="2015.0.0.309" opt="false" iceEnabled="true" iceMarkupVersion="2" exportTarget="other" domain="chomooncw.github.io" resolutions="1x,2x" timestamp="1478176432891">
+<manifest alg="2" build="2015.0.0.309" opt="false" iceEnabled="true" iceMarkupVersion="2" exportTarget="other" domain="chomooncw.github.io" resolutions="1x,2x" timestamp="1478522980439">
   <folder name="assets">
     <file name="独占者副本.mp4" crc="3789962186" seo="true" mt="1427436922000"/>
     <file name="owner-framework-20150324副本.pdf" crc="4087491236" seo="true" mt="1428398038000"/>
@@ -107,7 +107,7 @@
   </folder>
   <folder name="css">
     <file name="site_global.css" crc="289839985"/>
-    <file name="index.css" crc="302850104" ref="index"/>
+    <file name="index.css" crc="3926081501" ref="index"/>
     <file name="guxiaofan.css" crc="35158129" ref="guxiaofan"/>
     <file name="ifoto.css" crc="127136150" ref="ifoto"/>
     <file name="chomoon-uxuiweb-designer.css" crc="4168926634" ref="chomoon-uxuiweb-designer"/>
@@ -137,7 +137,7 @@
     </folder>
     <file name="index.html" crc="3851503371" seo="true" mt="1475903575117" redirect="true"/>
   </folder>
-  <file name="index.html" crc="4042553302" seo="true" mt="1478176424071" redirect="true"/>
+  <file name="index.html" crc="4059279933" seo="true" mt="1478522970234" redirect="true"/>
   <file name="guxiaofan.html" crc="459823681" seo="true" mt="1478090066219" redirect="true"/>
   <file name="ifoto.html" crc="435828247" seo="true" mt="1478090073934" redirect="true"/>
   <file name="chomoon-uxuiweb-designer.html" crc="4142478430" seo="true" mt="1477803099188" redirect="true"/>
