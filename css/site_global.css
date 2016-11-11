@@ -141,6 +141,12 @@ a.nontext /* used to override default properties of 'a' tag */
 	text-decoration: underline;
 }
 
+a,.black a,.dark2 a
+{
+	color: inherit;
+	text-decoration: inherit;
+}
+
 .dark2 a:link
 {
 	color: #FFFFFF;

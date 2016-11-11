@@ -1,7 +1,7 @@
 .version.guxiaofan_cn /* version checker */
 {
-	color: #000019;
-	background-color: #408B73;
+	color: #000007;
+	background-color: #B3F472;
 }
 
 .html
@@ -34,8 +34,8 @@
 	width: 182px;
 	min-height: 33px;
 	background-color: transparent;
-	font-size: 24px;
 	line-height: 29px;
+	font-size: 24px;
 	margin-left: 20px;
 	position: relative;
 }
@@ -156,8 +156,8 @@
 	width: 236px;
 	min-height: 50px;
 	background-color: transparent;
-	line-height: 43px;
 	color: #1D1D1D;
+	line-height: 43px;
 	font-size: 36px;
 	font-family: Helvetica, Helvetica Neue, Arial, sans-serif;
 	position: relative;
@@ -199,6 +199,11 @@
 	left: 121px;
 }
 
+#u946_img
+{
+	padding-right: 547px;
+}
+
 .js #u929.ose_pre_init,.js #u936.ose_pre_init,.js #u946.ose_pre_init
 {
 	opacity: 0;
@@ -227,8 +232,8 @@
 	width: 920px;
 	min-height: 32px;
 	background-color: transparent;
-	line-height: 58px;
 	color: #1D1D1D;
+	line-height: 58px;
 	font-size: 48px;
 	margin-left: 20px;
 	margin-top: 25px;

@@ -1,7 +1,7 @@
 .version.guxiaofan /* version checker */
 {
-	color: #000002;
-	background-color: #187871;
+	color: #000013;
+	background-color: #975532;
 }
 
 .html
@@ -34,8 +34,8 @@
 	width: 182px;
 	min-height: 33px;
 	background-color: transparent;
-	font-size: 24px;
 	line-height: 29px;
+	font-size: 24px;
 	margin-left: 20px;
 	position: relative;
 }
@@ -55,8 +55,8 @@
 	width: 920px;
 	min-height: 80px;
 	background-color: transparent;
-	text-align: left;
 	color: #1D1D1D;
+	text-align: left;
 	font-family: Helvetica, Helvetica Neue, Arial, sans-serif;
 	position: fixed;
 	top: 252px;
@@ -149,8 +149,8 @@
 	width: 719px;
 	min-height: 80px;
 	background-color: transparent;
-	line-height: 36px;
 	color: #FFFFFF;
+	line-height: 36px;
 	font-size: 30px;
 	font-family: Helvetica, Helvetica Neue, Arial, sans-serif;
 	position: relative;
@@ -187,8 +187,8 @@
 	width: 821px;
 	min-height: 104px;
 	background-color: transparent;
-	line-height: 44px;
 	color: #FFFFFF;
+	line-height: 44px;
 	font-size: 30px;
 	font-family: Palatino, Palatino Linotype, Georgia, Times, Times New Roman, serif;
 	position: relative;
@@ -208,8 +208,8 @@
 	width: 473px;
 	min-height: 104px;
 	background-color: transparent;
-	line-height: 43px;
 	color: #1D1D1D;
+	line-height: 43px;
 	font-size: 36px;
 	font-family: Helvetica, Helvetica Neue, Arial, sans-serif;
 	margin-left: 242px;
@@ -250,6 +250,11 @@
 	left: 120px;
 }
 
+#u501_img
+{
+	padding-right: 547px;
+}
+
 .js #u326.ose_pre_init,.js #u495.ose_pre_init,.js #u501.ose_pre_init
 {
 	opacity: 0;
@@ -278,8 +283,8 @@
 	width: 920px;
 	min-height: 32px;
 	background-color: transparent;
-	line-height: 58px;
 	color: #1D1D1D;
+	line-height: 58px;
 	font-size: 48px;
 	margin-left: 20px;
 	margin-top: 25px;

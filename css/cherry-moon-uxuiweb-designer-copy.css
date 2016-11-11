@@ -1,7 +1,7 @@
 .version.cherry_moon_uxuiweb_designer_copy /* version checker */
 {
-	color: #0000F3;
-	background-color: #8895C8;
+	color: #0000E6;
+	background-color: #563EF7;
 }
 
 .html
@@ -88,8 +88,8 @@
 	width: 540px;
 	min-height: 104px;
 	background-color: transparent;
-	color: #FFFFFF;
 	line-height: 53px;
+	color: #FFFFFF;
 	font-size: 36px;
 	margin-left: 57px;
 	position: relative;
@@ -115,9 +115,9 @@
 	min-height: 270px;
 	background-color: transparent;
 	color: #FFFFFF;
+	line-height: 300px;
 	text-align: left;
 	text-transform: none;
-	line-height: 300px;
 	font-size: 250px;
 	font-family: Palatino, Palatino Linotype, Georgia, Times, Times New Roman, serif;
 	font-weight: normal;
