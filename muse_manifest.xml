@@ -1,4 +1,4 @@
-<manifest alg="2" build="2017.0.0.363" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster" exportTarget="other" domain="chomooncw.github.io" resolutions="1x,2x" timestamp="1480754210535">
+<manifest alg="2" build="2017.0.0.363" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster" exportTarget="other" domain="chomooncw.github.io" resolutions="1x,2x" timestamp="1480754609370">
   <folder name="css">
     <file name="site_global.css" crc="4210291208"/>
     <file name="master_a-master.css" crc="298682819" ref="cv:cherry-moon-uxuiweb-designer-copy:chomoon-uxuiweb-designer"/>
@@ -185,5 +185,5 @@
   <file name="guxiaofan-cn.html" crc="135336714" seo="true" mt="1480752552755" redirect="true"/>
   <file name="cherry-moon-uxuiweb-designer-copy.html" crc="4263462829" seo="true" mt="1480752552746" redirect="true"/>
   <file name="do-sth-cool-2.html" crc="272490258" seo="true" mt="1480752552740" redirect="true"/>
-  <file name="index.html" crc="411564933" seo="true" mt="1480754075415" redirect="true"/>
+  <file name="index.html" crc="72430584" seo="true" mt="1480754598866" redirect="true"/>
 </manifest>
