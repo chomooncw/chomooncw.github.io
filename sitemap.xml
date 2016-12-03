@@ -86,7 +86,7 @@
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://chomooncw.github.io/images/logo.jpg</loc>
+    <loc>http://chomooncw.github.io/images/artboard%206.png</loc>
     <lastmod>2016-12-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
@@ -284,13 +284,13 @@
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://chomooncw.github.io/images/logo_2x.jpg</loc>
+    <loc>http://chomooncw.github.io/images/pasted-svg-95183x31.svg</loc>
     <lastmod>2016-12-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://chomooncw.github.io/images/artboard%206.png</loc>
+    <loc>http://chomooncw.github.io/images/artboard825x444.jpg</loc>
     <lastmod>2016-12-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
@@ -302,13 +302,13 @@
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://chomooncw.github.io/images/vrwebapp446x306.jpg</loc>
+    <loc>http://chomooncw.github.io/images/logo.jpg</loc>
     <lastmod>2016-12-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://chomooncw.github.io/images/owner%E5%85%83%E4%BB%B6%E5%89%AF%E6%9C%AC-03.jpg</loc>
+    <loc>http://chomooncw.github.io/images/logo_2x.jpg</loc>
     <lastmod>2016-12-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
@@ -446,30 +446,6 @@
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://chomooncw.github.io/images/%E8%B2%BC%E4%B8%8A%E7%9A%84%E5%BD%B1%E5%83%8F%2096x9633x33.png</loc>
-    <lastmod>2016-12-03</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>http://chomooncw.github.io/images/%E8%B2%BC%E4%B8%8A%E7%9A%84%E5%BD%B1%E5%83%8F%2096x9633x33_2x.png</loc>
-    <lastmod>2016-12-03</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>http://chomooncw.github.io/images/%E8%B2%BC%E4%B8%8A%E7%9A%84%E5%BD%B1%E5%83%8F%2096x9633x332.png</loc>
-    <lastmod>2016-12-03</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>http://chomooncw.github.io/images/%E8%B2%BC%E4%B8%8A%E7%9A%84%E5%BD%B1%E5%83%8F%2096x9633x33_2x2.png</loc>
-    <lastmod>2016-12-03</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
     <loc>http://chomooncw.github.io/images/%E6%90%9C%E7%B4%A2%20copy%204.jpg</loc>
     <lastmod>2016-12-03</lastmod>
     <changefreq>weekly</changefreq>
@@ -489,6 +465,72 @@
   </url>
   <url>
     <loc>http://chomooncw.github.io/images/%E9%80%89%E6%8B%A9%E5%92%A8%E8%AF%A2%E5%B8%88_2x.jpg</loc>
+    <lastmod>2016-12-03</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://chomooncw.github.io/images/%E7%99%BB%E5%BD%95.jpg</loc>
+    <lastmod>2016-12-03</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://chomooncw.github.io/images/%E7%99%BB%E5%BD%95_2x.jpg</loc>
+    <lastmod>2016-12-03</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://chomooncw.github.io/images/log%20in.jpg</loc>
+    <lastmod>2016-12-03</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://chomooncw.github.io/images/log%20in_2x.jpg</loc>
+    <lastmod>2016-12-03</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://chomooncw.github.io/images/lock.jpg</loc>
+    <lastmod>2016-12-03</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://chomooncw.github.io/images/lock_2x.jpg</loc>
+    <lastmod>2016-12-03</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://chomooncw.github.io/images/album.jpg</loc>
+    <lastmod>2016-12-03</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://chomooncw.github.io/images/album_2x.jpg</loc>
+    <lastmod>2016-12-03</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://chomooncw.github.io/images/pasted-svg-408996x230.svg</loc>
+    <lastmod>2016-12-03</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://chomooncw.github.io/images/pasted%20image%20100x100.png</loc>
+    <lastmod>2016-12-03</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://chomooncw.github.io/images/pasted%20image%20100x100_2x.png</loc>
     <lastmod>2016-12-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
@@ -560,19 +602,19 @@
     <priority>0.5</priority>
   </url>
   <url>
+    <loc>http://chomooncw.github.io/images/vrwebapp446x306.jpg</loc>
+    <lastmod>2016-12-03</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>http://chomooncw.github.io/assets/%E7%8B%AC%E5%8D%A0%E8%80%85%E5%89%AF%E6%9C%AC.mp4</loc>
     <lastmod>2015-03-27</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://chomooncw.github.io/images/pasted-svg-95183x31.svg</loc>
-    <lastmod>2016-12-03</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>http://chomooncw.github.io/images/artboard825x444.jpg</loc>
+    <loc>http://chomooncw.github.io/images/owner%E5%85%83%E4%BB%B6%E5%89%AF%E6%9C%AC-03.jpg</loc>
     <lastmod>2016-12-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>

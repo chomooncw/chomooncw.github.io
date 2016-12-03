@@ -1,11 +1,11 @@
-<manifest alg="2" build="2017.0.0.363" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster" exportTarget="other" domain="chomooncw.github.io" resolutions="1x,2x" timestamp="1480748565957">
+<manifest alg="2" build="2017.0.0.363" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster" exportTarget="other" domain="chomooncw.github.io" resolutions="1x,2x" timestamp="1480754210535">
   <folder name="css">
-    <file name="site_global.css" crc="352592221"/>
+    <file name="site_global.css" crc="4210291208"/>
     <file name="master_a-master.css" crc="298682819" ref="cv:cherry-moon-uxuiweb-designer-copy:chomoon-uxuiweb-designer"/>
     <file name="guxiaofan.css" crc="4265319421" ref="guxiaofan"/>
     <file name="do-sth-cool-2.css" crc="85205748" ref="do-sth-cool-2"/>
     <file name="do-sth-cool-copy.css" crc="482337431" ref="do-sth-cool-copy"/>
-    <file name="do-sth-cool.css" crc="7530227" ref="do-sth-cool"/>
+    <file name="do-sth-cool.css" crc="182024748" ref="do-sth-cool"/>
     <file name="vr.css" crc="3835053686" ref="vr"/>
     <file name="bleunuit.css" crc="193885033" ref="bleunuit"/>
     <file name="guxiaofan-cn.css" crc="104631301" ref="guxiaofan-cn"/>
@@ -16,8 +16,9 @@
     <file name="chomoon-uxuiweb-designer.css" crc="14579145" ref="chomoon-uxuiweb-designer"/>
     <file name="blog.css" crc="107244077" ref="blog"/>
     <file name="iefonts_blog.css" crc="4239828132" ref="blog"/>
-    <file name="index.css" crc="4053447349" ref="index"/>
-    <file name="iefonts_index.css" crc="281234589" ref="index"/>
+    <file name="index.css" crc="71355307" ref="index"/>
+    <file name="iefonts_index.css" crc="408959879" ref="index"/>
+    <file name="iefonts_do-sth-cool.css" crc="375871684" ref="do-sth-cool"/>
   </folder>
   <folder name="assets">
     <file name="独占者副本.mp4" crc="3789962186" seo="true" mt="1427436922000"/>
@@ -44,8 +45,8 @@
     <file name="pasted svg 77596x118_poster_.png" crc="51854556" ref="chomoon-uxuiweb-designer"/>
     <file name="img_5383.jpg" crc="427693263" seo="true" ref="chomoon-uxuiweb-designer"/>
     <file name="img_5383_2x.jpg" crc="3768448555" seo="true" ref="chomoon-uxuiweb-designer"/>
-    <file name="logo.jpg" crc="4288142966" seo="true" ref="chomoon-uxuiweb-designer"/>
-    <file name="logo_2x.jpg" crc="302676989" seo="true" ref="chomoon-uxuiweb-designer"/>
+    <file name="logo.jpg" crc="4125200726" seo="true" ref="chomoon-uxuiweb-designer"/>
+    <file name="logo_2x.jpg" crc="4193530686" seo="true" ref="chomoon-uxuiweb-designer"/>
     <file name="artboard 6.png" crc="4258716199" seo="true" ref="chomoon-uxuiweb-designer"/>
     <file name="artboard 6_2x.png" crc="3856330432" seo="true" ref="chomoon-uxuiweb-designer"/>
     <file name="artboard.jpg" crc="68676863" seo="true" ref="guxiaofan:guxiaofan-cn"/>
@@ -147,34 +148,42 @@
     <file name="画板 1_2x.jpg" crc="123317230" seo="true" ref="index"/>
     <file name="画板 3.jpg" crc="141142138" seo="true" ref="index"/>
     <file name="画板 3_2x.jpg" crc="3826878288" seo="true" ref="index"/>
-    <file name="貼上的影像 96x9633x33.png" crc="223583917" seo="true" ref="index"/>
-    <file name="貼上的影像 96x9633x33_2x.png" crc="216567952" seo="true" ref="index"/>
-    <file name="貼上的影像 96x9633x332.png" crc="3893918067" seo="true" ref="index"/>
-    <file name="貼上的影像 96x9633x33_2x2.png" crc="4017632829" seo="true" ref="index"/>
     <file name="pasted svg 233708x31_poster_.png" crc="41617401" ref="do-sth-cool-2"/>
-    <file name="搜索 copy 4.jpg" crc="286890736" seo="true" ref="index"/>
-    <file name="搜索 copy 4_2x.jpg" crc="450996913" seo="true" ref="index"/>
-    <file name="选择咨询师.jpg" crc="4023834442" seo="true" ref="index"/>
-    <file name="选择咨询师_2x.jpg" crc="3885979825" seo="true" ref="index"/>
+    <file name="搜索 copy 4.jpg" crc="4151117291" seo="true" ref="index"/>
+    <file name="搜索 copy 4_2x.jpg" crc="169234258" seo="true" ref="index"/>
+    <file name="选择咨询师.jpg" crc="3862585409" seo="true" ref="index"/>
+    <file name="选择咨询师_2x.jpg" crc="509767914" seo="true" ref="index"/>
+    <file name="登录.jpg" crc="323325835" seo="true" ref="index"/>
+    <file name="登录_2x.jpg" crc="328182491" seo="true" ref="index"/>
+    <file name="log in.jpg" crc="426301975" seo="true" ref="index"/>
+    <file name="log in_2x.jpg" crc="298443814" seo="true" ref="index"/>
+    <file name="lock.jpg" crc="4028779383" seo="true" ref="index"/>
+    <file name="lock_2x.jpg" crc="3974248517" seo="true" ref="index"/>
+    <file name="album.jpg" crc="3975771602" seo="true" ref="index"/>
+    <file name="album_2x.jpg" crc="344011823" seo="true" ref="index"/>
+    <file name="pasted-svg-408996x230.svg" crc="4186932436" seo="true" ref="index"/>
+    <file name="pasted svg 408996x230_poster_.png" crc="3944229661" ref="index"/>
+    <file name="pasted image 100x100.png" crc="4010948630" seo="true" ref="index"/>
+    <file name="pasted image 100x100_2x.png" crc="308220654" seo="true" ref="index"/>
   </folder>
   <folder name="phone">
     <folder name="css">
       <file name="index.css" crc="283926905" ref="phone>index"/>
     </folder>
-    <file name="index.html" crc="251263274" seo="true" mt="1480598803284" redirect="true"/>
+    <file name="index.html" crc="228912154" seo="true" mt="1480752552738" redirect="true"/>
   </folder>
-  <file name="chomoon-uxuiweb-designer.html" crc="442331742" seo="true" mt="1480747797234" redirect="true"/>
-  <file name="guxiaofan.html" crc="433431442" seo="true" mt="1480747797234" redirect="true"/>
-  <file name="ifoto.html" crc="4011885723" seo="true" mt="1480747797234" redirect="true"/>
-  <file name="cv.html" crc="4196875707" seo="true" mt="1480747797234" redirect="true"/>
-  <file name="do-sth-cool.html" crc="4060685881" seo="true" mt="1480747797234" redirect="true"/>
-  <file name="owner.html" crc="84455711" seo="true" mt="1480747797234" redirect="true"/>
-  <file name="bleunuit.html" crc="3839280596" seo="true" mt="1480747797234" redirect="true"/>
-  <file name="vr.html" crc="4095683097" seo="true" mt="1480747797234" redirect="true"/>
-  <file name="blog.html" crc="411590786" seo="true" mt="1480747797234" redirect="true"/>
-  <file name="do-sth-cool-copy.html" crc="4263181722" seo="true" mt="1480747797234" redirect="true"/>
-  <file name="guxiaofan-cn.html" crc="520030642" seo="true" mt="1480747797234" redirect="true"/>
-  <file name="cherry-moon-uxuiweb-designer-copy.html" crc="164215807" seo="true" mt="1480747797234" redirect="true"/>
-  <file name="do-sth-cool-2.html" crc="4194075493" seo="true" mt="1480747797234" redirect="true"/>
-  <file name="index.html" crc="4269524625" seo="true" mt="1480748502326" redirect="true"/>
+  <file name="chomoon-uxuiweb-designer.html" crc="3831350426" seo="true" mt="1480752552736" redirect="true"/>
+  <file name="guxiaofan.html" crc="392785948" seo="true" mt="1480752552741" redirect="true"/>
+  <file name="ifoto.html" crc="3860778362" seo="true" mt="1480752552769" redirect="true"/>
+  <file name="cv.html" crc="278702120" seo="true" mt="1480752552752" redirect="true"/>
+  <file name="do-sth-cool.html" crc="110461252" seo="true" mt="1480752787764" redirect="true"/>
+  <file name="owner.html" crc="84455711" seo="true" mt="1480749739891" redirect="true"/>
+  <file name="bleunuit.html" crc="11050748" seo="true" mt="1480752552783" redirect="true"/>
+  <file name="vr.html" crc="45144949" seo="true" mt="1480752552736" redirect="true"/>
+  <file name="blog.html" crc="4283650478" seo="true" mt="1480752552804" redirect="true"/>
+  <file name="do-sth-cool-copy.html" crc="4142948108" seo="true" mt="1480752552742" redirect="true"/>
+  <file name="guxiaofan-cn.html" crc="135336714" seo="true" mt="1480752552755" redirect="true"/>
+  <file name="cherry-moon-uxuiweb-designer-copy.html" crc="4263462829" seo="true" mt="1480752552746" redirect="true"/>
+  <file name="do-sth-cool-2.html" crc="272490258" seo="true" mt="1480752552740" redirect="true"/>
+  <file name="index.html" crc="411564933" seo="true" mt="1480754075415" redirect="true"/>
 </manifest>
