@@ -1,4 +1,4 @@
-<manifest alg="2" build="2017.0.0.363" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster" exportTarget="other" domain="chomooncw.github.io" resolutions="1x,2x" timestamp="1481085272688">
+<manifest alg="2" build="2017.0.0.363" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster" exportTarget="other" domain="chomooncw.github.io" resolutions="1x,2x" timestamp="1481101088266">
   <folder name="css">
     <file name="site_global.css" crc="4210291208"/>
     <file name="master_a-master.css" crc="298682819" ref="cv:cherry-moon-uxuiweb-designer-copy:chomoon-uxuiweb-designer"/>
@@ -16,8 +16,8 @@
     <file name="chomoon-uxuiweb-designer.css" crc="14579145" ref="chomoon-uxuiweb-designer"/>
     <file name="blog.css" crc="107244077" ref="blog"/>
     <file name="iefonts_blog.css" crc="4239828132" ref="blog"/>
-    <file name="index.css" crc="118488832" ref="index"/>
-    <file name="iefonts_index.css" crc="4278581418" ref="index"/>
+    <file name="index.css" crc="50576581" ref="index"/>
+    <file name="iefonts_index.css" crc="3789739116" ref="index"/>
     <file name="iefonts_do-sth-cool.css" crc="375871684" ref="do-sth-cool"/>
   </folder>
   <folder name="assets">
@@ -170,6 +170,7 @@
     <file name="01077b554559e30000019ae9ab951fjpg@900w_1l_2o_100sh_2x.jpg" crc="282389303" seo="true" ref="index"/>
     <file name="019f5c554488b60000019ae9752b2djpg@900w_1l_2o_100sh.jpg" crc="503455920" seo="true" ref="index"/>
     <file name="019f5c554488b60000019ae9752b2djpg@900w_1l_2o_100sh_2x.jpg" crc="487718896" seo="true" ref="index"/>
+    <file name="画板 2-crop-u2157.jpg" crc="179094589" ref="index"/>
   </folder>
   <folder name="phone">
     <folder name="css">
@@ -190,5 +191,5 @@
   <file name="guxiaofan-cn.html" crc="135336714" seo="true" mt="1480752552755" redirect="true"/>
   <file name="cherry-moon-uxuiweb-designer-copy.html" crc="4263462829" seo="true" mt="1480752552746" redirect="true"/>
   <file name="do-sth-cool-2.html" crc="272490258" seo="true" mt="1480752552740" redirect="true"/>
-  <file name="index.html" crc="3951427720" seo="true" mt="1481085247739" redirect="true"/>
+  <file name="index.html" crc="381386850" seo="true" mt="1481085759120" redirect="true"/>
 </manifest>
