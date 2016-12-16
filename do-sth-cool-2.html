@@ -53,8 +53,8 @@ Muse.Utils.transformMarkupToFixBrowserProblemsPreInit();/* body */
 Muse.Utils.detectScreenResolution();/* HiDPI screens */
 Muse.Utils.prepHyperlinks(true);/* body */
 Muse.Utils.fullPage('#page');/* 100% height page */
-$('#u1031').registerOpacityScrollEffect([{"in":[-Infinity,236],"opacity":50,"fade":220},{"opacity":60,"in":[236,236]},{"in":[236,Infinity],"opacity":10,"fade":50}]);/* scroll effect */
-$('#u1025-4').registerPositionScrollEffect([{"speed":[-2,0],"in":[-Infinity,9.85]},{"speed":[-8,0],"in":[9.85,Infinity]}]);/* scroll effect */
+$('#u1031').registerOpacityScrollEffect([{"fade":220,"in":[-Infinity,236],"opacity":50},{"in":[236,236],"opacity":60},{"fade":50,"in":[236,Infinity],"opacity":10}]);/* scroll effect */
+$('#u1025-4').registerPositionScrollEffect([{"in":[-Infinity,9.85],"speed":[-2,0]},{"in":[9.85,Infinity],"speed":[-8,0]}]);/* scroll effect */
 Muse.Utils.showWidgetsWhenReady();/* body */
 Muse.Utils.transformMarkupToFixBrowserProblems();/* body */
 }catch(b){if(b&&"function"==typeof b.notify?b.notify():Muse.Assert.fail("Error calling selector function: "+b),false)throw b;}})})};

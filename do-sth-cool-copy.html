@@ -27,7 +27,7 @@ if(typeof Muse == "undefined") window.Muse = {}; window.Muse.assets = {"required
       <img class="position_content" id="u914_img" src="images/img_2653.jpg?crc=21624533" data-hidpi-src="images/img_2653_2x.jpg?crc=362147877" alt="" width="598" height="797"/>
      </div>
      <img class="mse_pre_init" id="u908-6" alt="做些 有趣的吧。" width="920" height="336" src="images/u908-6.png?crc=3833486684" data-hidpi-src="images/u908-6_2x.png?crc=268351234"/><!-- rasterized frame -->
-     <a class="nonblock nontext clip_frame" id="u1570" href="do-sth-cool.html"><!-- svg --><img class="svg" id="u911" src="images/pasted-svg-77596x118.svg?crc=478071959" width="62" height="94" alt=""/></a>
+     <a class="nonblock nontext clip_frame" id="u1570" href="do-sth-cool.html"><!-- svg --><img class="svg" id="u911" src="images/pasted-svg-77596x118.svg?crc=478071959" width="62" height="94" alt="" data-mu-svgfallback="images/pasted%20svg%2077596x118_poster_.png?crc=51854556"/></a>
      <img id="u926-4" alt="关于设计师" width="234" height="34" src="images/u926-4.png?crc=4280757587" data-hidpi-src="images/u926-4_2x.png?crc=494697070"/><!-- rasterized frame -->
     </div>
     <a class="nonblock nontext colelem" id="u910-4" href="bleunuit.html"><!-- rasterized frame --><img id="u910-4_img" alt="妆点人生 - Website" width="594" height="58" src="images/u910-4.png?crc=4121020663" data-hidpi-src="images/u910-4_2x.png?crc=498730824"/></a>
@@ -49,8 +49,8 @@ Muse.Utils.transformMarkupToFixBrowserProblemsPreInit();/* body */
 Muse.Utils.detectScreenResolution();/* HiDPI screens */
 Muse.Utils.prepHyperlinks(true);/* body */
 Muse.Utils.fullPage('#page');/* 100% height page */
-$('#u914').registerOpacityScrollEffect([{"in":[-Infinity,236],"opacity":50,"fade":220},{"opacity":60,"in":[236,236]},{"in":[236,Infinity],"opacity":10,"fade":50}]);/* scroll effect */
-$('#u908-6').registerPositionScrollEffect([{"speed":[-2,0],"in":[-Infinity,58.05]},{"speed":[-8,0],"in":[58.05,Infinity]}]);/* scroll effect */
+$('#u914').registerOpacityScrollEffect([{"fade":220,"in":[-Infinity,236],"opacity":50},{"in":[236,236],"opacity":60},{"fade":50,"in":[236,Infinity],"opacity":10}]);/* scroll effect */
+$('#u908-6').registerPositionScrollEffect([{"in":[-Infinity,58.05],"speed":[-2,0]},{"in":[58.05,Infinity],"speed":[-8,0]}]);/* scroll effect */
 Muse.Utils.showWidgetsWhenReady();/* body */
 Muse.Utils.transformMarkupToFixBrowserProblems();/* body */
 }catch(b){if(b&&"function"==typeof b.notify?b.notify():Muse.Assert.fail("Error calling selector function: "+b),false)throw b;}})})};
