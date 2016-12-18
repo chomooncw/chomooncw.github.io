@@ -1,35 +1,42 @@
-<manifest alg="2" build="2017.0.0.363" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster" exportTarget="other" domain="chomooncw.github.io" resolutions="1x,2x" timestamp="1481988558756">
+<manifest alg="2" build="2017.0.0.363" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster" exportTarget="other" domain="chomooncw.github.io" resolutions="1x,2x" timestamp="1482033226532">
   <folder name="css">
     <file name="site_global.css" crc="462947644"/>
-    <file name="index.css" crc="4143982319" ref="index"/>
+    <file name="index.css" crc="4134145995" ref="index"/>
     <file name="iefonts_index.css" crc="400713308" ref="index"/>
-    <file name="nomq_index.css" crc="204322946" ref="index"/>
-    <file name="do-sth-cool.css" crc="415017880" ref="do-sth-cool"/>
-    <file name="nomq_do-sth-cool.css" crc="3885068799" ref="do-sth-cool"/>
-    <file name="iefonts_do-sth-cool.css" crc="400713308" ref="do-sth-cool"/>
+    <file name="nomq_index.css" crc="4142261819" ref="index"/>
+    <file name="do-sth-cool.css" crc="3809479236" ref="do-sth-cool"/>
+    <file name="iefonts_do-sth-cool.css" crc="534916330" ref="do-sth-cool"/>
+    <file name="chomoon-cv.css" crc="3973352771" ref="chomoon-cv"/>
+    <file name="taketori.css" crc="3949100683" ref="chomoon-cv"/>
+    <file name="iefonts_chomoon-cv.css" crc="3902941730" ref="chomoon-cv"/>
   </folder>
   <folder name="assets">
     <file name="独占者副本.mp4" crc="3789962186" seo="true" mt="1427436922000"/>
     <file name="owner-framework-20150324副本.pdf" crc="4087491236" seo="true" mt="1428398038000"/>
   </folder>
   <folder name="scripts">
-    <file name="jquery-1.8.3.min.js" crc="209076791" ref="phone>index:index:do-sth-cool"/>
-    <file name="museutils.js" crc="163421577" ref="phone>index:index:do-sth-cool"/>
-    <file name="whatinput.js" crc="86476730" ref="phone>index:index:do-sth-cool"/>
-    <file name="museconfig.js" crc="168988563" ref="phone>index:index:do-sth-cool"/>
-    <file name="jquery.watch.js" crc="104486786" ref="phone>index:index:do-sth-cool"/>
-    <file name="require.js" crc="244322403" ref="phone>index:index:do-sth-cool"/>
-    <file name="jquery.museresponsive.js" crc="4146931122" ref="index:do-sth-cool"/>
+    <file name="jquery-1.8.3.min.js" crc="209076791" ref="phone>index:index:do-sth-cool:chomoon-cv"/>
+    <file name="museutils.js" crc="163421577" ref="phone>index:index:do-sth-cool:chomoon-cv"/>
+    <file name="whatinput.js" crc="86476730" ref="phone>index:index:do-sth-cool:chomoon-cv"/>
+    <file name="museconfig.js" crc="168988563" ref="phone>index:index:do-sth-cool:chomoon-cv"/>
+    <file name="jquery.watch.js" crc="104486786" ref="phone>index:index:do-sth-cool:chomoon-cv"/>
+    <file name="require.js" crc="244322403" ref="phone>index:index:do-sth-cool:chomoon-cv"/>
+    <file name="jquery.museresponsive.js" crc="4146931122" ref="index"/>
     <file name="webpro.js" crc="3848665353" ref="do-sth-cool"/>
     <file name="musewpslideshow.js" crc="4041717617" ref="do-sth-cool"/>
     <file name="jquery.museoverlay.js" crc="36492500" ref="do-sth-cool"/>
     <file name="touchswipe.js" crc="404375771" ref="do-sth-cool"/>
+    <file name="form_check.php" crc="158155501" ref="do-sth-cool"/>
+    <file name="form_throttle.php" crc="3992970984" ref="do-sth-cool"/>
+    <file name="form_process.php" crc="4078697226" ref="do-sth-cool"/>
+    <file name="form-u6114.php" crc="96185782" ref="do-sth-cool"/>
+    <file name="taketori.js" crc="4106779027" ref="chomoon-cv"/>
   </folder>
   <folder name="images">
     <file name="画板 1.jpg" crc="4037543008" seo="true" ref="index"/>
     <file name="画板 1_2x.jpg" crc="123317230" seo="true" ref="index"/>
-    <file name="画板 3.jpg" crc="141142138" seo="true" ref="index:do-sth-cool"/>
-    <file name="画板 3_2x.jpg" crc="3826878288" seo="true" ref="index:do-sth-cool"/>
+    <file name="画板 3.jpg" crc="141142138" seo="true" ref="index"/>
+    <file name="画板 3_2x.jpg" crc="3826878288" seo="true" ref="index"/>
     <file name="搜索 copy 4.jpg" crc="263319229" seo="true" ref="index"/>
     <file name="搜索 copy 4_2x.jpg" crc="231437576" seo="true" ref="index"/>
     <file name="选择咨询师.jpg" crc="4216317357" seo="true" ref="index"/>
@@ -39,7 +46,7 @@
     <file name="lock.jpg" crc="4068179188" seo="true" ref="index"/>
     <file name="lock_2x.jpg" crc="260452742" seo="true" ref="index"/>
     <file name="pasted-svg-408996x230.svg" crc="4186932436" seo="true" ref="phone>index:index:do-sth-cool"/>
-    <file name="pasted svg 408996x230_poster_.png" crc="3944229661" ref="phone>index"/>
+    <file name="pasted svg 408996x230_poster_.png" crc="3944229661" ref="phone>index:index:do-sth-cool"/>
     <file name="pasted image 100x100.png" crc="4010948630" seo="true" ref="phone>index:index"/>
     <file name="pasted image 100x100_2x.png" crc="308220654" seo="true" ref="phone>index:index"/>
     <file name="updating3 copy 9.jpg" crc="162619041" seo="true" ref="index"/>
@@ -67,7 +74,7 @@
     <file name="画板 2-crop-u21572.jpg" crc="389341456" ref="index"/>
     <file name="pasted image 100x10022x22.png" crc="4106840477" seo="true" ref="index"/>
     <file name="pasted image 100x10022x22_2x.png" crc="3767084910" seo="true" ref="index"/>
-    <file name="blank.gif" crc="4208392903" ref="index:do-sth-cool"/>
+    <file name="blank.gif" crc="4208392903" ref="index"/>
     <file name="pasted image 100x10026x26.png" crc="4228457590" seo="true" ref="index"/>
     <file name="pasted image 100x10026x26_2x.png" crc="454469116" seo="true" ref="index"/>
     <file name="画板 168x68.jpg" crc="3881045791" seo="true" ref="index"/>
@@ -87,18 +94,12 @@
     <file name="updating3 copy 10187x332.jpg" crc="434491745" seo="true" ref="index"/>
     <file name="updating3 copy 10187x332_2x.jpg" crc="4044025306" seo="true" ref="index"/>
     <file name="fd75ef4518977358292c3c5ba7e345x194.jpg" crc="4164435341" seo="true" ref="index"/>
-    <file name="练习-02-2.png" crc="19900206" seo="true" ref="do-sth-cool"/>
-    <file name="练习-02-2_2x.png" crc="521794649" seo="true" ref="do-sth-cool"/>
-    <file name="练习-02.png" crc="219899845" seo="true" ref="do-sth-cool"/>
-    <file name="练习-02_2x.png" crc="293383320" seo="true" ref="do-sth-cool"/>
-    <file name="u5425-4.png" crc="3923579171" ref="do-sth-cool"/>
-    <file name="u5425-4_2x.png" crc="4030481507" ref="do-sth-cool"/>
-    <file name="练习-02-2584x413.png" crc="4267308060" seo="true" ref="do-sth-cool"/>
-    <file name="练习-02-2584x413_2x.png" crc="3909670835" seo="true" ref="do-sth-cool"/>
-    <file name="练习-02584x413.png" crc="4138129807" seo="true" ref="do-sth-cool"/>
-    <file name="练习-02584x413_2x.png" crc="62680334" seo="true" ref="do-sth-cool"/>
-    <file name="u5425-42.png" crc="4191465266" ref="do-sth-cool"/>
-    <file name="u5425-4_2x2.png" crc="184225748" ref="do-sth-cool"/>
+    <file name="练习-02-2.png" crc="3797446540" seo="true" ref="do-sth-cool"/>
+    <file name="练习-02-2_2x.png" crc="4181415915" seo="true" ref="do-sth-cool"/>
+    <file name="练习-02.png" crc="112617493" seo="true" ref="do-sth-cool"/>
+    <file name="练习-02_2x.png" crc="448211174" seo="true" ref="do-sth-cool"/>
+    <file name="u5425-4.png" crc="4231249565" ref="do-sth-cool"/>
+    <file name="u5425-4_2x.png" crc="261099787" ref="do-sth-cool"/>
     <file name="画板 3151x151.jpg" crc="4191150326" seo="true" ref="do-sth-cool"/>
     <file name="画板 3151x151_2x.jpg" crc="3787083308" seo="true" ref="do-sth-cool"/>
     <file name="练习-02-3.gif" crc="4207196076" seo="true" ref="do-sth-cool"/>
@@ -106,6 +107,26 @@
     <file name="pasted image 100x10031x31_2x.png" crc="3906817141" seo="true" ref="do-sth-cool"/>
     <file name="pasted-svg-253147x158.svg" crc="505134742" seo="true" ref="do-sth-cool"/>
     <file name="pasted svg 253147x158_poster_.png" crc="4207033523" ref="do-sth-cool"/>
+    <file name="选择咨询师 copy 5.jpg" crc="349564035" seo="true" ref="do-sth-cool"/>
+    <file name="选择咨询师 copy 5_2x.jpg" crc="4169073853" seo="true" ref="do-sth-cool"/>
+    <file name="登录.jpg" crc="106245209" seo="true" ref="do-sth-cool"/>
+    <file name="登录_2x.jpg" crc="312988633" seo="true" ref="do-sth-cool"/>
+    <file name="输入密码2.jpg" crc="3961529054" seo="true" ref="do-sth-cool"/>
+    <file name="输入密码2_2x.jpg" crc="260826990" seo="true" ref="do-sth-cool"/>
+    <file name="album.jpg" crc="12824255" seo="true" ref="do-sth-cool"/>
+    <file name="album_2x.jpg" crc="30701528" seo="true" ref="do-sth-cool"/>
+    <file name="view mode copy.jpg" crc="3900253539" seo="true" ref="do-sth-cool"/>
+    <file name="view mode copy_2x.jpg" crc="294229996" seo="true" ref="do-sth-cool"/>
+    <file name="view mode.jpg" crc="4271195519" seo="true" ref="do-sth-cool"/>
+    <file name="view mode_2x.jpg" crc="366555115" seo="true" ref="do-sth-cool"/>
+    <file name="选择咨询师192x341.jpg" crc="9856439" seo="true" ref="do-sth-cool"/>
+    <file name="选择咨询师192x341_2x.jpg" crc="161147865" seo="true" ref="do-sth-cool"/>
+    <file name="搜索 copy 4192x341.jpg" crc="4153247003" seo="true" ref="do-sth-cool"/>
+    <file name="搜索 copy 4192x341_2x.jpg" crc="4173080845" seo="true" ref="do-sth-cool"/>
+    <file name="log in187x332.jpg" crc="3914553553" seo="true" ref="do-sth-cool"/>
+    <file name="log in187x332_2x.jpg" crc="4094651043" seo="true" ref="do-sth-cool"/>
+    <file name="lock187x332.jpg" crc="519756324" seo="true" ref="do-sth-cool"/>
+    <file name="lock187x332_2x.jpg" crc="279195987" seo="true" ref="do-sth-cool"/>
   </folder>
   <folder name="phone">
     <folder name="css">
@@ -115,6 +136,7 @@
     </folder>
     <file name="index.html" crc="151622179" seo="true" mt="1481988238283" redirect="true"/>
   </folder>
-  <file name="index.html" crc="517290835" seo="true" mt="1481988238290" redirect="true"/>
-  <file name="do-sth-cool.html" crc="4214588686" seo="true" mt="1481988555016" redirect="true"/>
+  <file name="index.html" crc="146837933" seo="true" mt="1482025493121" redirect="true"/>
+  <file name="do-sth-cool.html" crc="4037668464" seo="true" mt="1482033214021" redirect="true"/>
+  <file name="chomoon-cv.html" crc="4150318633" seo="true" mt="1482032332522" redirect="true"/>
 </manifest>
