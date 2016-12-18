@@ -1,11 +1,11 @@
-<manifest alg="2" build="2017.0.0.363" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster" exportTarget="other" domain="chomooncw.github.io" resolutions="1x,2x" timestamp="1482036424972">
+<manifest alg="2" build="2017.0.0.363" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster" exportTarget="other" domain="chomooncw.github.io" resolutions="1x,2x" timestamp="1482039468032">
   <folder name="css">
     <file name="site_global.css" crc="515731910"/>
-    <file name="index.css" crc="3951969182" ref="index"/>
-    <file name="iefonts_index.css" crc="313257456" ref="index"/>
+    <file name="index.css" crc="164861022" ref="index"/>
+    <file name="iefonts_index.css" crc="4013621319" ref="index"/>
     <file name="taketori.css" crc="3949100683" ref="cho-moon"/>
-    <file name="cho-moon.css" crc="425773827" ref="cho-moon"/>
-    <file name="iefonts_cho-moon.css" crc="437995800" ref="cho-moon"/>
+    <file name="cho-moon.css" crc="190504931" ref="cho-moon"/>
+    <file name="iefonts_cho-moon.css" crc="157489602" ref="cho-moon"/>
   </folder>
   <folder name="assets">
     <file name="独占者副本.mp4" crc="3789962186" seo="true" mt="1427436922000"/>
@@ -26,7 +26,7 @@
   </folder>
   <folder name="images">
     <file name="pasted-svg-408996x230.svg" crc="4186932436" seo="true" ref="phone>index:index"/>
-    <file name="pasted svg 408996x230_poster_.png" crc="3944229661" ref="phone>index"/>
+    <file name="pasted svg 408996x230_poster_.png" crc="3944229661" ref="phone>index:index"/>
     <file name="pasted image 100x100.png" crc="4010948630" seo="true" ref="phone>index"/>
     <file name="pasted image 100x100_2x.png" crc="308220654" seo="true" ref="phone>index"/>
     <file name="画板 3153x153.jpg" crc="98749372" seo="true" ref="phone>index"/>
@@ -81,6 +81,6 @@
     </folder>
     <file name="index.html" crc="313631112" seo="true" mt="1482036357715" redirect="true"/>
   </folder>
-  <file name="index.html" crc="3860978847" seo="true" mt="1482036396533" redirect="true"/>
-  <file name="cho-moon.html" crc="3826243846" seo="true" mt="1482036366027" redirect="true"/>
+  <file name="index.html" crc="3991370109" seo="true" mt="1482039454327" redirect="true"/>
+  <file name="cho-moon.html" crc="416721209" seo="true" mt="1482039093741" redirect="true"/>
 </manifest>
