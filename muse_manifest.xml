@@ -1,10 +1,10 @@
-<manifest alg="2" build="2017.0.0.363" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster" exportTarget="other" domain="chomooncw.github.io" resolutions="1x,2x" timestamp="1482033226532">
+<manifest alg="2" build="2017.0.0.363" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster" exportTarget="other" domain="chomooncw.github.io" resolutions="1x,2x" timestamp="1482033446327">
   <folder name="css">
     <file name="site_global.css" crc="462947644"/>
     <file name="index.css" crc="4134145995" ref="index"/>
     <file name="iefonts_index.css" crc="400713308" ref="index"/>
     <file name="nomq_index.css" crc="4142261819" ref="index"/>
-    <file name="do-sth-cool.css" crc="3809479236" ref="do-sth-cool"/>
+    <file name="do-sth-cool.css" crc="4215411938" ref="do-sth-cool"/>
     <file name="iefonts_do-sth-cool.css" crc="534916330" ref="do-sth-cool"/>
     <file name="chomoon-cv.css" crc="3973352771" ref="chomoon-cv"/>
     <file name="taketori.css" crc="3949100683" ref="chomoon-cv"/>
@@ -137,6 +137,6 @@
     <file name="index.html" crc="151622179" seo="true" mt="1481988238283" redirect="true"/>
   </folder>
   <file name="index.html" crc="146837933" seo="true" mt="1482025493121" redirect="true"/>
-  <file name="do-sth-cool.html" crc="4037668464" seo="true" mt="1482033214021" redirect="true"/>
+  <file name="do-sth-cool.html" crc="3910024311" seo="true" mt="1482033431227" redirect="true"/>
   <file name="chomoon-cv.html" crc="4150318633" seo="true" mt="1482032332522" redirect="true"/>
 </manifest>
