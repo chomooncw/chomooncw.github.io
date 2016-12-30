@@ -1,11 +1,11 @@
-<manifest alg="2" build="2017.0.0.363" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster" exportTarget="other" domain="chomooncw.github.io" resolutions="1x,2x" timestamp="1482039468032">
+<manifest alg="2" build="2017.0.0.363" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster" exportTarget="other" domain="chomooncw.github.io" resolutions="1x,2x" timestamp="1483105433198">
   <folder name="css">
-    <file name="site_global.css" crc="515731910"/>
-    <file name="index.css" crc="164861022" ref="index"/>
-    <file name="iefonts_index.css" crc="4013621319" ref="index"/>
+    <file name="site_global.css" crc="4270935185"/>
+    <file name="index.css" crc="81690176" ref="index"/>
+    <file name="iefonts_index.css" crc="4103206965" ref="index"/>
     <file name="taketori.css" crc="3949100683" ref="cho-moon"/>
-    <file name="cho-moon.css" crc="190504931" ref="cho-moon"/>
-    <file name="iefonts_cho-moon.css" crc="157489602" ref="cho-moon"/>
+    <file name="cho-moon.css" crc="3893048009" ref="cho-moon"/>
+    <file name="iefonts_cho-moon.css" crc="509382234" ref="cho-moon"/>
   </folder>
   <folder name="assets">
     <file name="独占者副本.mp4" crc="3789962186" seo="true" mt="1427436922000"/>
@@ -23,6 +23,7 @@
     <file name="jquery.museoverlay.js" crc="36492500" ref="index"/>
     <file name="touchswipe.js" crc="404375771" ref="index"/>
     <file name="taketori.js" crc="4106779027" ref="cho-moon"/>
+    <file name="jquery.scrolleffects.js" crc="4065090679" ref="index"/>
   </folder>
   <folder name="images">
     <file name="pasted-svg-408996x230.svg" crc="4186932436" seo="true" ref="phone>index:index"/>
@@ -41,9 +42,7 @@
     <file name="lock153x271_2x.jpg" crc="278052463" seo="true" ref="phone>index"/>
     <file name="画板 2-crop-u2338.jpg" crc="4238466432" ref="phone>index"/>
     <file name="练习-02-2.png" crc="3797446540" seo="true" ref="index"/>
-    <file name="练习-02-2_2x.png" crc="4181415915" seo="true" ref="index"/>
     <file name="练习-02.png" crc="112617493" seo="true" ref="index"/>
-    <file name="练习-02_2x.png" crc="448211174" seo="true" ref="index"/>
     <file name="u5425-4.png" crc="4231249565" ref="index"/>
     <file name="u5425-4_2x.png" crc="261099787" ref="index"/>
     <file name="画板 3151x151.jpg" crc="4191150326" seo="true" ref="index"/>
@@ -76,11 +75,11 @@
   </folder>
   <folder name="phone">
     <folder name="css">
-      <file name="index.css" crc="505614311" ref="phone>index"/>
-      <file name="iefonts_index.css" crc="3977014073" ref="phone>index"/>
+      <file name="index.css" crc="4280277780" ref="phone>index"/>
+      <file name="iefonts_index.css" crc="3903681227" ref="phone>index"/>
     </folder>
-    <file name="index.html" crc="313631112" seo="true" mt="1482036357715" redirect="true"/>
+    <file name="index.html" crc="3892293533" seo="true" mt="1482156472690" redirect="true"/>
   </folder>
-  <file name="index.html" crc="3991370109" seo="true" mt="1482039454327" redirect="true"/>
-  <file name="cho-moon.html" crc="416721209" seo="true" mt="1482039093741" redirect="true"/>
+  <file name="index.html" crc="2052077" seo="true" mt="1483105364017" redirect="true"/>
+  <file name="cho-moon.html" crc="359951937" seo="true" mt="1482156521561" redirect="true"/>
 </manifest>
