@@ -1,5 +1,6 @@
 # chomooncw.github.io
-This is the old site.
-Please turn to the new one.
+## Hello!
+This is my first blog on GitHub.
 
-http://dosthcool.github.io
+
+U can check my design works on[ul]http://dosthcool.github.io[/ul]
