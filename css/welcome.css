@@ -1,5 +1,6 @@
 /*links*/
 .body{
+	background-color: #F4FFF2;
 	color: #565656;
 	font-family: "zh quote", -apple-system, BlinkMacSystemFont, "PingFang SC", "Noto Sans", "Noto Sans CJK SC", "Microsoft YaHei", 微软雅黑, sans-serif, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 }
@@ -37,7 +38,7 @@
 }
 
 code{
-	background-color: #F7E8EC;
+	/* background-color: #F7E8EC; */
 	color:#B38F97;
 	margin: 16px 0px;
 }
@@ -187,7 +188,7 @@ section p{
 }
 
 .intro code:hover{
-	background-color: #FFF5F8;
+	/* background-color: #FFF5F8; */
 }
 
 .intro p{
@@ -199,11 +200,11 @@ section p{
 
 /*nav bar*/
 .navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover{
-	background-color: #fff;
+	/* background-color: #fff; */
 }
 
 .navbar{
-	background-color: #fff;
+	/* background-color: #fff; */
 	color:#BBB;
 	opacity: 0.8;
 }
@@ -221,12 +222,12 @@ section p{
 
 .top .container-fluid{
 	padding: 0;
-	background-color: #fff;
+	/* background-color: #fff; */
 /*	border-style: none; */
 }
 .top .navbar-header{
 	padding: 0;
-	background-color: #fff;
+	/* background-color: #fff; */
 /*	border: 0px;*/
 }
 .top .navbar-default{
