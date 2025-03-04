@@ -1,18 +1,30 @@
 /*links*/
 .body{
-	background-color: #F4FFF2;
+	/* background-color: #F4FFF2; */
+	background-image: url('img/2.JPG'); /* 替换为你的图片URL */
+    background-size: cover; /* 图片覆盖整个页面 */
+    background-position: center; /* 图片居中 */
+    background-repeat: no-repeat; /* 不重复 */
 	color: #565656;
 	font-family: "zh quote", -apple-system, BlinkMacSystemFont, "PingFang SC", "Noto Sans", "Noto Sans CJK SC", "Microsoft YaHei", 微软雅黑, sans-serif, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 }
 
+.logo{
+	position: fixed; /* 固定在视口位置 */
+  top: 0; /* 顶部对齐 */
+  left: 50%; /* 水平居中 */
+  transform: translateX(-50%); /* 偏移调整，确保完全居中 */
+  z-index: 1000; /* 确保在其他内容之上 */
+}
+
 .illustration{
-	border-radius: 100%;
-	height: 300px;
+	border-radius: 60px;
+	/* height: 100%;
+	width: 100%; */
 	overflow: hidden;
 }
 
 .illustration  img {
-	/*  	width: 100%;*/
 	object-fit: cover;
 }
 
