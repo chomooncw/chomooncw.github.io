@@ -12,8 +12,9 @@
 .logo{
 	position: fixed; /* 固定在视口位置 */
   top: 0; /* 顶部对齐 */
-  left: 50%; /* 水平居中 */
-  transform: translateX(-50%); /* 偏移调整，确保完全居中 */
+  left: 20px;
+  left: 50%; 
+  transform: translateX(-50%); 
   z-index: 1000; /* 确保在其他内容之上 */
 }
 
@@ -27,6 +28,8 @@
 .illustration  img {
 	object-fit: cover;
 }
+
+
 
 
 #menu{
@@ -227,9 +230,9 @@ section p{
 }
 
 .navbar{
-	/* background-color: #fff; */
-	color:#BBB;
-	opacity: 0.8;
+	background-color:transparent;
+	color:#1f1d1d;
+	/* opacity: 0.8; */
 }
 
 .navbar > .active{
@@ -250,8 +253,8 @@ section p{
 }
 .top .navbar-header{
 	padding: 0;
-	/* background-color: #fff; */
-/*	border: 0px;*/
+	background-color:transparent;
+	border: 0px;
 }
 .top .navbar-default{
 	border: 0px;
