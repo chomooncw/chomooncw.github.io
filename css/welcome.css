@@ -1,50 +1,20 @@
 /*links*/
 .body{
-	/* background-color: #F4FFF2; */
-	background-image: url('img/2.JPG'); /* 替换为你的图片URL */
-    background-size: cover; /* 图片覆盖整个页面 */
-    background-position: center; /* 图片居中 */
-    background-repeat: no-repeat; /* 不重复 */
 	color: #565656;
 	font-family: "zh quote", -apple-system, BlinkMacSystemFont, "PingFang SC", "Noto Sans", "Noto Sans CJK SC", "Microsoft YaHei", 微软雅黑, sans-serif, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 }
 
 .logo{
 	position: fixed; /* 固定在视口位置 */
-  top: 0; /* 顶部对齐 */
-  left: 20px;
-  left: 50%; 
-  transform: translateX(-50%); 
-  z-index: 1000; /* 确保在其他内容之上 */
+  	top: 24px; /* 顶部对齐 */
+  	/* left: 50%; 
+  	transform: translateX(-50%);  */
+  	z-index: 1000; /* 确保在其他内容之上 */
 }
 
-.illustration{
-	border-radius: 60px;
-	/* height: 100%;
-	width: 100%; */
-	overflow: hidden;
+.logo p img{
+	height:80px;
 }
-
-.illustration  img {
-	object-fit: cover;
-}
-
-
-
-
-#menu{
-	position:fixed;
-	right: 40px; 
-	bottom: 40px;
-	z-index: 999;
-}
-
-
-#menu a{
-	background-color: #666;
-}
-
-
 #menu .totop img:hover{
 	opacity: 0.6;
 }
@@ -165,9 +135,7 @@ section p{
 	opacity: 0.8;
 	border-bottom: 5px solid #F7C6D1;
 }
-.Say a:hover{
-	color: #F2709C;
-}
+
 .workfooter a{
 	opacity: 0.4;
 	color: #eee;
@@ -322,9 +290,6 @@ small{
 	line-height: 32px;
 }
 
-.Say big{
-	color: #FFCB59;
-}
 
 big{
 	font-size: 24px;
