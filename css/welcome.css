@@ -1,6 +1,13 @@
-/*links*/
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+
 .body{
-	font-size: 14px;
+	font-size: 16;
 	font-family: "zh quote", -apple-system, BlinkMacSystemFont, "PingFang SC", "Noto Sans", "Noto Sans CJK SC", "Microsoft YaHei", 微软雅黑, sans-serif, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 }
 
@@ -16,17 +23,12 @@
 	height:80px;
 }
 .rose{
+	width: 1064px;
+	height: 600px;
 	background-image: url('img/bg1.png');
 	background-repeat: no-repeat;
 	position: absolute;
 	bottom: 0;
-	/* right: 0;
-	left: 100px;
-	top: 100px; */
-	z-index: 1;
-	width: 1620px;
-	height: 650px;
-	bottom:0;
 	Top:0;
 	margin:auto;
 }
@@ -136,9 +138,6 @@ code{
 	opacity: 0.8;
 }
 
-.pageheader p{
-	margin-top: 0px;
-}
 
 .project .piece{
 	text-decoration: none;
@@ -154,14 +153,6 @@ code{
   	border-left: 12px solid #F7C6D1;
   	padding-left: 12px;
   	opacity: 1;
-}
-.project a > p{
-	text-decoration: none;
-	/*opacity: 0.4;*/
-	color:#565656;
-	font-weight: 500;
-	font-size: 24px;
-	
 }
 
 .project a{
@@ -186,9 +177,7 @@ section a:hover{
 	opacity: 0.8;
 }
 
-section p{
-	line-height: 20px;
-}
+
 
 
 .project span > small{
@@ -258,21 +247,9 @@ section p{
 	/* border-bottom: 5px solid #F7C6D1; */
 }
 
-.intro code:hover{
-	/* background-color: #FFF5F8; */
-}
-
-.intro p{
-	font-size: 18px;
-	line-height: 28px;
-	padding-top: 18px;
-}
 
 
-/*nav bar*/
-.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover{
-	/* background-color: #fff; */
-}
+
 
 .navbar{
 	background-color:transparent;
@@ -351,13 +328,6 @@ h6{
 	font-weight: 100px;
 }
 
-p{
-	font-size: 16px;
-	line-height: 32px;
-	color: #565656;
-	letter-spacing: 0.3px;
-	/*margin: 24px 0px;*/
-}
 
 small{
 	color: #aaa;
@@ -539,13 +509,7 @@ big{
 	
 }
 */
-.illustration .center{
-	/*position: absolute;
-	left: 0;
-	right: 0;
-	top: 0;
-	bottom: 0;*/
-}
+
 
 .photo img{
 	padding-top: 20px;
