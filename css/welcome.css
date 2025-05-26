@@ -1,6 +1,5 @@
 /*links*/
 .body{
-	color: #565656;
 	font-size: 14px;
 	font-family: "zh quote", -apple-system, BlinkMacSystemFont, "PingFang SC", "Noto Sans", "Noto Sans CJK SC", "Microsoft YaHei", 微软雅黑, sans-serif, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 }
@@ -553,9 +552,4 @@ big{
 .subtitle {
 	color:#aaa;
 	font-size: 16px;
-}
-
-.title {
-	font-weight: 450;
-	font-size: 26px;
 }
