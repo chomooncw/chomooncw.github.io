@@ -22,6 +22,7 @@
 .logo p img{
 	height:80px;
 }
+
 .rose{
 	width: 1064px;
 	height: 600px;
@@ -38,8 +39,6 @@
 	/* text-align: center; */
 	/* font-size: 22px; */
 	position: absolute;
-	top: 240px;
-	left: 600px;
 	width: 600px;
 	height: 400px;
 	z-index: 2;
