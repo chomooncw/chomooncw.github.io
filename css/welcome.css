@@ -18,15 +18,17 @@
 .rose{
 	background-image: url('img/bg1.png');
 	background-repeat: no-repeat;
-	/* background-size: 90%; */
 	position: absolute;
 	bottom: 0;
-	right: 0;
+	/* right: 0;
 	left: 100px;
-	top: 100px;
+	top: 100px; */
 	z-index: 1;
 	width: 1620px;
 	height: 650px;
+	bottom:0;
+	Top:0;
+	margin:auto;
 }
 
 .wen{
