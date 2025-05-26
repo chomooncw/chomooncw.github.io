@@ -10,6 +10,7 @@
 	  font-size: 16;
 	  font-family: "zh quote", -apple-system, BlinkMacSystemFont, "PingFang SC", "Noto Sans", "Noto Sans CJK SC", "Microsoft YaHei", 微软雅黑, sans-serif, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   }
+
   
   .logo{
 	  position: fixed; /* 固定在视口位置 */
@@ -79,6 +80,26 @@
 	  top: 64px;
   }
   
+
+  #popupBox {
+	position: fixed;
+	bottom: 140px; /* 控制显示在图片正上方 */
+	left: 20px;
+	width: 300px;
+	height: 450px;
+	background: white;
+	box-shadow: 0 0 10px rgba(0,0,0,0.3);
+	border-radius: 8px;
+	overflow: hidden;
+	display: none; /* 默认隐藏 */
+	z-index: 1001;
+  }
+
+  iframe {
+	width: 100%;
+	height: 100%;
+	border: none;
+
 
   ::-webkit-scrollbar {
 	  width: 5px;

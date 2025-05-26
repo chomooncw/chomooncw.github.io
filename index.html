@@ -54,6 +54,37 @@
 	<div class="play"></div>
 </div>
 
+<div style="position: fixed;bottom: 20px;left: 40px;cursor: pointer;"><img id="message" src="img/message1.png" width="145px" alt="message"></div>
+
+<div id="popupBox">
+    <iframe src="https://www3.cbox.ws/box/?boxid=3546867&boxtag=39igYQ" 
+            allowtransparency="yes" 
+            allow="autoplay" 
+            scrolling="auto">
+    </iframe>
+  </div>
+
+  <script>
+	
+    const popup = document.getElementById('popupBox');
+    const img = document.getElementById('message');
+	let showing = false;
+
+    img.addEventListener('mouseover', () => {
+      img.src = 'img/message2.png';
+    });
+
+    img.addEventListener('mouseout', () => {
+      img.src = 'img/message1.png';
+    });
+
+	img.addEventListener('click', () => {
+      showing = !showing;
+      popup.style.display = showing ? 'block' : 'none';
+      // 可选：点击后固定图片状态为 hover 图
+      img.src = showing ? 'img/message2.png' : 'img/message1.png';
+    });
+  </script>
 
 <audio id="bgMusic" autoplay loop>
     <source src="music.mp3" type="audio/mpeg">
