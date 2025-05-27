@@ -3,18 +3,7 @@
 	<meta charset="utf-8"> 
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 	<link rel="stylesheet" href="css/welcome.css"> 	
-	<link rel="stylesheet" href="css/bootstrap.min.css"> 
-	
-	<link rel="stylesheet" type="text/css" href="css/detail.css">
-	<link rel="stylesheet" type="text/css" href="css/animate.css">
 	<link rel="icon" type="image/png"href="img/favicon.png">
-<script src="https://cdn.jsdelivr.net/npm/masonry-layout@4.2.2/dist/masonry.pkgd.min.js" integrity="sha384-GNFwBvfVxBkLMJpYMOABq3c+d3KnQxudP/mGPkzpZSTYykLBNsZEnG2D9G/X/+7D" crossorigin="anonymous" async></script>
-  
-	<script src="https://unpkg.com/masonry-layout@4/dist/masonry.pkgd.min.js"></script>
-  <script src="js/jquery.min.js"></script>
-  <script src="js/bootstrap.min.js"></script>
-  <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css"> -->
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-cJNgMgu3KzohvNhptcnOMD4cBfYHJPrxN5V1YVFyNBKAxYXwBrSHjYVx74nSHFAH" crossorigin="anonymous">
   <title>Roswen's Art</title>
   <style>  #popupBox {
     position: fixed;
@@ -28,7 +17,9 @@
     overflow: hidden;
     display: none; /* 默认隐藏 */
     z-index: 1001;
-    }</style>
+    }
+
+    </style>
 </head>
 
 <body style="background-image: url('img/bg1.jpg');background-repeat: repeat;">
@@ -36,36 +27,45 @@
 <div class="rose" style="background-image: url('img/bg1.png');background-repeat: no-repeat;">
 </div>
 
-	<div class="wen">
-		<img style="position: absolute;z-index: 6;top: 64px;" src="img/me.png" width="200px" height="auto">
-		<div class="intro">
-			<code>欢迎光临</code>
-			<h2><b>
-				我的电子小天地！
-			</b></h2>
-			<p>
-				因为一直想要一个不会消失的小窝，所以我创建了这个网站。
-				这里会不定时更新一些稀奇古怪的手绘和拼贴。
-				希望能和你做电子好朋友！
-			<br>
-			<br>
-			</p>
-			<p style="font-size: 14px;color: #a6a690;font-style: italic;">
-				专门为电脑浏览而设计的网页，
-			<br>	请在电脑屏幕上欣赏。
-			</p>
-			
-			<a href="https://www.instagram.com/roswen.art/" target="_blank"><img src="img/ig.png" style="height: 40px;"></a>
-  			<a href="https://roswen.notion.site/Roswen-1a1525f1f3cc802b8d03d024ec4856b7" target="_blank" ><img src="img/notion.png" style="height: 40px;"></a>
-			<a href="https://www.pinterest.com/roswen_art/_profile/" target="_blank" ><img src="img/pin.png" style="height: 40px;"></a>
-			
-		</div>
+<!-- 欢迎与介绍 -->
 
-	</div>
+
+
+<iframe class="wen" src="content.html">
+
+</iframe>
 	
+
+  <!-- 音乐播放 -->
 <div class="music" style="background-image: url('img/music.png'); background-size: cover;">
 	<div class="play"></div>
 </div>
+
+<audio id="bgMusic" autoplay loop>
+  <source src="music.mp3" type="audio/mpeg">
+  您的浏览器不支持音频播放。
+</audio>
+
+<script>
+  const music = document.getElementById('bgMusic');
+  const musicBox = document.querySelector('.music');
+
+  // 自动播放兼容处理
+  music.play().catch(() => {
+    console.log("等待用户交互后再播放");
+  });
+
+  musicBox.addEventListener('click', () => {
+    if (music.paused) {
+      music.play();
+    } else {
+      music.pause();
+    }
+  });
+</script>
+
+
+<!-- 留言板 -->
 
 <div style="position: fixed;bottom: 20px;left: 40px;cursor: pointer;"><img id="message" src="img/message1.png" width="145px" alt="message"></div>
 
@@ -99,28 +99,8 @@
     });
   </script>
 
-<audio id="bgMusic" autoplay loop>
-    <source src="music.mp3" type="audio/mpeg">
-    您的浏览器不支持音频播放。
-  </audio>
 
-  <script>
-    const music = document.getElementById('bgMusic');
-    const musicBox = document.querySelector('.music');
 
-    // 自动播放兼容处理
-    music.play().catch(() => {
-      console.log("等待用户交互后再播放");
-    });
-
-    musicBox.addEventListener('click', () => {
-      if (music.paused) {
-        music.play();
-      } else {
-        music.pause();
-      }
-    });
-  </script>
 
 
 <script type="text/javascript">var cnzz_protocol = (("https:" == document.location.protocol) ? "https://" : "http://");document.write(unescape("%3Cspan id='cnzz_stat_icon_1278588704'%3E%3C/span%3E%3Cscript src='" + cnzz_protocol + "s4.cnzz.com/z_stat.php%3Fid%3D1278588704%26show%3Dpic1' type='text/javascript'%3E%3C/script%3E"));</script>
