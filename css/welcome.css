@@ -4,6 +4,24 @@
 	font-style: italic;
 }
 
+#blog{
+	padding-bottom: 4px;
+	margin-top: 4px;
+	line-height: 2;
+}
+
+#blog img{
+	width: 200px;              /* 设置统一宽度 */
+  	height: 200px;             /* 设置统一高度，强制成正方形 */
+  	object-fit: cover;         /* 保持图片比例并裁剪填满 */
+  	border-radius: 20px; 
+	text-align: center;
+}
+
+.divider{
+	padding: 16px;
+}
+
 * {
 	margin: 0;
 	padding: 0;
@@ -18,16 +36,18 @@
 
   
   .logo{
-	  position: fixed; /* 固定在视口位置 */
-		top: 80px; /* 顶部对齐 */
-		left: 50%; 
-		transform: translateX(-50%);  
-		z-index: 1000; /* 确保在其他内容之上 */
+	position: fixed; /* 固定在视口位置 */
+	top: 0px; /* 顶部对齐 */
+	left: 50%; 
+	transform: translateX(-50%);  
+	z-index: 1000; /* 确保在其他内容之上 */
+	line-height: 4;
+	background-color: #ffffff;
+	color: #565656;
+	width: 100%;
+	text-align: center;
   }
   
-  .logo p img{
-	  height:80px;
-  }
   
   .rose{
 	  width: 1064px;
@@ -47,7 +67,7 @@
 	  overflow-y:scroll;
 	  position: absolute;
 	  width: 560px;
-	  height: 400px;
+	  height: 440px;
 	  margin: auto;
 	  left: 0;
 	  right: 0;
@@ -82,7 +102,7 @@
 	  width: 300px;
 	  height: auto; 
 	  left: 220px;
-	  top: 24px;
+	  top: 54px;
   }
   
 
