@@ -1,3 +1,9 @@
+.dokdo-regular {
+  font-family: "Dokdo", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+
 .small{
 	font-size: 14px;
 	color: #a5a5a5;
@@ -48,16 +54,20 @@
   
   .logo a{
 	color: #FFFFFF;
-	font-size: 18px;
+	font-size: 24px;
 	margin-right:  48px;
 	text-decoration: none;
 	font-weight: 600;
+
+  }
+
+.glow-link{
 	text-shadow:
     0 0 5px #F2809D,
     0 0 10px #F2809D,
     0 0 12px #F2809D,
     0 0 32px #F2809D;
-  }
+}
 
  .logo a:link,
 a:visited,
