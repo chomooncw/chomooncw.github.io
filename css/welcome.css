@@ -6,7 +6,6 @@
 
 #blog{
 	padding-bottom: 4px;
-	margin-top: 4px;
 	line-height: 2;
 }
 
@@ -37,17 +36,35 @@
   
   .logo{
 	position: fixed; /* 固定在视口位置 */
-	top: 0px; /* 顶部对齐 */
-	left: 50%; 
+	top: 200px; 
+	left: 50%;
 	transform: translateX(-50%);  
 	z-index: 1000; /* 确保在其他内容之上 */
-	line-height: 4;
-	background-color: #ffffff;
-	color: #565656;
-	width: 100%;
+	/* background-color: #ffffff; */
+	color: #F2809D;
+	width: 560px;
 	text-align: center;
   }
   
+  .logo a{
+	color: #FFFFFF;
+	font-size: 18px;
+	margin-right:  48px;
+	text-decoration: none;
+	font-weight: 600;
+	text-shadow:
+    0 0 5px #F2809D,
+    0 0 10px #F2809D,
+    0 0 12px #F2809D,
+    0 0 32px #F2809D;
+  }
+
+ .logo a:link,
+a:visited,
+a:hover,
+a:active {
+  text-decoration: none;
+}
   
   .rose{
 	  width: 1064px;
