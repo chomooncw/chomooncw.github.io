@@ -42,7 +42,7 @@
   
   .logo{
 	position: fixed; /* 固定在视口位置 */
-	top: 200px; 
+	top: 140px; 
 	left: 50%;
 	transform: translateX(-50%);  
 	z-index: 1000; /* 确保在其他内容之上 */
