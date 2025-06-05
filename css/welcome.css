@@ -75,6 +75,12 @@ a:hover,
 a:active {
   text-decoration: none;
 }
+
+.responsive-img {
+  max-width: 100%;
+  height: auto;
+  display: block; /* 避免图片下方有空隙 */
+}
   
   .rose{
 	  width: 1064px;
@@ -249,8 +255,6 @@ a:active {
   
   
   
-
-
   
   .footer a{
 	  opacity: 0.4;
