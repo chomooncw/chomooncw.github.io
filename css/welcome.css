@@ -34,10 +34,10 @@
 	max-width: 100%;
   }
   
-  .body{
+  /* .body{
 	  font-size: 16;
 	  font-family: "zh quote", -apple-system, BlinkMacSystemFont, "PingFang SC", "Noto Sans", "Noto Sans CJK SC", "Microsoft YaHei", 微软雅黑, sans-serif, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-  }
+  } */
 
   
   .logo{
@@ -118,8 +118,13 @@ a:active {
 	  width: 90px;
 	  height: auto;
 	  cursor: pointer;
+	  transition: transform 0.3s ease;
   }
   
+.music:hover {
+  transform: rotate(5deg);
+}
+
   audio {
 		display: none;
 	  }
