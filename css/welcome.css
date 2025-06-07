@@ -1,3 +1,51 @@
+.menu{
+	background-color: #ffd7de;
+	margin: auto;
+	color: rgb(251, 147, 168);
+	font-size: 18px;
+	font-family: "lacythethree", system-ui;
+	align-items: center;
+	display: flex;
+  	justify-content: center; /* 水平居中 */
+  	align-items: center;      /* 垂直居中 */
+	border-radius: 16px 16px 0 0;
+	height: 48px;
+	width: 90px;
+	/* z-index: 999; */
+	position: relative;
+	border-top: 2px solid #ffd7de47;
+  	border-left: 2px solid #ffd7de47;
+  	border-right: 2px solid #ffd7de47;
+  	border-bottom: none;
+
+}
+
+.menu.active {
+	background-color: #ffffff;
+	color: rgb(252, 81, 115);
+	font-family: "lacythethree", system-ui;
+	align-items: center;
+	display: flex;
+  	justify-content: center; /* 水平居中 */
+  	align-items: center;      /* 垂直居中 */
+	border-radius: 16px 16px 0 0;
+}
+
+
+
+.menu:hover{
+	background-color: #ffd7de90;
+	color: rgb(241, 49, 87);
+	/* background-color: #d7f1ff; */
+}
+
+@font-face {
+  font-family: 'lacythethree';
+  src: url('fonts/lacythethree.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
 .dokdo-regular {
   font-family: "Dokdo", system-ui;
   font-weight: 400;
@@ -34,10 +82,10 @@
 	max-width: 100%;
   }
   
-  /* .body{
+  .body{
 	  font-size: 16;
-	  font-family: "zh quote", -apple-system, BlinkMacSystemFont, "PingFang SC", "Noto Sans", "Noto Sans CJK SC", "Microsoft YaHei", 微软雅黑, sans-serif, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-  } */
+	  font-family: 'lacythethree', ms pgothic, sans-serif; 
+	}
 
   
   .logo{
@@ -93,14 +141,14 @@ a:active {
 	  bottom: 0;
 	  Top:0;
 	  margin:auto;
-	  z-index: 2;
+	  /* z-index: 999; */
   }
   
   .wen{
 	  overflow-y:scroll;
 	  position: absolute;
-	  width: 560px;
-	  height: 440px;
+	  width: 720px;
+	  height: 444px;
 	  margin: auto;
 	  left: 0;
 	  right: 0;
@@ -108,6 +156,11 @@ a:active {
 	  bottom: 0;
 	  z-index: 2;
 	  scroll-behavior: smooth;
+	  border-radius: 20px;
+		box-shadow:
+		0 0 20px #f4829948,
+		0 0 40px #f48298aa,
+		0 0 80px #f4829924;
   }
   
   .music{
