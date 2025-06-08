@@ -3,10 +3,9 @@
 	align-items: center;
 	font-size: 14px;
 	font-family: "lacythethree", system-ui;
-	position: absolute;
-	margin: auto;
-	left: 50%;
+	position: absolute; 
 	bottom: 0px;
+	right:0px
 }
 
 
