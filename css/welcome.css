@@ -1,3 +1,23 @@
+.history{
+	font-family: 'lacythethree', ms pgothic, sans-serif;
+	line-height: 2;
+	text-align: left;
+}
+
+.contentL{
+	height: auto; 
+	right: 50%;
+	padding: 40px;
+	font-family: "lacythethree", system-ui;
+	float: left;
+}
+
+.contentR{
+	height: auto; 
+	left: 50%;
+	padding: 40px;
+}
+
 .counter{
 	color: #F2809D;
 	align-items: center;
@@ -12,7 +32,7 @@
 .menu{
 	background-color: #ffd7de;
 	margin: auto;
-	color: rgb(251, 147, 168);
+	color: #F2809D;
 	font-size: 18px;
 	font-family: "lacythethree", system-ui;
 	align-items: center;
@@ -32,7 +52,7 @@
 }
 
 .menu.active {
-	background-color: #ffffff;
+	background-color: #fffefa;
 	color: rgb(252, 81, 115);
 	font-family: "lacythethree", system-ui;
 	align-items: center;
@@ -43,20 +63,15 @@
 }
 
 .menu:hover{
-	background-color: #ffe5ea;
-	color: rgb(241, 49, 87);
+	/* background-color: #fffcf5; */
+	color: rgb(178, 116, 36);
+	background: linear-gradient(to bottom, #fffcef, #fffefa);
 }
 
 @font-face {
   font-family: 'lacythethree';
   src: url('fonts/lacythethree.ttf') format('truetype');
   font-weight: normal;
-  font-style: normal;
-}
-
-.dokdo-regular {
-  font-family: "Dokdo", system-ui;
-  font-weight: 400;
   font-style: normal;
 }
 
@@ -76,11 +91,7 @@
 	position: absolute;
 }
 
-.small{
-	font-size: 14px;
-	color: #a5a5a5;
-	font-style: italic;
-}
+
 
 #blog{
 	padding-bottom: 4px;
@@ -106,13 +117,10 @@
 	max-width: 100%;
   }
   
-  .body{
-	  font-size: 16;
-	  font-family: 'lacythethree', ms pgothic, sans-serif; 
-	}
+
 
   
-  .logo{
+.logo{
 	position: fixed; /* 固定在视口位置 */
 	top: 140px; 
 	left: 50%;
@@ -124,7 +132,7 @@
 	text-align: center;
   }
   
-  .logo a{
+.logo a{
 	color: #FFFFFF;
 	font-size: 24px;
 	margin-right:  48px;
@@ -141,7 +149,7 @@
     0 0 32px #F2809D;
 }
 
- .logo a:link,
+.logo a:link,
 a:visited,
 a:hover,
 a:active {
@@ -211,14 +219,7 @@ a:active {
 	  cursor: pointer;
   }
   
-  .intro{
-	  position: absolute;
-	  width: 300px;
-	  height: auto; 
-	  left: 220px;
-	  top: 54px;
-  }
-  
+
 
 
   iframe {
@@ -250,18 +251,7 @@ a:active {
   
 
   
-  #menu .totop img:hover{
-	  opacity: 0.6;
-  }
-  
-  .MenuList .affix{
-	  top: 40px;
-  }
-  
-  .MenuList{
-	  margin-top: 40px;
-  }
-  
+
   .totop{
 	  color:#5c5c5c;
 	  font-size: 16px;
@@ -439,12 +429,10 @@ a:active {
 	  font-size: 36px;
 	  color: #565656;
 	  font-weight: 500;
-	  /*font-family: 'Roboto', sans-serif;*/
 	  
   }
   h2{
 	  font-size: 32px;
-	  /*margin-bottom: 18px;*/
 	  margin-top: 80px;
   }
   h3{
@@ -463,20 +451,7 @@ a:active {
 	  
   }
   
-  h6{
-	  font-size: 14px;
-	  /*color: #3C3C3C;*/
-	  margin-top: 24px;
-  /*	font-family: sans-serif;*/
-	  font-weight: 100px;
-  }
-  
-  
-  small{
-	  color: #aaa;
-	  font-size: 14px;
-	  font-family: sans-serif;
-  }
+
   
   
   big{
@@ -529,15 +504,7 @@ a:active {
 	  margin-top: 16px;
   }
   
-  .card-name{
-	  display: none;
-	  position: absolute;
-	  width: 100%;
-	  height: 54%;
-	  color: #565656;
-	  font-size: 16px;
-  }
-  
+
   
   .hover-content{
 	  display: none;
@@ -548,12 +515,6 @@ a:active {
 	  border-radius: 16px;
   }
   
-  .card:hover .hover-content{
-	  display: block;
-  }
-  .card:hover .card-name{
-	  display: block;
-  }
   
   
   .gotolink{
