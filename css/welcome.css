@@ -11,7 +11,7 @@
 	border-radius: 16px 16px 0 0;
 	height: 48px;
 	width: 90px;
-	/* z-index: 999; */
+	z-index: 25;
 	position: relative;
 	border-top: 2px solid #ffd7de47;
   	border-left: 2px solid #ffd7de47;
@@ -31,8 +31,6 @@
 	border-radius: 16px 16px 0 0;
 }
 
-
-
 .menu:hover{
 	background-color: #ffd7de90;
 	color: rgb(241, 49, 87);
@@ -50,6 +48,22 @@
   font-family: "Dokdo", system-ui;
   font-weight: 400;
   font-style: normal;
+}
+
+.left{
+	width: 220px;
+	height: 600px;
+	z-index: 999;
+	left: 0;
+	position: absolute;
+}
+
+.right{
+	width: 220px;
+	height: 600px;
+	z-index: 999;
+	right: 0;
+	position: absolute;
 }
 
 .small{
@@ -141,7 +155,6 @@ a:active {
 	  bottom: 0;
 	  Top:0;
 	  margin:auto;
-	  /* z-index: 999; */
   }
   
   .wen{
@@ -154,7 +167,7 @@ a:active {
 	  right: 0;
 	  top:0;
 	  bottom: 0;
-	  z-index: 2;
+	  z-index: 3;
 	  scroll-behavior: smooth;
 	  border-radius: 20px;
 		box-shadow:
