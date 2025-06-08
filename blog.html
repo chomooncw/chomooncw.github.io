@@ -41,21 +41,63 @@
   }
 </style>
 </head>
-<body id="about" style="width: 1064px;margin-top: 40px;background-color: #fffefa;">
+<body id="about" style="width: 1064px;
+background: linear-gradient(
+        to right,
+        #fffefa 0%,
+		#fffefa 45%,
+        #efeae1 49.9%,
+        #d6d2c6 50%,
+        #efeae1 50.1%,
+		#fffefa 55%,
+        #fffefa 100%
+      );
+      background-size: 100% 100%;
+      display: flex;
+	  font-family: 'lacythethree', ms pgothic, sans-serif;
+">
 
+<!-- Gallery -->
+<div class="gallery contentL">
+  <img src="photo/1.png" alt="图片1" class="photo">
+  <img src="photo/2.png" alt="图片2" class="photo">
+  <img src="photo/3.png" alt="图片3" class="photo">
+</div>
+
+<!-- 放大展示区域 -->
+<div class="lightbox" id="lightbox">
+  <img id="lightbox-img" src="" alt="展示图">
+</div>
 
 <!-- Blog -->
-<div id="blog" style="position: relative;text-align: center;">
-
-	<img src="img/me.jpg">
-	
-	<!-- <div class="divider">
-		<img src="img/divider.jpg" class="divider">
-	</div> -->
-	<p class="small">
-	再等等我建立博客吧！
+<div class="contentR blog" style="position: absolute">
+	<div class="title">
+		<img src="img/me.jpg"><p>25/06/08</p>
+	</div>
+	<p>
+		艺术家计划<mark>Art Plan for better life.</mark>正在准备中……
+		最近在看一本很有趣的书<mark>《图画与指令书》</mark>，关于图像与大脑指令的，下意识出现的画面都非常有趣，可以联想到许多平时不会接触到的场景。
 	</p>
+
+	<img src="img/space.png" class="divider">
 </div>
+
+<script>
+  const lightbox = document.getElementById('lightbox');
+  const lightboxImg = document.getElementById('lightbox-img');
+  const thumbs = document.querySelectorAll('.photo');
+
+  thumbs.forEach(img => {
+    img.addEventListener('click', () => {
+      lightbox.style.display = 'flex';
+      lightboxImg.src = img.src;
+    });
+  });
+
+  lightbox.addEventListener('click', () => {
+    lightbox.style.display = 'none';
+  });
+</script>
 
 	<script type="text/javascript">var cnzz_protocol = (("https:" == document.location.protocol) ? "https://" : "http://");document.write(unescape("%3Cspan id='cnzz_stat_icon_1278588704'%3E%3C/span%3E%3Cscript src='" + cnzz_protocol + "s4.cnzz.com/z_stat.php%3Fid%3D1278588704%26show%3Dpic1' type='text/javascript'%3E%3C/script%3E"));</script>
 

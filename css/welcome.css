@@ -1,15 +1,87 @@
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+  justify-content: left;
+  width: 50%;
+}
+
+.photo{
+	width: 80px;
+	height: 80px;
+	object-fit: cover;
+  	border-radius: 8px;
+  	cursor: pointer;
+  	transition: transform 0.3s;
+}
+
+.photo:hover {
+  transform: scale(1.05);
+}
+
+.lightbox {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(255, 255, 255, 0.513);
+  display: none;
+  justify-content: center;
+  align-items: center;
+  z-index: 999;
+}
+
+.lightbox img {
+  max-width: 90%;
+  max-height: 80%;
+  border-radius: 10px;
+  /* box-shadow: 0 0 20px #fff; */
+  cursor: pointer;
+}
+
+.title{
+	color: #F2809D;
+	font-size: 12px;
+}
+
+.title img{
+	width: 64px;              /* 设置统一宽度 */
+  	height: 64px;             /* 设置统一高度，强制成正方形 */
+  	object-fit: cover;         /* 保持图片比例并裁剪填满 */
+  	border-radius: 12px; 
+	text-align: center;
+	margin-bottom: 8px;
+}
+
+.title p{
+	margin-top: 4px;
+}
+
+.blog{
+	color: rgb(143, 94, 29);
+	line-height: 1.7;
+}
+
+.blog mark{
+	color: rgb(125, 78, 17);
+}
+
 .history{
 	font-family: 'lacythethree', ms pgothic, sans-serif;
-	line-height: 2;
+	line-height: 1.5;
 	text-align: left;
+	height: 60px;
+	width: auto;
+	overflow-y:scroll;
+	scroll-behavior: smooth;
 }
 
 .contentL{
 	height: auto; 
 	right: 50%;
-	padding: 40px;
+	margin: 40px;
 	font-family: "lacythethree", system-ui;
-	float: left;
 }
 
 .contentR{
@@ -93,18 +165,7 @@
 
 
 
-#blog{
-	padding-bottom: 4px;
-	line-height: 2;
-}
 
-#blog img{
-	width: 200px;              /* 设置统一宽度 */
-  	height: 200px;             /* 设置统一高度，强制成正方形 */
-  	object-fit: cover;         /* 保持图片比例并裁剪填满 */
-  	border-radius: 20px; 
-	text-align: center;
-}
 
 .divider{
 	padding: 16px;
@@ -177,6 +238,7 @@ a:active {
   
   .wen{
 	  overflow-y:scroll;
+	  scroll-behavior: smooth;
 	  position: absolute;
 	  width: 720px;
 	  height: 444px;
@@ -186,12 +248,11 @@ a:active {
 	  top:0;
 	  bottom: 0;
 	  z-index: 3;
-	  scroll-behavior: smooth;
-	  border-radius: 20px;
+	  border-radius: 12px;
 		box-shadow:
-		0 0 20px #f4829948,
-		0 0 40px #f48298aa,
-		0 0 80px #f4829924;
+		0 0 10px #f48298aa,
+		0 0 40px #ffb0c0aa,
+		0 0 80px #f482993b;
   }
   
   .music{
