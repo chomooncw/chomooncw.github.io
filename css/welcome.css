@@ -1,3 +1,15 @@
+.counter{
+	color: #F2809D;
+	align-items: center;
+	font-size: 14px;
+	font-family: "lacythethree", system-ui;
+	position: absolute;
+	margin: auto;
+	left: 50%;
+	bottom: 0px;
+}
+
+
 .menu{
 	background-color: #ffd7de;
 	margin: auto;
@@ -32,9 +44,8 @@
 }
 
 .menu:hover{
-	background-color: #ffd7de90;
+	background-color: #ffe5ea;
 	color: rgb(241, 49, 87);
-	/* background-color: #d7f1ff; */
 }
 
 @font-face {
@@ -53,7 +64,7 @@
 .left{
 	width: 220px;
 	height: 600px;
-	z-index: 999;
+	z-index: 4;
 	left: 0;
 	position: absolute;
 }
@@ -61,7 +72,7 @@
 .right{
 	width: 220px;
 	height: 600px;
-	z-index: 999;
+	z-index: 4;
 	right: 0;
 	position: absolute;
 }
