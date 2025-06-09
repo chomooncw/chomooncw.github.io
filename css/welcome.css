@@ -270,6 +270,10 @@ a:active {
   transform: rotate(5deg);
 }
 
+.Ahover:hover {
+	transform: rotate(5deg);
+  }
+
   audio {
 		display: none;
 	  }
