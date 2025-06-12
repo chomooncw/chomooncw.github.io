@@ -9,6 +9,7 @@
   	border-radius: 8px;
   	cursor: pointer;
   	transition: transform 0.3s;
+	
 }
 
 .photo:hover {
@@ -16,18 +17,19 @@
 }
 
 .gallery h5 {
-      text-align: left;
-	  padding-bottom: 8px;
-	  color: #F2809D;
-	  line-height: 0;
+	text-align: left;
+	padding-bottom: 8px;
+	color: #F2809D;
+	line-height: 0;
 }
 
 .photo-group {
-      display: flex;
-      flex-wrap: wrap;
-      gap: 12px;
-      justify-content: flex-start;
+	display: flex;
+	flex-wrap: wrap;
+	gap: 12px;
+	justify-content: flex-start;
 }
+
 
 .lightbox {
   position: fixed;
@@ -47,6 +49,7 @@
   max-width: 90%;
   max-height: 90%;
   border-radius: 10px;
+  /* box-shadow: 0 0 20px #fff; */
   cursor: pointer;
 }
 
@@ -281,8 +284,8 @@ a:active {
 }
 
 .Ahover:hover {
-	transform: rotate(5deg);
-  }
+  transform: rotate(5deg);
+}
 
   audio {
 		display: none;
