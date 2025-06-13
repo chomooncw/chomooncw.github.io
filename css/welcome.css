@@ -361,6 +361,12 @@ a:active {
 	  margin: 16px 0px;
   }
   
+  blockquote {
+    border-left: 1px solid #d3c6b0a4;
+    color: #B38F97;
+    padding-left: 12px;
+    font-style: italic;
+}
   
   .top a:hover{
 	  opacity: 1;
