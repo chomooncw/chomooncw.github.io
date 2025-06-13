@@ -82,7 +82,6 @@
   	object-fit: cover;         /* 保持图片比例并裁剪填满 */
   	border-radius: 12px; 
 	text-align: center;
-	margin-bottom: 8px;
 }
 
 .title p{
@@ -96,6 +95,7 @@
 
 .blog mark{
 	color: rgb(125, 78, 17);
+	background-color: beige;
 }
 
 .history{
