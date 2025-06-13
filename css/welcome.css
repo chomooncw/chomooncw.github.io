@@ -11,6 +11,11 @@
   	transition: transform 0.3s;
 	
 }
+.gift > #icon img{
+	height: 50px;
+	width: 50px;
+	object-fit: cover;
+}
 
 .photo:hover {
   transform: scale(1.05);
@@ -21,6 +26,19 @@
 	padding-bottom: 8px;
 	color: #F2809D;
 	line-height: 0;
+}
+.gift h3{
+	text-align: center;
+	color: #F2809D;
+	line-height: 1;
+	font-size: 16px;
+	padding:4px;
+	margin: 0px 0px 16px;
+	background-color: #ffe8ec74;
+	border-radius: 12px;
+}
+.gift img{
+	margin-bottom: 24px;
 }
 
 .photo-group {
@@ -102,6 +120,7 @@
 	left: 50%;
 	padding: 40px;
 }
+
 
 .counter{
 	color: #F2809D;
@@ -513,11 +532,7 @@ a:active {
 	  font-size: 32px;
 	  margin-top: 80px;
   }
-  h3{
-	  font-size: 22px;
-	  line-height: 24px;
-	  margin-top: 0px;
-  }
+
   h4{
 	  font-size: 20px;
 	  /*margin-top: 20px;*/
