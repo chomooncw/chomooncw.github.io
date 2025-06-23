@@ -97,7 +97,7 @@
 
 <!-- 留言板 -->
 
-<div style="position: fixed;bottom: 20px;left: 40px;cursor: pointer;"><img id="message" src="img/message1.png" width="107px" alt="message"></div>
+<div class="Ahover" style="position: fixed;bottom: 20px;left: 40px;cursor: pointer;"><img id="message" src="img/message.png" width="82px" alt="message"></div>
 
 <div id="popupBox">
     <iframe src="https://www3.cbox.ws/box/?boxid=3546867&boxtag=39igYQ" 
@@ -113,9 +113,9 @@
     const img = document.getElementById('message');
 	let showing = false;
 
-    img.addEventListener('mouseover', () => {
-      img.src = 'img/message2.png';
-    });
+    // img.addEventListener('mouseover', () => {
+    //   img.src = 'img/message2.png';
+    // });
 
     img.addEventListener('mouseout', () => {
       img.src = 'img/message1.png';
@@ -125,7 +125,7 @@
       showing = !showing;
       popup.style.display = showing ? 'block' : 'none';
       // 可选：点击后固定图片状态为 hover 图
-      img.src = showing ? 'img/message2.png' : 'img/message1.png';
+      // img.src = showing ? 'img/message2.png' : 'img/message1.png';
     });
   </script>
 
