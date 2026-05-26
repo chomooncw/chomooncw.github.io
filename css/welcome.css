@@ -1,3 +1,13 @@
+/* 新增：Logo 图片的精致化控制 */
+.logo-img {
+    display: block;
+    width: 110px;       /* 核心：控制 Logo 的宽度，建议在 100px - 130px 之间，显得极其精致 */
+    height: auto;       /* 保持比例 */
+    margin-bottom: 12px; /* 与下方介绍文字的严谨间距 */
+    object-fit: contain;
+}
+
+
 .gallery {
   justify-content: left;
 }

@@ -15,13 +15,14 @@
         :root {
             --bg-color: #FDFAF1;       /* 纯粹干净的画布白 */
             --text-color: #463128;     /* 极致克制的深黑 */
-             }
-          @font-face {
-            font-family: 'lacythethree';
-            src: url('fonts/lacythethree.ttf') format('truetype');
-            font-weight: normal;
-            font-style: normal;
-          }
+            /* --font-sans: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif; */
+        }
+@font-face {
+  font-family: 'lacythethree';
+  src: url('fonts/lacythethree.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
         * {
             box-sizing: border-box;
             margin: 0;
@@ -30,33 +31,12 @@
 
         body {
             background-color: var(--bg-color);
-            /* background-image: url('flow/cover.png');background-repeat: no-repeat; */
+            background-image: url('flow/cover.png');background-repeat: no-repeat;
             color: var(--text-color);
             font-family: 'lacythethree', ms pgothic, sans-serif; 
             min-height: 100vh;
-            padding: 60px 40px;
-            display: flex;
-            flex-direction: column;
-        }
-/* ==========================================================================
-           1. 顶级双栏布局 (Flex 容器)
-           ========================================================================== */
-        .wrapper {
-            display: flex;
-            width: 100%;
-            max-width: 1200px;
-            margin: 0 auto;
-            gap: 40px; /* 左右两栏的间距 */
-        }
-
-        /* ==========================================================================
-           2. 左侧大栏目：包含 Header + 规整网格
-           ========================================================================== */
-        .left-column {
-            flex: 1; /* 占用稍微多一点的空间，或者根据需要固定宽度 */
-            display: flex;
-            flex-direction: column;
-            gap: 80px;
+            padding: 60px 50px;
+            overflow-x: hidden;
         }
 
         /* ==========================================================================
@@ -91,9 +71,16 @@
             display: block;
             width: 110px;       /* 核心：控制 Logo 的宽度，建议在 100px - 130px 之间，显得极其精致 */
             height: auto;       /* 保持比例 */
-            margin-bottom: 16px; /* 与下方介绍文字的严谨间距 */
+            margin-bottom: 12px; /* 与下方介绍文字的严谨间距 */
             object-fit: contain;
         }
+        .cover {
+            /* display: block; */
+            width: auto;       /* 核心：控制 Logo 的宽度，建议在 100px - 130px 之间，显得极其精致 */
+            height: auto;       /* 保持比例 */
+            /* margin-bottom: 12px; 与下方介绍文字的严谨间距 */
+            /* object-fit: contain; */
+}
 
         /* 新增：菜单栏邮箱链接的精致控制 */
 .menu-email {
@@ -112,128 +99,84 @@
 .menu-email:hover {
     opacity: 0.6;
 }
-/* 规整的左侧网格 (Sort 秩序) */
-        .left-art-grid {
+
+        /* ==========================================================================
+           3. 隐形绝对网格布局 (灵魂深处的秩序)
+           ========================================================================== */
+        .art-gallery-grid {
             display: grid;
-            grid-template-columns: repeat(3, 1fr); /* 严格的3列网格 */
-            gap: 30px; /* 网格格子之间的间距 */
-            /* background-color: rgba(0,0,0,0.01);  */
-            padding: 10px;
+            /* 7列严谨网格 */
+            grid-template-columns: repeat(7, 1fr); 
+            /* 上下间距 60px，左右间距 40px，营造呼吸感 */
+            gap: 60px 40px; 
+            max-width: 1400px;
+            margin-left: 120px; /* 为左侧固定的 Header 留出空间 */
+            margin-top: 20px;
         }
 
+        /* 每个格子容器 */
         .grid-slot {
             display: flex;
             align-items: center;
             justify-content: center;
-            min-height: 120px;
-            aspect-ratio: 1 / 1; /* 保持格子是完美的正方形 */
-            /* border: 1px dashed rgba(0,0,0,0.05);  */
+            min-height: 140px;
+            position: relative;
         }
 
-        /* ==========================================================================
-           3. 右侧大栏目：感性的大图故事区 (Ros 情感)
-           ========================================================================== */
-        .right-column {
-            flex: 1; /* 右侧占用比例 */
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            padding: 10px;
-        }
-
-        .story-hero-container {
-            width: 100%;
-            height: 100%;
-            padding-left: 80px;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-        }
-
-        /* 右侧的大复合图 */
-        .story-hero-img {
-            width: 100%;
-            max-height: 60vh; /* 限制最大高度，防止纵向无限拉长撑破屏幕 */
-            object-fit: contain; /* 确保图片完整显示，不被裁剪 */
-            filter: drop-shadow(0px 10px 20px rgba(0,0,0,0.03)); 
-            transition: transform 0.6s cubic-bezier(0.16, 1, 0.3, 1);
-        }
-
-        .story-hero-img:hover {
-            transform: scale(1.02); /* 鼠标悬停时，整张大图产生非常呼吸感的微微放大 */
-        }
-
-        /* 独立元素的通用动效 */
+        /* 艺术品/贴纸元素 (感性释放) */
         .art-item {
-            max-width: 90%;
-            max-height: 90%;
-            object-fit: contain;
             cursor: pointer;
             transition: transform 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+            max-width: 100%;
+            max-height: 140px;
+            object-fit: contain;
+            /* 初始状态：纯粹融入页面 */
+            transform: scale(1);
         }
+
+        /* 鼠标悬停时的灵动动效：微微放大 */
         .art-item:hover {
-            transform: scale(1.1) rotate(3deg); /* 移入时笨拙地歪头 */
+            transform: scale(1.12);
+            z-index: 5;
         }
 
         /* ==========================================================================
-           4. 响应式：屏幕太小时自动变成上下堆叠
+           4. 响应式布局：保证在平板和手机上也优雅
            ========================================================================== */
-        @media (max-width: 900px) {
-            .wrapper {
-                flex-direction: column;
+        @media (max-width: 1024px) {
+            .art-gallery-grid {
+                grid-template-columns: repeat(5, 1fr);
+                margin-left: 150px;
             }
-            .right-column {
-                margin-top: 40px;
+        }
+
+        @media (max-width: 768px) {
+            header {
+                position: relative;
+                top: 0;
+                left: 0;
+                max-width: 100%;
+                margin-bottom: 40px;
+            }
+            .art-gallery-grid {
+                grid-template-columns: repeat(3, 1fr);
+                margin-left: 0;
+                gap: 40px 20px;
             }
         }
     </style>
 </head>
 <body>
 
-
-  <div class="wrapper">
-        
-        <div class="left-column">
-            <header>
-                <a href="index.html"><img src="img/logo.png" alt="rossort" class="logo-img"></a>
-        <div class="logo" style="background-image: url('img/logo.png');background-repeat: no-repeat; "></div>
-                <p>is drawing,<br>stitching<br>and organizing<br>stories.</p>
-                <a href="mailto:cherrycaowen@gmail.com" class="menu-email">contact</a>
-            </header>
-
-            <main class="left-art-grid">
-              <div class="grid-slot"></div>
-                <div class="grid-slot"><img src="flow/1.png" alt="素材" class="art-item"></div>
-                <div class="grid-slot"></div> <div class="grid-slot"><img src="flow/2.png" alt="素材" class="art-item"></div>
-                
-                <div class="grid-slot"><img src="flow/3.png" alt="素材" class="art-item"></div>
-                <div class="grid-slot"><img src="flow/4.png" alt="素材" class="art-item"></div>
-                
-                
-                <div class="grid-slot"></div>
-                <div class="grid-slot"><img src="flow/5.png" alt="素材" class="art-item"></div>
-                <div class="grid-slot"><img src="flow/6.png" alt="素材" class="art-item"></div>
-            </main>
-        </div>
-
-        <div class="right-column">
-            <div class="story-hero-container">
-                <img src="flow/cover.png" alt="RosSort Story叢林" class="story-hero-img">
-            </div>
-        </div>
-
-    </div>
-
-
-
-    <!-- <header>
+    <header>
+        <!-- <h1>rossort</h1> -->
         <a href="index.html"><img src="img/logo.png" alt="rossort" class="logo-img"></a>
         <div class="logo" style="background-image: url('img/logo.png');background-repeat: no-repeat; "></div>
         <p>is drawing,<br>stitching<br>and organizing<br>stories.</p>
         <a href="mailto:cherrycaowen@gmail.com" class="menu-email">contact</a>
-    </header> -->
+    </header>
 
-    <!-- <main class="art-gallery-grid">
+    <main class="art-gallery-grid">
         
         <div class="grid-slot"></div> <div class="grid-slot"><img src="flow/1.png" alt="花朵" class="art-item"></div>
         <div class="grid-slot"></div>

@@ -1,0 +1,132 @@
+<html bgcolor="#F4FFF2">
+<head>
+	<meta charset="utf-8"> 
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<link rel="stylesheet" href="css/welcome.css"> 	
+	<link rel="icon" type="image/png"href="img/favicon.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Dokdo&display=swap" rel="stylesheet">
+  <title>Dosth.cool ˶ᵔ ᵕ ᵔ˶</title>
+  <style>  #popupBox {
+    position: fixed;
+    bottom: 140px; /* 控制显示在图片正上方 */
+    left: 20px;
+    width: 300px;
+    height: 450px;
+    background: white;
+    box-shadow: 0 0 10px rgba(0,0,0,0.3);
+    border-radius: 8px;
+    overflow: hidden;
+    display: none; /* 默认隐藏 */
+    z-index: 1001;
+    }
+  @font-face {
+  font-family: 'lacythethree';
+  src: url('fonts/lacythethree.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+  body{
+	  font-size: 16;
+	  font-family: 'lacythethree', ms pgothic, sans-serif; 
+	}
+    </style>
+</head>
+
+<body style="background-image: url('img/background.jpg');background-repeat: repeat;">
+<!-- <body style="background-color: #FDFAF1;"> -->
+<div class="rose">
+  <!-- <div class="Ahover" style="position: absolute;float: left;bottom: 0;z-index: 5;"><a href="https://tamanotchi.world/23530c" target="_blank">
+    <img src="https://tamanotchi.world/i2/23530" alt="It's tamaNOTchi! Click to feed!"></a>
+  </div> -->
+  <div class="left" style="background-image: url('img/left.png');background-repeat: no-repeat; "></div>
+  <a href="home.html" target="wen"><div class="menu active" style="top: 30px; left: 220px;position: absolute;">Home </div></a>
+  <a href="blog.html" target="wen"><div class="menu" style="top: 30px; left: 320px;position:absolute;">Blog</div></a>
+  <a href="gift.html" target="wen"><div class="menu" style="top: 30px; left: 422px;position:absolute ;">Gift</div></a>
+  <div class="right" style="background-image: url('img/right.png');background-repeat: no-repeat; "></div>
+  	<!-- FC2计数器 开始 -->
+  <div class="counter">
+    Welcome my <script language="javascript" type="text/javascript" src="//counter1.fc2cn.com/counter.php?id=40397202&main=1"></script><noscript><img src="//counter1.fc2cn.com/counter_img.php?id=40397202&main=1" /></noscript>Visitors.
+ </div>
+</div>
+
+<script>
+  const tabs = document.querySelectorAll('.menu');
+  tabs.forEach(tab => {
+    tab.addEventListener('click', () => {
+      tabs.forEach(t => t.classList.remove('active'));
+      tab.classList.add('active');
+    });
+  });
+</script>
+
+<iframe class="wen" src="home.html" name="wen">
+
+</iframe>
+
+  <!-- 音乐播放 -->
+<div class="music" style="background-image: url('img/music.png'); background-size: cover;">
+	<div class="play"></div>
+</div>
+
+<audio id="bgMusic" autoplay loop>
+  <source src="music.mp3" type="audio/mpeg">
+  您的浏览器不支持音频播放。
+</audio>
+
+<script>
+  const music = document.getElementById('bgMusic');
+  const musicBox = document.querySelector('.music');
+
+  // 自动播放兼容处理
+  music.play().catch(() => {
+    console.log("等待用户交互后再播放");
+  });
+
+  musicBox.addEventListener('click', () => {
+    if (music.paused) {
+      music.play();
+    } else {
+      music.pause();
+    }
+  });
+</script>
+
+
+<!-- 留言板 -->
+
+<div class="Ahover" style="position: fixed;bottom: 20px;left: 40px;cursor: pointer;"><img id="message" src="img/message.png" width="82px" alt="message"></div>
+
+<div id="popupBox">
+    <iframe src="https://www3.cbox.ws/box/?boxid=3546867&boxtag=39igYQ" 
+            allowtransparency="yes" 
+            allow="autoplay" 
+            scrolling="auto">
+    </iframe>
+  </div>
+
+  <script>
+	
+    const popup = document.getElementById('popupBox');
+    const img = document.getElementById('message');
+	let showing = false;
+    
+    img.addEventListener('mouseout', () => {
+      img.src = 'img/message.png';
+    });
+
+	img.addEventListener('click', () => {
+      showing = !showing;
+      popup.style.display = showing ? 'block' : 'none';
+      // 可选：点击后固定图片状态为 hover 图
+      // img.src = showing ? 'img/message2.png' : 'img/message1.png';
+    });
+  </script>
+
+<script type="text/javascript">var cnzz_protocol = (("https:" == document.location.protocol) ? "https://" : "http://");document.write(unescape("%3Cspan id='cnzz_stat_icon_1278588704'%3E%3C/span%3E%3Cscript src='" + cnzz_protocol + "s4.cnzz.com/z_stat.php%3Fid%3D1278588704%26show%3Dpic1' type='text/javascript'%3E%3C/script%3E"));</script>
+
+<script type="text/javascript">var cnzz_protocol = (("https:" == document.location.protocol) ? "https://" : "http://");document.write(unescape("%3Cspan id='cnzz_stat_icon_1278588704'%3E%3C/span%3E%3Cscript src='" + cnzz_protocol + "s4.cnzz.com/z_stat.php%3Fid%3D1278588704%26show%3Dpic1' type='text/javascript'%3E%3C/script%3E"));</script><script type="text/javascript">var cnzz_protocol = (("https:" == document.location.protocol) ? "https://" : "http://");document.write(unescape("%3Cspan id='cnzz_stat_icon_1278588704'%3E%3C/span%3E%3Cscript src='" + cnzz_protocol + "s4.cnzz.com/z_stat.php%3Fid%3D1278588704%26show%3Dpic1' type='text/javascript'%3E%3C/script%3E"));</script>
+</body>
+</html>
